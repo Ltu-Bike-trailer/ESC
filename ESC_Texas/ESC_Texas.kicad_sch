@@ -1,0 +1,91 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "485715ad-2455-40db-a806-c2c62ef6f5e1")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 142.24 59.69)
+		(size 25.4 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7586262d-272d-4a40-b2fe-a7f505e9f1d4")
+		(property "Sheetname" "Driver_subsheet_1"
+			(at 142.24 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Driver_A_sch.kicad_sch"
+			(at 142.24 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SW" output
+			(at 167.64 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "de9fcced-3f97-437f-9152-b814efb41260")
+		)
+		(pin "EN" input
+			(at 142.24 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "77797c09-2906-49a8-933a-4708589fef5f")
+		)
+		(pin "PWM-B" input
+			(at 142.24 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fba7c805-a254-424c-b12a-30b15b1310d9")
+		)
+		(pin "PWM-A" input
+			(at 142.24 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a635cce8-9203-40cd-b1ff-dac828c1ac83")
+		)
+		(instances
+			(project "ESC_Texas"
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
