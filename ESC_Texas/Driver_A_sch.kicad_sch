@@ -4141,7 +4141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MPK78U15500R3L"
+		(property "Footprint" "MP-K78U15-500R3L:MPK78U15500R3L"
 			(at 156.21 146.99 0)
 			(effects
 				(font
@@ -4815,7 +4815,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UCC21331CDR:SOIC127P600X175-16N"
+		(property "Footprint" "LIB_UCC21331CQDRQ1:SOIC127P600X175-16N"
 			(at 162.56 173.66 0)
 			(effects
 				(font
