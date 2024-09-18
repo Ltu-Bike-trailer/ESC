@@ -3056,6 +3056,16 @@
 		)
 		(uuid "5b5775b5-de08-4415-b68a-b4c9fdf74b71")
 	)
+	(text "VDD = 15V"
+		(exclude_from_sim no)
+		(at 127.254 47.752 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6dacd30f-579b-474f-a3fd-1730f2040c87")
+	)
 	(text "8.2.2.7.3 Select a VDDB Capacitor\nChanel B has the same current requirements as Channel A, Therefore, a VDDB capacitor (shown as CVDD in\nFigure 8-1) is needed. In this example with a bootstrap configuration, the VDDB capacitor will also supply current\nfor VDDA through the bootstrap diode. A 50-V, 10-μF MLCC and a 50-V, 220-nF MLCC are chosen for CVDD. If\nthe bias power supply output is a relatively long distance from the VDDB pin, a tantalum or electrolytic capacitor,\nwith a value over 10 μF, should be used in parallel with CVDD."
 		(exclude_from_sim no)
 		(at 211.074 21.844 0)

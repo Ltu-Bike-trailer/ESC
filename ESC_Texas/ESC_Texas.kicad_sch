@@ -2304,16 +2304,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 48.26) (xy 138.43 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d3bc629-b8c2-4135-9bb6-6e33bec4da77")
-	)
-	(wire
-		(pts
 			(xy 133.35 40.64) (xy 137.16 40.64)
 		)
 		(stroke
@@ -2824,7 +2814,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 50.8) (xy 146.05 57.15)
+			(xy 146.05 48.26) (xy 146.05 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2950,7 +2940,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 142.24 50.8 90)
+		(at 142.24 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2958,7 +2948,7 @@
 		(dnp no)
 		(uuid "0d715f02-0ab1-450d-ab6c-11050a83077e")
 		(property "Reference" "C11"
-			(at 146.05 44.45 90)
+			(at 146.05 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2967,7 +2957,7 @@
 			)
 		)
 		(property "Value" "100pF"
-			(at 145.542 47.244 90)
+			(at 145.542 44.704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2976,7 +2966,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 146.05 49.8348 0)
+			(at 146.05 47.2948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2985,7 +2975,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 50.8 0)
+			(at 142.24 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2994,7 +2984,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 142.24 50.8 0)
+			(at 142.24 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5412,7 +5402,7 @@
 		)
 	)
 	(sheet
-		(at 224.79 110.49)
+		(at 278.13 76.2)
 		(size 25.4 19.05)
 		(fields_autoplaced yes)
 		(stroke
@@ -5424,7 +5414,7 @@
 		)
 		(uuid "7586262d-272d-4a40-b2fe-a7f505e9f1d4")
 		(property "Sheetname" "Driver_subsheet_1"
-			(at 224.79 109.7784 0)
+			(at 278.13 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5433,7 +5423,7 @@
 			)
 		)
 		(property "Sheetfile" "Driver_A_sch.kicad_sch"
-			(at 224.79 130.1246 0)
+			(at 278.13 95.8346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5442,7 +5432,7 @@
 			)
 		)
 		(pin "SW" output
-			(at 250.19 120.65 0)
+			(at 303.53 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5452,7 +5442,7 @@
 			(uuid "de9fcced-3f97-437f-9152-b814efb41260")
 		)
 		(pin "EN" input
-			(at 224.79 125.73 180)
+			(at 278.13 91.44 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5462,7 +5452,7 @@
 			(uuid "77797c09-2906-49a8-933a-4708589fef5f")
 		)
 		(pin "PWM-B" input
-			(at 224.79 119.38 180)
+			(at 278.13 85.09 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5472,7 +5462,7 @@
 			(uuid "fba7c805-a254-424c-b12a-30b15b1310d9")
 		)
 		(pin "PWM-A" input
-			(at 224.79 114.3 180)
+			(at 278.13 80.01 180)
 			(effects
 				(font
 					(size 1.27 1.27)
