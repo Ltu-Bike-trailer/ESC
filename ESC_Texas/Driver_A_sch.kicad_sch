@@ -2986,7 +2986,7 @@
 		)
 		(uuid "01042470-fab8-4c2b-bb01-f29d729c9bf9")
 	)
-	(text "R_BOOT: 1-20R. Page 25"
+	(text "R_BOOT: 1-20R. Page 25\nR_BOOT = 6.8 Ohm"
 		(exclude_from_sim no)
 		(at 168.148 46.736 0)
 		(effects
@@ -3066,7 +3066,7 @@
 		)
 		(uuid "7848a87c-a812-4cec-91dd-8517121866bb")
 	)
-	(text "R_GS: 5.1k - 20k "
+	(text "R_GS: 5.1k - 20k \nR_GS = 10K"
 		(exclude_from_sim no)
 		(at 199.644 37.338 0)
 		(effects
@@ -3086,7 +3086,7 @@
 		)
 		(uuid "99bfabee-f392-4299-afc8-e98580bdd1ec")
 	)
-	(text "R_ON High: 5R. Page 8"
+	(text "R_ON High: 5R. Page 8\nR_ON = 4.7"
 		(exclude_from_sim no)
 		(at 200.914 44.196 0)
 		(effects
@@ -3585,7 +3585,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "33pF"
 			(at 88.138 88.9 0)
 			(effects
 				(font
@@ -3719,7 +3719,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "6.8"
 			(at 166.624 68.834 90)
 			(effects
 				(font
@@ -4053,7 +4053,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4.7"
 			(at 196.85 115.824 90)
 			(effects
 				(font
@@ -4245,7 +4245,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "47"
 			(at 66.04 68.326 90)
 			(effects
 				(font
@@ -4314,7 +4314,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "33pF"
 			(at 243.84 77.4699 0)
 			(effects
 				(font
@@ -4382,7 +4382,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0"
 			(at 196.85 66.04 90)
 			(effects
 				(font
@@ -4585,7 +4585,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 208.28 87.6299 0)
 			(effects
 				(font
@@ -4730,7 +4730,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "47"
 			(at 66.04 76.708 90)
 			(effects
 				(font
@@ -5319,7 +5319,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 208.28 116.8399 0)
 			(effects
 				(font
@@ -5387,7 +5387,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4.7"
 			(at 198.12 78.994 90)
 			(effects
 				(font
@@ -5521,7 +5521,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "R=0"
 			(at 196.85 100.33 90)
 			(effects
 				(font
@@ -5666,7 +5666,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "33pF"
 			(at 99.314 86.106 0)
 			(effects
 				(font
@@ -5801,7 +5801,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "20k"
 			(at 137.414 105.41 0)
 			(effects
 				(font
@@ -6069,7 +6069,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10uF"
 			(at 181.61 104.1399 0)
 			(effects
 				(font
