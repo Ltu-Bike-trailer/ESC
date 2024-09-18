@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "BAS316Z")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/BAS316Z")(options "")(descr ""))
+  (lib (name "IPD100N06S4-03")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/IPD100N06S4-03")(options "")(descr ""))
+  (lib (name "IPD100N06S403ATMA2")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/IPD100N06S403ATMA2")(options "")(descr ""))
+  (lib (name "LIB_UCC21331CQDRQ1")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/LIB_UCC21331CQDRQ1")(options "")(descr ""))
+  (lib (name "MP-K78U15-500R3L")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/MP-K78U15-500R3L")(options "")(descr ""))
+)
