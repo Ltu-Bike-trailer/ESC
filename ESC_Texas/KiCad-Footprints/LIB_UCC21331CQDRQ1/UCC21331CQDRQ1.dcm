@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP UCC21331CQDRQ1
+D Gate Drivers Automotive, 3kVRMS 4A/6A two-channel gate driver with enable logic and programmable deadtime
+K
+F https://www.ti.com/lit/ds/symlink/ucc21331-q1.pdf?ts=1722154499216&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FUCC21331-Q1%252Fpart-details%252FUCC21331CQDRQ1%253Fbm-verify%253DAAQAAAAJ_____6ibDDw9gyjHXzXNDxbQRYbfhbILQG6rv3CGUkxF081gbmveQm7Pmhs
+$ENDCMP
+#
+#End Doc Library
