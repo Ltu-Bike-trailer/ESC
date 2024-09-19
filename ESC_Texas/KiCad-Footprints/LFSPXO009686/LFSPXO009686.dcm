@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LFSPXO009686
+D 32.768 kHz XO (Standard) CMOS Oscillator 3.3V Enable/Disable 4-SMD, No Lead
+K
+F https://www.iqdfrequencyproducts.com/products/pn/LFSPXO009686Cutt.pdf
+$ENDCMP
+#
+#End Doc Library
