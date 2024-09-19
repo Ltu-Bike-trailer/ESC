@@ -3368,7 +3368,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0108a539-0d3c-42b9-9133-4f893f9cd907")
-		(property "Reference" "D4"
+		(property "Reference" "D3"
 			(at 207.01 63.5 0)
 			(effects
 				(font
@@ -3430,15 +3430,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "0ac33112-8ab4-4cd7-825a-f4da74d9fe74")
+			(uuid "01546269-e4a8-4f89-bb11-905ae95a2794")
 		)
 		(pin "2"
-			(uuid "9e061b99-ce05-41f0-a226-e88ecae54985")
+			(uuid "7606d0ea-5e36-4ec4-8cf8-d3a4c666821d")
 		)
 		(instances
-			(project ""
-				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/7586262d-272d-4a40-b2fe-a7f505e9f1d4"
-					(reference "D4")
+			(project "ESC_Texas"
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/5c2caf40-6fb6-4243-b150-75e61ed11c2e"
+					(reference "D8")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/80faa729-a5f2-4405-b737-e1a1931e176c"
+					(reference "D3")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/8b8d152c-3e29-4c2e-8f34-df477a13ffa3"
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -3499,12 +3507,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "606d388c-938a-45df-b085-4c71c8dd363e")
+			(uuid "25923785-2816-408f-a389-441a116f49c1")
 		)
 		(instances
 			(project "ESC_Texas"
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/5c2caf40-6fb6-4243-b150-75e61ed11c2e"
+					(reference "#PWR050")
+					(unit 1)
+				)
 				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/7586262d-272d-4a40-b2fe-a7f505e9f1d4"
 					(reference "#PWR013")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/80faa729-a5f2-4405-b737-e1a1931e176c"
+					(reference "#PWR036")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/8b8d152c-3e29-4c2e-8f34-df477a13ffa3"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -3566,12 +3586,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "bf1ebd87-42b0-4579-98e5-ecef89c1d968")
+			(uuid "b6ebb481-a017-4189-9437-4f68366fd90d")
 		)
 		(instances
 			(project "ESC_Texas"
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/5c2caf40-6fb6-4243-b150-75e61ed11c2e"
+					(reference "#PWR043")
+					(unit 1)
+				)
 				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/7586262d-272d-4a40-b2fe-a7f505e9f1d4"
 					(reference "#PWR011")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/80faa729-a5f2-4405-b737-e1a1931e176c"
+					(reference "#PWR029")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/8b8d152c-3e29-4c2e-8f34-df477a13ffa3"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -3632,15 +3664,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "7fe5c5e7-51bb-4078-b5e5-a57ce0683c92")
+			(uuid "40c1543b-01f4-472e-8786-a1cfef2f8e9f")
 		)
 		(pin "2"
-			(uuid "e6557b2f-53e4-439c-99df-3735fb77f681")
+			(uuid "1f04cd8a-91a3-45ff-9a8d-7ea3559e6ec4")
 		)
 		(instances
 			(project "ESC_Texas"
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/5c2caf40-6fb6-4243-b150-75e61ed11c2e"
+					(reference "C_IN7")
+					(unit 1)
+				)
 				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/7586262d-272d-4a40-b2fe-a7f505e9f1d4"
 					(reference "C_IN1")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/80faa729-a5f2-4405-b737-e1a1931e176c"
+					(reference "C_IN4")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/8b8d152c-3e29-4c2e-8f34-df477a13ffa3"
+					(reference "C_IN10")
 					(unit 1)
 				)
 			)
@@ -3701,12 +3745,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "62c9a3e9-8c07-4cd0-9f7e-cbf77aa77f2f")
+			(uuid "08338d3f-45a8-4f61-a09d-4c0f2b715371")
 		)
 		(instances
 			(project "ESC_Texas"
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/5c2caf40-6fb6-4243-b150-75e61ed11c2e"
+					(reference "#PWR049")
+					(unit 1)
+				)
 				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/7586262d-272d-4a40-b2fe-a7f505e9f1d4"
 					(reference "#PWR03")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/80faa729-a5f2-4405-b737-e1a1931e176c"
+					(reference "#PWR035")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/8b8d152c-3e29-4c2e-8f34-df477a13ffa3"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -3765,15 +3821,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "46da170d-11c1-413d-b958-05e68561c152")
+			(uuid "01fc31f9-a314-489d-a078-8de20e647664")
 		)
 		(pin "2"
-			(uuid "fd452687-850e-4ad8-93d4-530df2e6edae")
+			(uuid "997f2f0d-ec9a-4b15-b010-554f4e7b1d32")
 		)
 		(instances
 			(project "ESC_Texas"
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/5c2caf40-6fb6-4243-b150-75e61ed11c2e"
+					(reference "R_BOOT_A3")
+					(unit 1)
+				)
 				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/7586262d-272d-4a40-b2fe-a7f505e9f1d4"
 					(reference "R_BOOT_A1")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/80faa729-a5f2-4405-b737-e1a1931e176c"
+					(reference "R_BOOT_A2")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/8b8d152c-3e29-4c2e-8f34-df477a13ffa3"
+					(reference "R_BOOT_A4")
 					(unit 1)
 				)
 			)
@@ -3834,12 +3902,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "6dba4f09-9d90-4dd8-ac28-2d1e43a6b144")
+			(uuid "b6410cec-156b-4c08-9ec6-290390b5d382")
 		)
 		(instances
 			(project "ESC_Texas"
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/5c2caf40-6fb6-4243-b150-75e61ed11c2e"
+					(reference "#PWR053")
+					(unit 1)
+				)
 				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/7586262d-272d-4a40-b2fe-a7f505e9f1d4"
 					(reference "#PWR016")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/80faa729-a5f2-4405-b737-e1a1931e176c"
+					(reference "#PWR039")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/8b8d152c-3e29-4c2e-8f34-df477a13ffa3"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -3900,12 +3980,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "9698fc3f-e680-440a-b88a-37d937159d77")
+			(uuid "9c4d9857-b9dc-43ea-bd69-e3344fd2c1b2")
 		)
 		(instances
 			(project "ESC_Texas"
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/5c2caf40-6fb6-4243-b150-75e61ed11c2e"
+					(reference "#PWR046")
+					(unit 1)
+				)
 				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/7586262d-272d-4a40-b2fe-a7f505e9f1d4"
 					(reference "#PWR04")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/80faa729-a5f2-4405-b737-e1a1931e176c"
+					(reference "#PWR032")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/8b8d152c-3e29-4c2e-8f34-df477a13ffa3"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -3966,15 +4058,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "0cc645e8-68ce-4411-9b6a-45b1d3b21a9f")
+			(uuid "4984ec32-11fc-46fd-8d2b-0f4c2e804ea5")
 		)
 		(pin "1"
-			(uuid "d17761c7-6c8e-4278-9a1d-f4887d1a494a")
+			(uuid "76b7eb82-08f9-4014-9940-98b29d498ca6")
 		)
 		(instances
 			(project "ESC_Texas"
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/5c2caf40-6fb6-4243-b150-75e61ed11c2e"
+					(reference "D7")
+					(unit 1)
+				)
 				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/7586262d-272d-4a40-b2fe-a7f505e9f1d4"
 					(reference "D2")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/80faa729-a5f2-4405-b737-e1a1931e176c"
+					(reference "D1")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/8b8d152c-3e29-4c2e-8f34-df477a13ffa3"
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -4035,12 +4139,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "d7f63889-d09c-470d-a53d-a4ca2492a396")
+			(uuid "66aec7a9-72a3-4439-b5da-9b72ce5c4896")
 		)
 		(instances
 			(project "ESC_Texas"
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/5c2caf40-6fb6-4243-b150-75e61ed11c2e"
+					(reference "#PWR044")
+					(unit 1)
+				)
 				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/7586262d-272d-4a40-b2fe-a7f505e9f1d4"
 					(reference "#PWR010")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/80faa729-a5f2-4405-b737-e1a1931e176c"
+					(reference "#PWR030")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/8b8d152c-3e29-4c2e-8f34-df477a13ffa3"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -4099,15 +4215,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "095e4d52-ddc7-4eee-af8b-f55c38132c0c")
+			(uuid "5fe22dea-42c2-487f-a8e2-050a721da60f")
 		)
 		(pin "2"
-			(uuid "12e475e7-9f8c-4ca7-81eb-7e775bdd807c")
+			(uuid "6af5dc70-032f-4776-98b3-911ca04e6c0a")
 		)
 		(instances
 			(project "ESC_Texas"
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/5c2caf40-6fb6-4243-b150-75e61ed11c2e"
+					(reference "RR_ON_B3")
+					(unit 1)
+				)
 				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/7586262d-272d-4a40-b2fe-a7f505e9f1d4"
 					(reference "RR_ON_B1")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/80faa729-a5f2-4405-b737-e1a1931e176c"
+					(reference "RR_ON_B2")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/8b8d152c-3e29-4c2e-8f34-df477a13ffa3"
+					(reference "RR_ON_B4")
 					(unit 1)
 				)
 			)
@@ -4123,7 +4251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62d93609-bd30-4a80-8d1c-9bf0e3f3e105")
-		(property "Reference" "PS1"
+		(property "Reference" "PS2"
 			(at 156.21 53.3399 0)
 			(effects
 				(font
@@ -4221,18 +4349,26 @@
 			)
 		)
 		(pin "1"
-			(uuid "ea3407f5-c093-495e-9a01-7478001e4932")
+			(uuid "a3639d2c-9566-413e-8af9-d98a1ef61bca")
 		)
 		(pin "3"
-			(uuid "403a9436-6ffa-407f-9350-af18c7f033bb")
+			(uuid "7fa36023-3454-4267-beb2-30dd6d34416f")
 		)
 		(pin "2"
-			(uuid "e7e7c594-6e6d-4c6c-970b-cd5959ea4ee0")
+			(uuid "fb9baaf8-4373-4d93-aac1-b9d9c26fa863")
 		)
 		(instances
-			(project ""
-				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/7586262d-272d-4a40-b2fe-a7f505e9f1d4"
-					(reference "PS1")
+			(project "ESC_Texas"
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/5c2caf40-6fb6-4243-b150-75e61ed11c2e"
+					(reference "PS3")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/80faa729-a5f2-4405-b737-e1a1931e176c"
+					(reference "PS2")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/8b8d152c-3e29-4c2e-8f34-df477a13ffa3"
+					(reference "PS4")
 					(unit 1)
 				)
 			)
@@ -4291,15 +4427,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "553ee9b2-a8cf-4d9e-96a6-8c3986df42d8")
+			(uuid "15af213b-2d23-4c6e-96bb-45225aa4f130")
 		)
 		(pin "2"
-			(uuid "3d95f08c-697f-4c3b-b400-7e42e03adba4")
+			(uuid "f4776a9b-ebcd-4324-b8a6-d3cc16739f52")
 		)
 		(instances
 			(project "ESC_Texas"
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/5c2caf40-6fb6-4243-b150-75e61ed11c2e"
+					(reference "R_INA3")
+					(unit 1)
+				)
 				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/7586262d-272d-4a40-b2fe-a7f505e9f1d4"
 					(reference "R_INA1")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/80faa729-a5f2-4405-b737-e1a1931e176c"
+					(reference "R_INA2")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/8b8d152c-3e29-4c2e-8f34-df477a13ffa3"
+					(reference "R_INA4")
 					(unit 1)
 				)
 			)
@@ -4361,15 +4509,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "a8180aa5-666b-4271-86f4-ecc83ea770a0")
+			(uuid "35c21972-26e6-4e40-96b8-9ee79c646c56")
 		)
 		(pin "2"
-			(uuid "017f0b26-e5c7-44e4-ad11-7892cccfe51b")
+			(uuid "c4ee89de-71d3-456e-a357-88c054a4b27a")
 		)
 		(instances
 			(project "ESC_Texas"
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/5c2caf40-6fb6-4243-b150-75e61ed11c2e"
+					(reference "C_IN9")
+					(unit 1)
+				)
 				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/7586262d-272d-4a40-b2fe-a7f505e9f1d4"
 					(reference "C_IN3")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/80faa729-a5f2-4405-b737-e1a1931e176c"
+					(reference "C_IN6")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/8b8d152c-3e29-4c2e-8f34-df477a13ffa3"
+					(reference "C_IN12")
 					(unit 1)
 				)
 			)
@@ -4428,15 +4588,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "1b41875c-6fd6-4d1a-a678-7af9f0dd0157")
+			(uuid "966627ff-dcc9-4446-a6d0-a3365f326359")
 		)
 		(pin "2"
-			(uuid "00736611-fe93-4fc6-a995-c348ff9f412f")
+			(uuid "def9b299-9cf4-401a-916d-7fec320a0b54")
 		)
 		(instances
 			(project "ESC_Texas"
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/5c2caf40-6fb6-4243-b150-75e61ed11c2e"
+					(reference "R_OFF_A3")
+					(unit 1)
+				)
 				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/7586262d-272d-4a40-b2fe-a7f505e9f1d4"
 					(reference "R_OFF_A1")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/80faa729-a5f2-4405-b737-e1a1931e176c"
+					(reference "R_OFF_A2")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/8b8d152c-3e29-4c2e-8f34-df477a13ffa3"
+					(reference "R_OFF_A4")
 					(unit 1)
 				)
 			)
@@ -4496,12 +4668,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "f622d626-07ce-430f-8685-0bab74420de4")
+			(uuid "6a3cf589-9200-47a5-bb79-a342508aedbe")
 		)
 		(instances
 			(project "ESC_Texas"
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/5c2caf40-6fb6-4243-b150-75e61ed11c2e"
+					(reference "#PWR052")
+					(unit 1)
+				)
 				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/7586262d-272d-4a40-b2fe-a7f505e9f1d4"
 					(reference "#PWR015")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/80faa729-a5f2-4405-b737-e1a1931e176c"
+					(reference "#PWR038")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/8b8d152c-3e29-4c2e-8f34-df477a13ffa3"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -4562,15 +4746,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "8eed29a9-8c5c-49e1-b871-4ea71202527e")
+			(uuid "89aa108e-fb1b-4652-8381-b791e8214372")
 		)
 		(pin "2"
-			(uuid "d39d9d96-e530-49a3-bb8a-0d9ca7ec41c4")
+			(uuid "c3eac0f3-8c77-47e9-a9aa-ac60069d3b48")
 		)
 		(instances
 			(project "ESC_Texas"
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/5c2caf40-6fb6-4243-b150-75e61ed11c2e"
+					(reference "C_VCC5")
+					(unit 1)
+				)
 				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/7586262d-272d-4a40-b2fe-a7f505e9f1d4"
 					(reference "C_VCC1")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/80faa729-a5f2-4405-b737-e1a1931e176c"
+					(reference "C_VCC4")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/8b8d152c-3e29-4c2e-8f34-df477a13ffa3"
+					(reference "C_VCC6")
 					(unit 1)
 				)
 			)
@@ -4632,15 +4828,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "d91c7928-8242-4b86-9394-72f1e68ad31c")
+			(uuid "a9e47486-4a9e-4f4b-9e85-954db11e7ad5")
 		)
 		(pin "2"
-			(uuid "8844ec93-9c90-44dd-a672-e9851ffa794f")
+			(uuid "da7a9e49-b285-47d1-8395-a89c44846d98")
 		)
 		(instances
 			(project "ESC_Texas"
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/5c2caf40-6fb6-4243-b150-75e61ed11c2e"
+					(reference "R_GS_A3")
+					(unit 1)
+				)
 				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/7586262d-272d-4a40-b2fe-a7f505e9f1d4"
 					(reference "R_GS_A1")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/80faa729-a5f2-4405-b737-e1a1931e176c"
+					(reference "R_GS_A2")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/8b8d152c-3e29-4c2e-8f34-df477a13ffa3"
+					(reference "R_GS_A4")
 					(unit 1)
 				)
 			)
@@ -4657,7 +4865,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95add707-0007-4f36-8d8f-73b2c312e1ca")
-		(property "Reference" "Q1"
+		(property "Reference" "Q3"
 			(at 222.25 80.0099 0)
 			(effects
 				(font
@@ -4706,18 +4914,26 @@
 			)
 		)
 		(pin "1"
-			(uuid "ce98025e-518a-4512-8836-63e5c87e1d1b")
+			(uuid "a4d89690-066d-4bef-929e-958dbd59089e")
 		)
 		(pin "2"
-			(uuid "4f44911e-ed33-48ab-865c-2135dba0a55b")
+			(uuid "829a50ee-a1a6-4987-b7b0-66ec239e00a4")
 		)
 		(pin "3"
-			(uuid "c2c7444f-f86a-4908-92be-8336f6a17f33")
+			(uuid "728a2e44-2244-4bc7-ab18-3be4f99e75c7")
 		)
 		(instances
-			(project ""
-				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/7586262d-272d-4a40-b2fe-a7f505e9f1d4"
-					(reference "Q1")
+			(project "ESC_Texas"
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/5c2caf40-6fb6-4243-b150-75e61ed11c2e"
+					(reference "Q5")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/80faa729-a5f2-4405-b737-e1a1931e176c"
+					(reference "Q3")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/8b8d152c-3e29-4c2e-8f34-df477a13ffa3"
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -4776,15 +4992,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "e5f01cf1-588d-4f52-84b3-1765ea88852e")
+			(uuid "61f5d3a9-187d-4555-9ea1-782d0ef8fce5")
 		)
 		(pin "2"
-			(uuid "c81a5d3e-da74-4d56-8043-bc2dff76b241")
+			(uuid "9f52d49c-bdaa-478f-b9c7-e49d685fee34")
 		)
 		(instances
 			(project "ESC_Texas"
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/5c2caf40-6fb6-4243-b150-75e61ed11c2e"
+					(reference "R_INB3")
+					(unit 1)
+				)
 				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/7586262d-272d-4a40-b2fe-a7f505e9f1d4"
 					(reference "R_INB1")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/80faa729-a5f2-4405-b737-e1a1931e176c"
+					(reference "R_INB2")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/8b8d152c-3e29-4c2e-8f34-df477a13ffa3"
+					(reference "R_INB4")
 					(unit 1)
 				)
 			)
@@ -4895,57 +5123,69 @@
 			)
 		)
 		(pin "13"
-			(uuid "301a04db-bf81-4da8-9535-44e19daa88f7")
+			(uuid "668a4742-e42f-44ee-843b-ceaabc447fec")
 		)
 		(pin "12"
-			(uuid "db1f60a6-4ff9-423c-b89e-e206f6a3dd3b")
+			(uuid "f9520795-9b9d-42d2-8041-be7fd5a764c9")
 		)
 		(pin "4"
-			(uuid "1252c7fb-0b8d-41b7-b3be-93c4dc3e5905")
+			(uuid "7f52cf90-33f1-443e-953a-96c19b73e8ac")
 		)
 		(pin "8"
-			(uuid "416dd64b-0490-4e2a-87c1-ba383b3a1314")
+			(uuid "a17713c9-6c34-401d-8ad0-beb056df925f")
 		)
 		(pin "5"
-			(uuid "ffc6a86a-3e2a-4b1a-8b30-f77790cf7dad")
+			(uuid "7404aaf2-f1b9-456b-8c2f-5711b4516711")
 		)
 		(pin "15"
-			(uuid "190ca94a-8c92-4187-9894-3fa647f4d72f")
+			(uuid "b5997fb6-39ec-48ea-ad7b-363f0eba5264")
 		)
 		(pin "2"
-			(uuid "fabe0012-e842-4ba0-a421-082874df328d")
+			(uuid "684573f7-43c1-4432-a016-78b385a828d9")
 		)
 		(pin "7"
-			(uuid "6c8c257b-c068-41c7-a9e9-f1825f839d3c")
+			(uuid "3cede951-6cc4-467a-977e-7fe6d9577999")
 		)
 		(pin "1"
-			(uuid "79a56e62-d6dd-46ae-b6e9-8be7da24d0e3")
+			(uuid "52c60389-549d-42f0-b7ed-638e913b842b")
 		)
 		(pin "10"
-			(uuid "820bde0d-a09e-400d-b3a8-b6d982c58a1d")
+			(uuid "c5d903f3-26f3-48d5-b18e-428818c04d37")
 		)
 		(pin "6"
-			(uuid "eab45912-0479-4532-8a49-d86d89a91337")
+			(uuid "c6ada810-7562-4e06-9a07-bf4a45a567b2")
 		)
 		(pin "9"
-			(uuid "e9dbadfa-7d9d-42bb-80b0-cfe7ce5dedd4")
+			(uuid "6e2b5d0b-23ad-4c6e-b28a-1964342052d2")
 		)
 		(pin "16"
-			(uuid "07b77fea-7876-4f80-beec-f6e1f04b1ee7")
+			(uuid "0f153dd8-0913-4250-9194-d05c391aece3")
 		)
 		(pin "3"
-			(uuid "a915e4da-3414-4d28-a409-bc9f2404c782")
+			(uuid "53cda183-39eb-463e-9a10-0ee5342b154b")
 		)
 		(pin "14"
-			(uuid "21267470-29bd-4bd8-984e-fbe34f0b2e36")
+			(uuid "c4a06ee4-909d-43ec-aef0-e1db15392dd0")
 		)
 		(pin "11"
-			(uuid "c3227bf6-e6e3-4c3d-a91a-bd482180854d")
+			(uuid "f814b348-5faa-4381-b928-cea43eef582d")
 		)
 		(instances
 			(project "ESC_Texas"
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/5c2caf40-6fb6-4243-b150-75e61ed11c2e"
+					(reference "IC3")
+					(unit 1)
+				)
 				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/7586262d-272d-4a40-b2fe-a7f505e9f1d4"
 					(reference "IC1")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/80faa729-a5f2-4405-b737-e1a1931e176c"
+					(reference "IC2")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/8b8d152c-3e29-4c2e-8f34-df477a13ffa3"
+					(reference "IC4")
 					(unit 1)
 				)
 			)
@@ -5006,12 +5246,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "051dbe1a-5869-4797-b88f-bfeaa30e1c34")
+			(uuid "1fd015d3-5993-4719-abcc-0b6edd780360")
 		)
 		(instances
 			(project "ESC_Texas"
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/5c2caf40-6fb6-4243-b150-75e61ed11c2e"
+					(reference "#PWR047")
+					(unit 1)
+				)
 				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/7586262d-272d-4a40-b2fe-a7f505e9f1d4"
 					(reference "#PWR05")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/80faa729-a5f2-4405-b737-e1a1931e176c"
+					(reference "#PWR033")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/8b8d152c-3e29-4c2e-8f34-df477a13ffa3"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -5072,15 +5324,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "50adf838-8f31-4661-9d03-830a750dc8d5")
+			(uuid "292bfc1f-e239-4735-a5a2-d5c905c2fdd5")
 		)
 		(pin "2"
-			(uuid "79f8a4d6-71ea-42ee-9032-97c7c39b9bb9")
+			(uuid "78c00387-e3bb-4358-8e78-5bd3bb9e6f8e")
 		)
 		(instances
 			(project "ESC_Texas"
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/5c2caf40-6fb6-4243-b150-75e61ed11c2e"
+					(reference "C_DT3")
+					(unit 1)
+				)
 				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/7586262d-272d-4a40-b2fe-a7f505e9f1d4"
 					(reference "C_DT1")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/80faa729-a5f2-4405-b737-e1a1931e176c"
+					(reference "C_DT2")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/8b8d152c-3e29-4c2e-8f34-df477a13ffa3"
+					(reference "C_DT4")
 					(unit 1)
 				)
 			)
@@ -5142,15 +5406,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "b0da660c-3fab-4c1c-84ae-98378d204e64")
+			(uuid "3c10a5c4-9f5e-4ff8-8b2f-b0efe3f6e69d")
 		)
 		(pin "2"
-			(uuid "cd69d7e9-0f26-4a20-8426-f60c92dd454b")
+			(uuid "48de6c25-e0ab-4152-8e40-a8bf9ae2e71c")
 		)
 		(instances
 			(project "ESC_Texas"
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/5c2caf40-6fb6-4243-b150-75e61ed11c2e"
+					(reference "C_BOOT_A3")
+					(unit 1)
+				)
 				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/7586262d-272d-4a40-b2fe-a7f505e9f1d4"
 					(reference "C_BOOT_A1")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/80faa729-a5f2-4405-b737-e1a1931e176c"
+					(reference "C_BOOT_A2")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/8b8d152c-3e29-4c2e-8f34-df477a13ffa3"
+					(reference "C_BOOT_A4")
 					(unit 1)
 				)
 			)
@@ -5228,15 +5504,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "ff61177d-40d1-4569-b5a8-06462a8c232e")
+			(uuid "52e68f46-b6c8-4fd5-b9d8-6725f98f3d77")
 		)
 		(pin "2"
-			(uuid "505643c5-02a1-4b2d-b1eb-f4b95c423d13")
+			(uuid "30377811-f579-4a1b-a302-80a87a3dc5d3")
 		)
 		(instances
 			(project "ESC_Texas"
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/5c2caf40-6fb6-4243-b150-75e61ed11c2e"
+					(reference "D9")
+					(unit 1)
+				)
 				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/7586262d-272d-4a40-b2fe-a7f505e9f1d4"
 					(reference "D5")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/80faa729-a5f2-4405-b737-e1a1931e176c"
+					(reference "D6")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/8b8d152c-3e29-4c2e-8f34-df477a13ffa3"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -5297,15 +5585,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "09be9658-d29a-4ab6-b3d0-7eb3f4922fc3")
+			(uuid "656f9d48-23f1-4262-b123-80db4ba5ea9f")
 		)
 		(pin "2"
-			(uuid "26a7a841-3b3e-4428-a830-9f670050d702")
+			(uuid "dcc74317-3321-4640-9a5a-d73de46eb518")
 		)
 		(instances
 			(project "ESC_Texas"
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/5c2caf40-6fb6-4243-b150-75e61ed11c2e"
+					(reference "C_EN3")
+					(unit 1)
+				)
 				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/7586262d-272d-4a40-b2fe-a7f505e9f1d4"
 					(reference "C_EN1")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/80faa729-a5f2-4405-b737-e1a1931e176c"
+					(reference "C_EN2")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/8b8d152c-3e29-4c2e-8f34-df477a13ffa3"
+					(reference "C_EN4")
 					(unit 1)
 				)
 			)
@@ -5366,15 +5666,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "c3e969f8-d38e-4fc7-9638-e84a0ffbd09d")
+			(uuid "a477fb59-2fb5-4f52-803a-211d4d63e947")
 		)
 		(pin "2"
-			(uuid "c38e9b53-876a-44b8-bb90-80598417bbe4")
+			(uuid "b4c7d430-d380-4741-9949-e89265ec49f2")
 		)
 		(instances
 			(project "ESC_Texas"
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/5c2caf40-6fb6-4243-b150-75e61ed11c2e"
+					(reference "R_GS_B3")
+					(unit 1)
+				)
 				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/7586262d-272d-4a40-b2fe-a7f505e9f1d4"
 					(reference "R_GS_B1")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/80faa729-a5f2-4405-b737-e1a1931e176c"
+					(reference "R_GS_B2")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/8b8d152c-3e29-4c2e-8f34-df477a13ffa3"
+					(reference "R_GS_B4")
 					(unit 1)
 				)
 			)
@@ -5433,15 +5745,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "4d80867f-811d-4d0d-8f13-217cea52fb8f")
+			(uuid "37df9167-f4cc-4911-a797-e5a7fc4a8daf")
 		)
 		(pin "2"
-			(uuid "144f64c6-bf90-43e0-93ae-e3bedff10920")
+			(uuid "71eea145-de16-40e9-8985-210ea3374c1d")
 		)
 		(instances
 			(project "ESC_Texas"
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/5c2caf40-6fb6-4243-b150-75e61ed11c2e"
+					(reference "R_ON_A3")
+					(unit 1)
+				)
 				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/7586262d-272d-4a40-b2fe-a7f505e9f1d4"
 					(reference "R_ON_A1")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/80faa729-a5f2-4405-b737-e1a1931e176c"
+					(reference "R_ON_A2")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/8b8d152c-3e29-4c2e-8f34-df477a13ffa3"
+					(reference "R_ON_A4")
 					(unit 1)
 				)
 			)
@@ -5502,12 +5826,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "c24b3b09-5904-4d9b-b1da-b298dbcf30d3")
+			(uuid "9d95dba0-b02a-4565-9c48-c12e2300665f")
 		)
 		(instances
 			(project "ESC_Texas"
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/5c2caf40-6fb6-4243-b150-75e61ed11c2e"
+					(reference "#PWR051")
+					(unit 1)
+				)
 				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/7586262d-272d-4a40-b2fe-a7f505e9f1d4"
 					(reference "#PWR014")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/80faa729-a5f2-4405-b737-e1a1931e176c"
+					(reference "#PWR037")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/8b8d152c-3e29-4c2e-8f34-df477a13ffa3"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -5567,15 +5903,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "fe5cc9ce-4c5d-4bb4-afcd-0e1a03a482b0")
+			(uuid "6056d73f-ed02-4ed6-acb0-c295380c613f")
 		)
 		(pin "2"
-			(uuid "6055fcda-2cf6-4a26-b86f-d2e675c396cc")
+			(uuid "8d92761e-7a04-43d8-9b3d-5e85643e7a54")
 		)
 		(instances
 			(project "ESC_Texas"
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/5c2caf40-6fb6-4243-b150-75e61ed11c2e"
+					(reference "R_OFF_B3")
+					(unit 1)
+				)
 				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/7586262d-272d-4a40-b2fe-a7f505e9f1d4"
 					(reference "R_OFF_B1")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/80faa729-a5f2-4405-b737-e1a1931e176c"
+					(reference "R_OFF_B2")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/8b8d152c-3e29-4c2e-8f34-df477a13ffa3"
+					(reference "R_OFF_B4")
 					(unit 1)
 				)
 			)
@@ -5641,18 +5989,30 @@
 			)
 		)
 		(pin "1"
-			(uuid "b2549797-70ca-4e3e-8159-16355f45b788")
+			(uuid "f8b7d82c-36d3-44d2-8ab5-defe9c6d0124")
 		)
 		(pin "2"
-			(uuid "b3e74cc7-5c5f-4733-994b-a0d07b7f7f58")
+			(uuid "2ec24424-d7fb-4f7d-be91-09b1ea708a89")
 		)
 		(pin "3"
-			(uuid "f833cd9c-2656-4e5e-899c-ff3dca7c3089")
+			(uuid "ec6dc671-cdc3-4f7f-a3e3-76bc80dfe00c")
 		)
 		(instances
 			(project "ESC_Texas"
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/5c2caf40-6fb6-4243-b150-75e61ed11c2e"
+					(reference "Q6")
+					(unit 1)
+				)
 				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/7586262d-272d-4a40-b2fe-a7f505e9f1d4"
 					(reference "Q2")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/80faa729-a5f2-4405-b737-e1a1931e176c"
+					(reference "Q4")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/8b8d152c-3e29-4c2e-8f34-df477a13ffa3"
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -5713,15 +6073,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "de8e4ac9-308c-40a2-afd8-08f72297fe7f")
+			(uuid "dc3468df-5feb-4b8d-9122-c2e51826cd27")
 		)
 		(pin "2"
-			(uuid "c316a77e-6382-42f7-83d1-f80def99312d")
+			(uuid "51d12e9d-7f38-4f7a-8a4d-89f59496a5d3")
 		)
 		(instances
 			(project "ESC_Texas"
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/5c2caf40-6fb6-4243-b150-75e61ed11c2e"
+					(reference "C_IN8")
+					(unit 1)
+				)
 				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/7586262d-272d-4a40-b2fe-a7f505e9f1d4"
 					(reference "C_IN2")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/80faa729-a5f2-4405-b737-e1a1931e176c"
+					(reference "C_IN5")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/8b8d152c-3e29-4c2e-8f34-df477a13ffa3"
+					(reference "C_IN11")
 					(unit 1)
 				)
 			)
@@ -5783,12 +6155,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "aeb66284-7534-4868-9b87-a83dea8672c4")
+			(uuid "2b727234-506c-41ac-8faa-6ceb55b110c0")
 		)
 		(instances
 			(project "ESC_Texas"
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/5c2caf40-6fb6-4243-b150-75e61ed11c2e"
+					(reference "#PWR048")
+					(unit 1)
+				)
 				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/7586262d-272d-4a40-b2fe-a7f505e9f1d4"
 					(reference "#PWR012")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/80faa729-a5f2-4405-b737-e1a1931e176c"
+					(reference "#PWR034")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/8b8d152c-3e29-4c2e-8f34-df477a13ffa3"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -5847,15 +6231,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "7a139ec7-a103-4952-a601-6743fbf69992")
+			(uuid "12dcdb3d-7ec7-49d2-8cbe-229ff80d553f")
 		)
 		(pin "2"
-			(uuid "1767a7a7-5831-4cc3-a290-b308c32b720e")
+			(uuid "4d309a41-d16c-43ee-aec8-7282d34fb4d4")
 		)
 		(instances
 			(project "ESC_Texas"
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/5c2caf40-6fb6-4243-b150-75e61ed11c2e"
+					(reference "R_DT3")
+					(unit 1)
+				)
 				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/7586262d-272d-4a40-b2fe-a7f505e9f1d4"
 					(reference "R_DT1")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/80faa729-a5f2-4405-b737-e1a1931e176c"
+					(reference "R_DT2")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/8b8d152c-3e29-4c2e-8f34-df477a13ffa3"
+					(reference "R_DT4")
 					(unit 1)
 				)
 			)
@@ -5917,12 +6313,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "42a5ec26-d606-4df7-b154-2dba67b06b31")
+			(uuid "dbf261a9-42cd-4187-ae57-ac68c3e782cd")
 		)
 		(instances
 			(project "ESC_Texas"
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/5c2caf40-6fb6-4243-b150-75e61ed11c2e"
+					(reference "#PWR045")
+					(unit 1)
+				)
 				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/7586262d-272d-4a40-b2fe-a7f505e9f1d4"
 					(reference "#PWR02")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/80faa729-a5f2-4405-b737-e1a1931e176c"
+					(reference "#PWR031")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/8b8d152c-3e29-4c2e-8f34-df477a13ffa3"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -5984,12 +6392,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "81abd4bb-4c1c-4ce5-b74f-8756d6321c60")
+			(uuid "bbd0308c-25e0-4f14-8c8b-9d311c6e020e")
 		)
 		(instances
 			(project "ESC_Texas"
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/5c2caf40-6fb6-4243-b150-75e61ed11c2e"
+					(reference "#PWR042")
+					(unit 1)
+				)
 				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/7586262d-272d-4a40-b2fe-a7f505e9f1d4"
 					(reference "#PWR09")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/80faa729-a5f2-4405-b737-e1a1931e176c"
+					(reference "#PWR028")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/8b8d152c-3e29-4c2e-8f34-df477a13ffa3"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -6050,12 +6470,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "1d84e74f-417a-4079-9aa0-835a6ab577f9")
+			(uuid "ac298d44-2a2f-468d-b972-beb8ba7c7ad5")
 		)
 		(instances
 			(project "ESC_Texas"
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/5c2caf40-6fb6-4243-b150-75e61ed11c2e"
+					(reference "#PWR054")
+					(unit 1)
+				)
 				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/7586262d-272d-4a40-b2fe-a7f505e9f1d4"
 					(reference "#PWR01")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/80faa729-a5f2-4405-b737-e1a1931e176c"
+					(reference "#PWR040")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/8b8d152c-3e29-4c2e-8f34-df477a13ffa3"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -6116,15 +6548,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "8e7a2e03-46a0-4f3f-83fa-c1f379fb9d12")
+			(uuid "a97eb3f9-caa1-4430-8969-4805e856164a")
 		)
 		(pin "2"
-			(uuid "74c7da13-b823-44c1-a337-6be636d247bc")
+			(uuid "8e4a7c07-61d5-4339-aa22-665f8409e7cf")
 		)
 		(instances
 			(project "ESC_Texas"
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/5c2caf40-6fb6-4243-b150-75e61ed11c2e"
+					(reference "C_VDD_B3")
+					(unit 1)
+				)
 				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/7586262d-272d-4a40-b2fe-a7f505e9f1d4"
 					(reference "C_VDD_B1")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/80faa729-a5f2-4405-b737-e1a1931e176c"
+					(reference "C_VDD_B2")
+					(unit 1)
+				)
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1/8b8d152c-3e29-4c2e-8f34-df477a13ffa3"
+					(reference "C_VDD_B4")
 					(unit 1)
 				)
 			)

@@ -231,6 +231,7 @@
 	(net 86 "unconnected-(U1-P0.08-PadN1)")
 	(net 87 "unconnected-(U1-D+-PadAD6)")
 	(net 88 "unconnected-(U1-P0.16-PadAC11)")
+	(net 89 "unconnected-(U1-DECUSB-PadAC5)")
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "08c28674-132e-4987-9cf0-14651ffa1fb0")
@@ -433,6 +434,221 @@
 			(uuid "310280a0-55e1-45a1-8a45-5a26f6102786")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Inductor_SMD:L_1008_2520Metric_Pad1.43x2.20mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "0c2402d1-44fa-4e9e-ad2e-e73fdf9b4f28")
+		(at 132.8375 77)
+		(descr "Inductor SMD 1008 (2520 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://ecsxtal.com/store/pdf/ECS-MPI2520-SMD-POWER-INDUCTOR.pdf), generated with kicad-footprint-generator")
+		(tags "inductor handsolder")
+		(property "Reference" "L1"
+			(at 0 -2.05 0)
+			(layer "F.SilkS")
+			(uuid "82e627c4-cf49-4061-a2ae-967828d20721")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "4.7nH"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "a7304d13-ce3d-4596-8a35-0a7f69d51008")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric_Pad1.43x2.20mm_HandSolder"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d516841e-d39b-4611-a939-d7451876f2e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e3df450-1098-4c2a-9e17-25e369bfa665")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "626d4aae-44df-4d8c-a360-adc72d66e624")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
+		(path "/c9949b21-8511-4b3a-8022-8bd8d0a6eaef")
+		(sheetname "Root")
+		(sheetfile "ESC_Texas.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.261252 -1.11)
+			(end 0.261252 -1.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2d785540-0470-47d6-b6b7-dd7a4bdd6e2c")
+		)
+		(fp_line
+			(start -0.261252 1.11)
+			(end 0.261252 1.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "bdd7b08b-687d-4d6b-be96-9d7bcf258db7")
+		)
+		(fp_line
+			(start -2.12 -1.35)
+			(end 2.12 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9992a7be-0a9f-4beb-9888-9c92a776107a")
+		)
+		(fp_line
+			(start -2.12 1.35)
+			(end -2.12 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8c4cd969-f4b8-45e1-a6ed-b0e3a0221aac")
+		)
+		(fp_line
+			(start 2.12 -1.35)
+			(end 2.12 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cd7da285-1a37-4a77-98c5-85af4748ebe8")
+		)
+		(fp_line
+			(start 2.12 1.35)
+			(end -2.12 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6acd27d7-2221-4dcd-8f75-66952e8d45b4")
+		)
+		(fp_line
+			(start -1.25 -1)
+			(end 1.25 -1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ab0082d3-e664-4fd3-97c2-898530fc5439")
+		)
+		(fp_line
+			(start -1.25 1)
+			(end -1.25 -1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "266e0f1b-7097-4344-8c89-a2812df85472")
+		)
+		(fp_line
+			(start 1.25 -1)
+			(end 1.25 1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a88991ad-7136-4af3-82db-bb6f1cf79009")
+		)
+		(fp_line
+			(start 1.25 1)
+			(end -1.25 1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cf4abd3a-a0dc-49c7-a7d1-7cb6df2fdaa1")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "241f1af1-0484-4e1f-9c70-d1ce2fbf8364")
+			(effects
+				(font
+					(size 0.62 0.62)
+					(thickness 0.09)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.1625 0)
+			(size 1.425 2.2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.175439)
+			(net 29 "Net-(C8-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "2d463417-d6cd-4972-9430-bf27a77a9ec6")
+		)
+		(pad "2" smd roundrect
+			(at 1.1625 0)
+			(size 1.425 2.2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.175439)
+			(net 36 "Net-(U1-ANT)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "a8524145-5fb6-4c38-9717-4b8656cf76ce")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_1008_2520Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2172,9 +2388,9 @@
 			(size 0.25 0.25)
 			(property pad_prop_bga)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 34 "Net-(U1-DECUSB)")
+			(net 89 "unconnected-(U1-DECUSB-PadAC5)")
 			(pinfunction "DECUSB")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "97997f88-8e68-4ad0-9df8-f644f24af30e")
 		)
 		(pad "AC9" smd circle
@@ -2262,7 +2478,7 @@
 			(size 0.25 0.25)
 			(property pad_prop_bga)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 35 "VBUS")
+			(net 14 "GND")
 			(pinfunction "VBUS")
 			(pintype "power_in")
 			(uuid "d5adc971-5814-47c2-8299-93cf2a535794")
@@ -7399,7 +7615,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/25f77b2c-8ab3-4c64-a941-3f6155d2d8ce")
 		(sheetname "Root")
 		(sheetfile "ESC_Texas.kicad_sch")
 		(attr smd)
@@ -9052,7 +9267,7 @@
 				)
 			)
 		)
-		(property "Value" "32MHz"
+		(property "Value" "32.768kHz"
 			(at 0 2.5 0)
 			(layer "F.Fab")
 			(uuid "9e2c303d-b647-4631-ab37-28812c857284")
@@ -9383,7 +9598,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/32769029-154e-4ac2-bfd8-20323aaed57a")
 		(sheetname "Root")
 		(sheetfile "ESC_Texas.kicad_sch")
 		(attr smd)
@@ -11113,7 +11327,6 @@
 			)
 		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
-		(path "/a0418790-e848-4e91-bc38-37e12e29c59f")
 		(sheetname "Root")
 		(sheetfile "ESC_Texas.kicad_sch")
 		(attr smd)
