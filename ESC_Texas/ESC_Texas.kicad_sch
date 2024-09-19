@@ -743,6 +743,193 @@
 				)
 			)
 		)
+		(symbol "LFSPXO009686:LFSPXO009686"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 46.99 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "LFSPXO009686"
+				(at 46.99 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LFSPXO009686"
+				(at 46.99 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.iqdfrequencyproducts.com/products/pn/LFSPXO009686Cutt.pdf"
+				(at 46.99 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "32.768 kHz XO (Standard) CMOS Oscillator 3.3V Enable/Disable 4-SMD, No Lead"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.95"
+				(at 46.99 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "449-LFSPXO009686"
+				(at 46.99 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/IQD/LFSPXO009686?qs=ZcfC38r4PovaxkK5sket1g%3D%3D"
+				(at 46.99 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "IQD"
+				(at 46.99 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "LFSPXO009686"
+				(at 46.99 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "LFSPXO009686_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 45.72 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "TRI-STATE_OPERATION"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 50.8 -2.54 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 50.8 0 180)
+					(length 5.08)
+					(name "OUTPUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "+VS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "MCU_Nordic:nRF52840"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2656,7 +2843,7 @@
 		(uuid "ed7b8212-95bb-4635-801f-b0c12afb8df4")
 	)
 	(junction
-		(at 487.68 193.04)
+		(at 519.43 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3ea9fe5-f1d0-4787-bd69-8625fd6e8f20")
@@ -2691,7 +2878,7 @@
 	)
 	(wire
 		(pts
-			(xy 481.33 179.07) (xy 487.68 179.07)
+			(xy 513.08 179.07) (xy 519.43 179.07)
 		)
 		(stroke
 			(width 0)
@@ -2771,7 +2958,7 @@
 	)
 	(wire
 		(pts
-			(xy 487.68 179.07) (xy 487.68 193.04)
+			(xy 519.43 179.07) (xy 519.43 193.04)
 		)
 		(stroke
 			(width 0)
@@ -2811,7 +2998,7 @@
 	)
 	(wire
 		(pts
-			(xy 473.71 193.04) (xy 466.09 193.04)
+			(xy 505.46 193.04) (xy 466.09 193.04)
 		)
 		(stroke
 			(width 0)
@@ -3171,7 +3358,7 @@
 	)
 	(wire
 		(pts
-			(xy 481.33 193.04) (xy 487.68 193.04)
+			(xy 513.08 193.04) (xy 519.43 193.04)
 		)
 		(stroke
 			(width 0)
@@ -3871,7 +4058,7 @@
 	)
 	(wire
 		(pts
-			(xy 466.09 179.07) (xy 473.71 179.07)
+			(xy 466.09 179.07) (xy 505.46 179.07)
 		)
 		(stroke
 			(width 0)
@@ -6206,7 +6393,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 477.52 193.04 270)
+		(at 509.27 193.04 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6214,7 +6401,7 @@
 		(dnp no)
 		(uuid "79f23853-546c-4709-893f-ee7b35634d26")
 		(property "Reference" "C24"
-			(at 473.71 199.39 90)
+			(at 505.46 199.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6223,7 +6410,7 @@
 			)
 		)
 		(property "Value" "12pF"
-			(at 474.218 196.596 90)
+			(at 505.968 196.596 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6232,7 +6419,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 473.71 194.0052 0)
+			(at 505.46 194.0052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6241,7 +6428,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 477.52 193.04 0)
+			(at 509.27 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6250,7 +6437,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 477.52 193.04 0)
+			(at 509.27 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7157,7 +7344,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 487.68 193.04 0)
+		(at 519.43 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7166,7 +7353,7 @@
 		(fields_autoplaced yes)
 		(uuid "afe3c5f6-97b7-4c3f-80b7-cdebda91ce86")
 		(property "Reference" "#PWR079"
-			(at 487.68 199.39 0)
+			(at 519.43 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7175,7 +7362,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 487.68 197.6422 0)
+			(at 519.43 197.6422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7183,7 +7370,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 487.68 193.04 0)
+			(at 519.43 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7192,7 +7379,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 487.68 193.04 0)
+			(at 519.43 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7201,7 +7388,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 487.68 193.04 0)
+			(at 519.43 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7500,7 +7687,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 477.52 179.07 270)
+		(at 509.27 179.07 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7508,7 +7695,7 @@
 		(dnp no)
 		(uuid "d0415e7f-8c0d-4df7-ba4c-4fd4a348c6cf")
 		(property "Reference" "C23"
-			(at 473.456 183.642 90)
+			(at 505.206 183.642 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7517,7 +7704,7 @@
 			)
 		)
 		(property "Value" "12pF"
-			(at 471.424 181.102 90)
+			(at 503.174 181.102 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7526,7 +7713,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 473.71 180.0352 0)
+			(at 505.46 180.0352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7535,7 +7722,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 477.52 179.07 0)
+			(at 509.27 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7544,7 +7731,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 477.52 179.07 0)
+			(at 509.27 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7760,25 +7947,25 @@
 			(uuid "92bac341-7572-4e5c-ba7c-9108763585a6")
 		)
 		(pin "8"
-			(uuid "34b865b2-34d4-4ddb-bca0-78348f5ae1ea")
+			(uuid "34b865b2-34d4-4ddb-bca0-78348f5ae1eb")
 		)
 		(pin "2"
 			(uuid "d186fd53-8dce-4941-8fb3-b796dac57ad8")
 		)
 		(pin "4"
-			(uuid "b5194d5a-1f0d-4490-b78a-f5b9e12d60a5")
+			(uuid "b5194d5a-1f0d-4490-b78a-f5b9e12d60a6")
 		)
 		(pin "3"
-			(uuid "d430261e-b3d8-441c-82ae-7bf4fa447841")
+			(uuid "d430261e-b3d8-441c-82ae-7bf4fa447842")
 		)
 		(pin "6"
-			(uuid "66ef06a2-532a-4653-976f-6c43e058e61f")
+			(uuid "66ef06a2-532a-4653-976f-6c43e058e620")
 		)
 		(pin "7"
 			(uuid "da66fe09-0fd1-4d85-a7ca-f88f865e6629")
 		)
 		(pin "5"
-			(uuid "3eaadb77-2863-438b-97ff-8a8e69eda7a4")
+			(uuid "3eaadb77-2863-438b-97ff-8a8e69eda7a5")
 		)
 		(instances
 			(project "ESC_Texas"
@@ -7846,25 +8033,25 @@
 			(uuid "0ad01301-1b1e-43b5-a6fa-5936b6f523ad")
 		)
 		(pin "8"
-			(uuid "34b865b2-34d4-4ddb-bca0-78348f5ae1ea")
+			(uuid "34b865b2-34d4-4ddb-bca0-78348f5ae1ec")
 		)
 		(pin "2"
 			(uuid "be340e66-91bf-4250-8829-a9510100ebba")
 		)
 		(pin "4"
-			(uuid "b5194d5a-1f0d-4490-b78a-f5b9e12d60a5")
+			(uuid "b5194d5a-1f0d-4490-b78a-f5b9e12d60a7")
 		)
 		(pin "3"
-			(uuid "d430261e-b3d8-441c-82ae-7bf4fa447841")
+			(uuid "d430261e-b3d8-441c-82ae-7bf4fa447843")
 		)
 		(pin "6"
-			(uuid "66ef06a2-532a-4653-976f-6c43e058e61f")
+			(uuid "66ef06a2-532a-4653-976f-6c43e058e621")
 		)
 		(pin "7"
 			(uuid "a67b4ed2-e80d-4f99-9def-58db4f0c4bd1")
 		)
 		(pin "5"
-			(uuid "3eaadb77-2863-438b-97ff-8a8e69eda7a4")
+			(uuid "3eaadb77-2863-438b-97ff-8a8e69eda7a6")
 		)
 		(instances
 			(project "ESC_Texas"
@@ -8491,6 +8678,132 @@
 			(project ""
 				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LFSPXO009686:LFSPXO009686")
+		(at 462.28 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec803279-5bbc-47a3-ac9c-b799fdeac67e")
+		(property "Reference" "Y5"
+			(at 487.68 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LFSPXO009686"
+			(at 487.68 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LFSPXO009686"
+			(at 509.27 252.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.iqdfrequencyproducts.com/products/pn/LFSPXO009686Cutt.pdf"
+			(at 509.27 352.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "32.768 kHz XO (Standard) CMOS Oscillator 3.3V Enable/Disable 4-SMD, No Lead"
+			(at 462.28 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.95"
+			(at 509.27 552.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "449-LFSPXO009686"
+			(at 509.27 652.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/IQD/LFSPXO009686?qs=ZcfC38r4PovaxkK5sket1g%3D%3D"
+			(at 509.27 752.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "IQD"
+			(at 509.27 852.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LFSPXO009686"
+			(at 509.27 952.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "077a6523-2e13-492f-8728-8cf621cbb124")
+		)
+		(pin "2"
+			(uuid "7379f026-30b4-4482-8daf-065673573ac0")
+		)
+		(pin "3"
+			(uuid "bd3bd730-0b7f-45cb-923f-75bb18f7ad84")
+		)
+		(pin "4"
+			(uuid "c4f4e73d-897a-449f-8529-c43cb8ac2faf")
+		)
+		(instances
+			(project ""
+				(path "/485715ad-2455-40db-a806-c2c62ef6f5e1"
+					(reference "Y5")
 					(unit 1)
 				)
 			)

@@ -3,4 +3,5 @@
   (lib (name "BAS316Z")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/BAS316Z/BAS316Z.kicad_sym")(options "")(descr ""))
   (lib (name "UCC21331CQDRQ1")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/LIB_UCC21331CQDRQ1/UCC21331CQDRQ1.kicad_sym")(options "")(descr ""))
   (lib (name "MP-K78U15-500R3L")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/MP-K78U15-500R3L/MP-K78U15-500R3L.kicad_sym")(options "")(descr ""))
+  (lib (name "LFSPXO009686")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/LFSPXO009686/LFSPXO009686.kicad_sym")(options "")(descr ""))
 )
