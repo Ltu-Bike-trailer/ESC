@@ -5,4 +5,8 @@
   (lib (name "MP-K78U15-500R3L")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/MP-K78U15-500R3L/MP-K78U15-500R3L.kicad_sym")(options "")(descr ""))
   (lib (name "LFSPXO009686")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/LFSPXO009686/LFSPXO009686.kicad_sym")(options "")(descr ""))
   (lib (name "nRF52840-QFAA-F-R7")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/nRF52840-QFAA-F-R7/nRF52840-QFAA-F-R7.kicad_sym")(options "")(descr ""))
+  (lib (name "XRCGB32M000F2P29R0")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/XRCGB32M000F2P29R0/XRCGB32M000F2P29R0.kicad_sym")(options "")(descr ""))
+  (lib (name "MC78L05ACHT1G")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/MC78L05ACHT1G/MC78L05ACHT1G.kicad_sym")(options "")(descr ""))
+  (lib (name "AD8411AWBRZ")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/AD8411AWBRZ/AD8411AWBRZ.kicad_sym")(options "")(descr ""))
+  (lib (name "CM7V-T1A-32.768KHZ-12.5PF-20PP")(type "Legacy")(uri "${KIPRJMOD}/KiCad-Footprints/CM7V-T1A-32.768KHZ-12.5PF-20PPM-TA-QC/CM7V-T1A-32.768KHZ-12.5PF-20PP.lib")(options "")(descr ""))
 )
