@@ -696,175 +696,6 @@
 				)
 			)
 		)
-		(symbol "MP-K78U15-500R3L:MP-K78U15-500R3L"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "PS"
-				(at 19.05 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "MP-K78U15-500R3L"
-				(at 19.05 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "MPK78U15500R3L"
-				(at 19.05 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 19.05 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "MULTICOMP PRO MP-K78U15-500R3LDC/DC Converter, ITE & Industrial, 1 Output, 7.5 W, 15 V, 500 mA, MP-K78U-500R3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "9.5"
-				(at 19.05 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Farnell Part Number" ""
-				(at 19.05 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Farnell Price/Stock" ""
-				(at 19.05 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Multicomp Pro"
-				(at 19.05 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "MP-K78U15-500R3L"
-				(at 19.05 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "MP-K78U15-500R3L_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 17.78 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "+VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "UCC21331CQDRQ1:UCC21331CQDRQ1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1604,102 +1435,6 @@
 				)
 			)
 		)
-		(symbol "power:PWR_FLAG"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
 		(symbol "power:VCC"
 			(power)
 			(pin_numbers hide)
@@ -1906,12 +1641,6 @@
 		(uuid "9dee6512-24e2-43a3-99d3-64477d3d47f0")
 	)
 	(junction
-		(at 120.65 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca795ccf-979c-47ec-aebd-695f9b9ffc10")
-	)
-	(junction
 		(at 95.25 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2105,16 +1834,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 64.77) (xy 129.54 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33035f4b-07f7-4d67-8c9d-ae2cd28f4767")
-	)
-	(wire
-		(pts
 			(xy 88.9 81.28) (xy 88.9 87.63)
 		)
 		(stroke
@@ -2252,16 +1971,6 @@
 			(type default)
 		)
 		(uuid "573fc362-44b3-417e-855a-377a31e0ea14")
-	)
-	(wire
-		(pts
-			(xy 125.73 62.23) (xy 125.73 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58b97ed0-0dac-4a6d-a5b0-a3e11ce5233b")
 	)
 	(wire
 		(pts
@@ -2432,16 +2141,6 @@
 			(type default)
 		)
 		(uuid "8f3f3f69-8b7c-4c37-939a-58d7f0afc3a7")
-	)
-	(wire
-		(pts
-			(xy 111.76 64.77) (xy 120.65 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "903e17e3-d24f-4e57-a1db-58539391d08b")
 	)
 	(wire
 		(pts
@@ -2722,16 +2421,6 @@
 			(type default)
 		)
 		(uuid "c967230e-be29-430e-8784-11d70c52a6a5")
-	)
-	(wire
-		(pts
-			(xy 129.54 62.23) (xy 125.73 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc047dd1-7b0f-48d8-853b-b33272bd552e")
 	)
 	(wire
 		(pts
@@ -3325,7 +3014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e049003-c701-4430-926e-37caa0b548cc")
-		(property "Reference" "C_3IN1"
+		(property "Reference" "C_3IN2"
 			(at 236.22 82.5499 0)
 			(effects
 				(font
@@ -3371,14 +3060,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "301c974d-6077-478c-b38d-e5259ce09112")
+			(uuid "163d31d1-a981-4003-b250-f686e9943586")
 		)
 		(pin "2"
-			(uuid "0cb96e03-f534-4948-90ac-77a73a16c10e")
+			(uuid "ea9e643f-bf31-4639-9db6-8636269c1a63")
 		)
 		(instances
-			(project "aisler-4-layer-hd-drc"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/a0f66aee-8073-4478-95c8-d776ff0efcc6"
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "C_3IN3")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "C_3IN2")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
 					(reference "C_3IN1")
 					(unit 1)
 				)
@@ -3394,7 +3091,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2e516159-0c41-4ccd-a6c1-4b5070c60008")
-		(property "Reference" "C_DT1"
+		(property "Reference" "C_DT2"
 			(at 110.998 111.76 0)
 			(effects
 				(font
@@ -3440,14 +3137,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "c43eb9a9-d141-444f-8615-61baa2bced3e")
+			(uuid "2d36b91d-4f28-4f23-a536-53e1e2ed3e46")
 		)
 		(pin "2"
-			(uuid "e8b32733-4d5d-43fb-a20d-7b7c96247eac")
+			(uuid "327e72f6-7cf9-4556-b81e-4dd4ddc7bca9")
 		)
 		(instances
-			(project "aisler-4-layer-hd-drc"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/a0f66aee-8073-4478-95c8-d776ff0efcc6"
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "C_DT3")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "C_DT2")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
 					(reference "C_DT1")
 					(unit 1)
 				)
@@ -3463,7 +3168,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3337fe4a-d936-49ca-acbc-cca7be386a63")
-		(property "Reference" "R_BOOT_A1"
+		(property "Reference" "R_BOOT_A2"
 			(at 158.75 81.026 90)
 			(effects
 				(font
@@ -3507,14 +3212,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "ab73164b-26aa-4844-82e9-3e1618ec0643")
+			(uuid "ee24f729-1c73-4fa2-9e83-cf3f0c747622")
 		)
 		(pin "2"
-			(uuid "df0174c4-eb8b-4e9f-99eb-7cd8f65454bd")
+			(uuid "0732f190-cd0f-4597-9a55-562917e3bdd3")
 		)
 		(instances
-			(project "aisler-4-layer-hd-drc"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/a0f66aee-8073-4478-95c8-d776ff0efcc6"
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "R_BOOT_A3")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "R_BOOT_A2")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
 					(reference "R_BOOT_A1")
 					(unit 1)
 				)
@@ -3531,7 +3244,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3595a1cd-bf00-4447-93cc-c85f59e00199")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR049"
 			(at 95.25 120.65 0)
 			(effects
 				(font
@@ -3577,12 +3290,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "bee4e21b-a250-497a-848a-e81a2a0a5515")
+			(uuid "98e28166-d601-4a05-bf09-979179181ab6")
 		)
 		(instances
-			(project "aisler-4-layer-hd-drc"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/a0f66aee-8073-4478-95c8-d776ff0efcc6"
-					(reference "#PWR02")
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "#PWR068")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "#PWR049")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -3597,7 +3318,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4466c5db-19c1-40a4-b1e1-20b591ac9272")
-		(property "Reference" "R_DT1"
+		(property "Reference" "R_DT2"
 			(at 130.81 115.57 0)
 			(effects
 				(font
@@ -3641,140 +3362,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "29f5320d-8d82-429f-976e-a6903ad41773")
+			(uuid "f7995890-246c-4ca9-b89c-85e913c7f0ab")
 		)
 		(pin "2"
-			(uuid "6bf24581-3c79-454b-924e-a77408f56836")
+			(uuid "6d3d3fcd-9b6d-4411-9b3a-ea4422a21a9f")
 		)
 		(instances
-			(project "aisler-4-layer-hd-drc"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/a0f66aee-8073-4478-95c8-d776ff0efcc6"
-					(reference "R_DT1")
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "R_DT3")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MP-K78U15-500R3L:MP-K78U15-500R3L")
-		(at 129.54 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b7f659d-fbf6-40d5-9d82-b8c01bda8adc")
-		(property "Reference" "PS1"
-			(at 148.59 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "R_DT2")
+					(unit 1)
 				)
-				(justify left)
-			)
-		)
-		(property "Value" "MP-K78U15-500R3L"
-			(at 148.59 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MP-K78U15-500R3L:MPK78U15500R3L"
-			(at 148.59 154.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 254.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "MULTICOMP PRO MP-K78U15-500R3LDC/DC Converter, ITE & Industrial, 1 Output, 7.5 W, 15 V, 500 mA, MP-K78U-500R3"
-			(at 129.54 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "9.5"
-			(at 148.59 454.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Farnell Part Number" ""
-			(at 148.59 554.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Farnell Price/Stock" ""
-			(at 148.59 654.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Multicomp Pro"
-			(at 148.59 754.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MP-K78U15-500R3L"
-			(at 148.59 854.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0bbd8a81-a6e9-422d-9a53-19db0756731c")
-		)
-		(pin "3"
-			(uuid "7df5b321-9bf9-41a4-adca-413b8fd326cd")
-		)
-		(pin "2"
-			(uuid "8825a61d-8237-4d4c-96ad-537790276c70")
-		)
-		(instances
-			(project "aisler-4-layer-hd-drc"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/a0f66aee-8073-4478-95c8-d776ff0efcc6"
-					(reference "PS1")
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "R_DT1")
 					(unit 1)
 				)
 			)
@@ -3790,7 +3394,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5061191a-e5b3-4894-a26e-9c93ec24f456")
-		(property "Reference" "D3"
+		(property "Reference" "D6"
 			(at 199.39 105.41 0)
 			(effects
 				(font
@@ -3852,14 +3456,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "6009467a-d6fb-4088-997c-4215f8ec5330")
+			(uuid "4f610dd8-4fb7-481e-baae-f6581ce98566")
 		)
 		(pin "2"
-			(uuid "6eb5e81c-77ef-48fb-8040-d07d1aee9352")
+			(uuid "5a49c65e-23f5-48de-8ca8-cd0c4479d21a")
 		)
 		(instances
-			(project "aisler-4-layer-hd-drc"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/a0f66aee-8073-4478-95c8-d776ff0efcc6"
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "D9")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "D6")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
 					(reference "D3")
 					(unit 1)
 				)
@@ -3875,7 +3487,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "58234abb-af32-4b21-96a3-ceefc3ca901f")
-		(property "Reference" "R_OFF_A1"
+		(property "Reference" "R_OFF_A2"
 			(at 189.23 71.12 90)
 			(effects
 				(font
@@ -3919,14 +3531,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "13a21170-301c-44e3-a23f-2dee5a993bea")
+			(uuid "ee7c8552-1501-475f-a610-8bbf5dd4ccc2")
 		)
 		(pin "2"
-			(uuid "b5dd89ef-19b5-459c-8627-b055d82dda5f")
+			(uuid "c24c4ca0-016d-4182-97b4-b4aa3e76de6d")
 		)
 		(instances
-			(project "aisler-4-layer-hd-drc"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/a0f66aee-8073-4478-95c8-d776ff0efcc6"
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "R_OFF_A3")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "R_OFF_A2")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
 					(reference "R_OFF_A1")
 					(unit 1)
 				)
@@ -3943,7 +3563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c5a16a1-4b83-4614-9fc2-1ee66c4b5292")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR048"
 			(at 95.25 106.68 0)
 			(effects
 				(font
@@ -3989,78 +3609,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "2e7416cf-cc9f-42c1-b619-19a8e6dc65ae")
+			(uuid "f51d89cf-9371-466f-995f-c5ece83dc130")
 		)
 		(instances
-			(project "aisler-4-layer-hd-drc"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/a0f66aee-8073-4478-95c8-d776ff0efcc6"
-					(reference "#PWR01")
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "#PWR067")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 120.65 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d0fda58-45e0-4964-a3d0-9c4c0c849dcc")
-		(property "Reference" "#FLG01"
-			(at 120.65 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "#PWR048")
+					(unit 1)
 				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 120.65 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 120.65 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8052e1e6-e041-4c05-91dd-9f107850d3ba")
-		)
-		(instances
-			(project ""
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/a0f66aee-8073-4478-95c8-d776ff0efcc6"
-					(reference "#FLG01")
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -4075,7 +3637,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f834043-f9f6-432d-ab64-79cb09ae49ca")
-		(property "Reference" "C_VDD_B1"
+		(property "Reference" "C_VDD_B2"
 			(at 173.99 109.2199 0)
 			(effects
 				(font
@@ -4121,81 +3683,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "96cc51f6-0963-471b-9cbe-7a11ba0d03c3")
+			(uuid "d3363632-2954-4812-891b-ef9b4eff8ddf")
 		)
 		(pin "2"
-			(uuid "7fddc2f7-c771-469b-8c51-61bc108d35b5")
+			(uuid "9e68a5a8-6978-42e7-a848-d96decdca5b5")
 		)
 		(instances
-			(project "aisler-4-layer-hd-drc"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/a0f66aee-8073-4478-95c8-d776ff0efcc6"
-					(reference "C_VDD_B1")
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "C_VDD_B3")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 125.73 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "716d0619-b891-4baa-bfb5-ff05255bc9ad")
-		(property "Reference" "#PWR06"
-			(at 125.73 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "C_VDD_B2")
+					(unit 1)
 				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 125.73 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7175ffbe-0745-4f45-b8b5-972a2237967b")
-		)
-		(instances
-			(project "aisler-4-layer-hd-drc"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/a0f66aee-8073-4478-95c8-d776ff0efcc6"
-					(reference "#PWR06")
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "C_VDD_B1")
 					(unit 1)
 				)
 			)
@@ -4210,7 +3714,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "858d0e29-7cbe-4b94-8d58-917af483f5b4")
-		(property "Reference" "RR_ON_B1"
+		(property "Reference" "RR_ON_B2"
 			(at 189.23 120.904 90)
 			(effects
 				(font
@@ -4254,14 +3758,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "f610cadc-8d84-4f6f-872a-d27d270b7cea")
+			(uuid "c3774817-8aa4-408e-beec-b123ba776ae1")
 		)
 		(pin "2"
-			(uuid "35b37682-227b-41b1-b49e-add5e64d18f3")
+			(uuid "b44b1fc9-7669-47bd-abbf-f6cb46c6413d")
 		)
 		(instances
-			(project "aisler-4-layer-hd-drc"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/a0f66aee-8073-4478-95c8-d776ff0efcc6"
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "RR_ON_B3")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "RR_ON_B2")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
 					(reference "RR_ON_B1")
 					(unit 1)
 				)
@@ -4277,7 +3789,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "86163da5-d93f-4874-b2cb-314ce75c3959")
-		(property "Reference" "R_GS_B1"
+		(property "Reference" "R_GS_B2"
 			(at 200.66 121.9199 0)
 			(effects
 				(font
@@ -4323,14 +3835,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "de605257-b33c-406c-9dff-62d8eeb19098")
+			(uuid "c0eea4ad-5dac-4c06-a341-17cd4c9faa78")
 		)
 		(pin "2"
-			(uuid "19137727-935a-4773-b1e1-cae3785159c2")
+			(uuid "ffe79e77-e600-4d5c-b9b2-eb6068b0e65e")
 		)
 		(instances
-			(project "aisler-4-layer-hd-drc"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/a0f66aee-8073-4478-95c8-d776ff0efcc6"
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "R_GS_B3")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "R_GS_B2")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
 					(reference "R_GS_B1")
 					(unit 1)
 				)
@@ -4347,7 +3867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "941a1eef-b55f-4cf3-9984-b76d2248315a")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR052"
 			(at 125.73 124.46 0)
 			(effects
 				(font
@@ -4393,12 +3913,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "ddb957e5-0615-4d66-ad0b-23d64d2ad71b")
+			(uuid "45475db7-b56d-4d22-bebc-142fd4e62211")
 		)
 		(instances
-			(project "aisler-4-layer-hd-drc"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/a0f66aee-8073-4478-95c8-d776ff0efcc6"
-					(reference "#PWR07")
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "#PWR071")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "#PWR052")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -4414,7 +3942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a04a9b0f-ce66-4eaf-b270-fb2d7f3266ed")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR057"
 			(at 232.41 93.98 0)
 			(effects
 				(font
@@ -4459,12 +3987,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "a67f67bc-ee0f-4723-815b-6c7a123e82b0")
+			(uuid "82fc70b6-8ae4-4a4c-b58f-2feed01aac20")
 		)
 		(instances
-			(project "aisler-4-layer-hd-drc"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/a0f66aee-8073-4478-95c8-d776ff0efcc6"
-					(reference "#PWR013")
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "#PWR076")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "#PWR057")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -4480,7 +4016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a17724be-e579-40c2-9bef-8ccb0b1be4f0")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR050"
 			(at 100.33 80.01 0)
 			(effects
 				(font
@@ -4525,12 +4061,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "3369feac-2d20-452c-b54a-d89fea4da09d")
+			(uuid "58c69f54-7790-40bf-8137-ef27936f05a4")
 		)
 		(instances
-			(project "aisler-4-layer-hd-drc"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/a0f66aee-8073-4478-95c8-d776ff0efcc6"
-					(reference "#PWR03")
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "#PWR069")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "#PWR050")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -4546,7 +4090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab9409ac-e635-4da3-9fd5-0fddf8f6cbfc")
-		(property "Reference" "R_OFF_B1"
+		(property "Reference" "R_OFF_B2"
 			(at 189.23 105.41 90)
 			(effects
 				(font
@@ -4590,14 +4134,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "fa25c095-1da7-40c3-9c07-2bdf211680e7")
+			(uuid "70437d92-1935-40e7-a7e0-dede7837046f")
 		)
 		(pin "2"
-			(uuid "7eb97489-eb9d-4cd2-afc5-4487e8829600")
+			(uuid "a3295fb6-86d6-4ca7-bb92-c8b51992ff32")
 		)
 		(instances
-			(project "aisler-4-layer-hd-drc"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/a0f66aee-8073-4478-95c8-d776ff0efcc6"
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "R_OFF_B3")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "R_OFF_B2")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
 					(reference "R_OFF_B1")
 					(unit 1)
 				)
@@ -4614,7 +4166,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2501350-e8d5-4c0f-a199-8ce24cec35a3")
-		(property "Reference" "D2"
+		(property "Reference" "D5"
 			(at 199.39 71.12 0)
 			(effects
 				(font
@@ -4676,14 +4228,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "a8f555f7-cdea-4116-8a8c-922ddd4f406e")
+			(uuid "2002a42e-5215-47c8-901e-3e5579cf91be")
 		)
 		(pin "2"
-			(uuid "00c6ea8f-234a-4fa1-a428-1f2b9b7474c3")
+			(uuid "2042ae65-7e5f-409f-86c1-8afff75f0817")
 		)
 		(instances
-			(project "aisler-4-layer-hd-drc"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/a0f66aee-8073-4478-95c8-d776ff0efcc6"
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "D8")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "D5")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
 					(reference "D2")
 					(unit 1)
 				)
@@ -4700,7 +4260,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8f45889-3e7e-4f44-a957-79985a6c74a4")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR056"
 			(at 212.09 76.2 0)
 			(effects
 				(font
@@ -4745,12 +4305,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "ae5dbb61-467b-4f12-8325-d7f3f317741a")
+			(uuid "70448705-fd71-4454-b0f3-38279a120a65")
 		)
 		(instances
-			(project "aisler-4-layer-hd-drc"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/a0f66aee-8073-4478-95c8-d776ff0efcc6"
-					(reference "#PWR012")
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "#PWR075")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "#PWR056")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -4767,7 +4335,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "beb212d5-9a72-4e06-b23e-18f175b36325")
-		(property "Reference" "Q2"
+		(property "Reference" "Q4"
 			(at 214.63 116.8399 0)
 			(effects
 				(font
@@ -4816,17 +4384,25 @@
 			)
 		)
 		(pin "1"
-			(uuid "5ea57ef5-c7bc-49b0-8cb7-d4c60fd2a873")
+			(uuid "4e854b8c-4fdc-4931-825d-707d6f62bd58")
 		)
 		(pin "2"
-			(uuid "5fa1a0ad-f926-475d-9cbb-cec561f04503")
+			(uuid "c6406aa9-b187-493a-9af6-205cbd35fbcd")
 		)
 		(pin "3"
-			(uuid "e9454159-4704-40e5-8830-45a5c9260ee1")
+			(uuid "d3c5904a-06d9-4c5f-b86d-9c344804d22c")
 		)
 		(instances
-			(project "aisler-4-layer-hd-drc"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/a0f66aee-8073-4478-95c8-d776ff0efcc6"
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "Q6")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "Q4")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
 					(reference "Q2")
 					(unit 1)
 				)
@@ -4842,7 +4418,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c3a0b61b-1278-46c0-9a5f-22e56f3d157f")
-		(property "Reference" "C_VCC1"
+		(property "Reference" "C_VCC2"
 			(at 103.124 93.98 0)
 			(effects
 				(font
@@ -4888,14 +4464,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "4b3fc5d0-fc32-45ec-a9bf-3bb89b9101ff")
+			(uuid "7ea21fcf-372e-45bd-82be-572f6287485b")
 		)
 		(pin "2"
-			(uuid "9aa57c5b-c57a-4b55-b60c-71af32528679")
+			(uuid "7a9e0450-46ce-4a18-80da-996d4115ba39")
 		)
 		(instances
-			(project "aisler-4-layer-hd-drc"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/a0f66aee-8073-4478-95c8-d776ff0efcc6"
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "C_VCC3")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "C_VCC2")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
 					(reference "C_VCC1")
 					(unit 1)
 				)
@@ -4911,7 +4495,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c73e33ec-9a65-4ff0-95ca-d25c72d933ed")
-		(property "Reference" "C_1IN1"
+		(property "Reference" "C_1IN2"
 			(at 80.518 92.71 0)
 			(effects
 				(font
@@ -4957,14 +4541,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "6fb1d35b-180a-40f6-a9e1-3afcf0bd8ecd")
+			(uuid "c2f25dc1-e541-4108-959a-5a705859ff6c")
 		)
 		(pin "2"
-			(uuid "c175c13b-81b3-4987-9dc6-0c9738bfafaa")
+			(uuid "f7b70a02-88cc-4693-8420-26024599a553")
 		)
 		(instances
-			(project "aisler-4-layer-hd-drc"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/a0f66aee-8073-4478-95c8-d776ff0efcc6"
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "C_1IN3")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "C_1IN2")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
 					(reference "C_1IN1")
 					(unit 1)
 				)
@@ -4981,7 +4573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8a36488-23d2-48a5-964a-66ef76986bb4")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR051"
 			(at 118.11 124.46 0)
 			(effects
 				(font
@@ -5027,12 +4619,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "644bc71d-6ba0-485c-8bfd-2844954aff2f")
+			(uuid "fa1cfb2f-800a-4206-92f4-03bec1a3e105")
 		)
 		(instances
-			(project "aisler-4-layer-hd-drc"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/a0f66aee-8073-4478-95c8-d776ff0efcc6"
-					(reference "#PWR04")
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "#PWR070")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "#PWR051")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -5048,7 +4648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c97f1358-15d9-4479-b497-19e1d22e1c58")
-		(property "Reference" "R_GS_A1"
+		(property "Reference" "R_GS_A2"
 			(at 200.66 92.7099 0)
 			(effects
 				(font
@@ -5094,14 +4694,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "622b5ba5-564f-4e68-9c17-4fd59c2ae437")
+			(uuid "919e1ab6-cda0-4118-8e88-f061c18f4fb7")
 		)
 		(pin "2"
-			(uuid "803430c7-3e43-4cb2-baba-ef6d17422cb4")
+			(uuid "70d1dfb0-ba37-4ca6-b233-c0b7493efcca")
 		)
 		(instances
-			(project "aisler-4-layer-hd-drc"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/a0f66aee-8073-4478-95c8-d776ff0efcc6"
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "R_GS_A3")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "R_GS_A2")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
 					(reference "R_GS_A1")
 					(unit 1)
 				)
@@ -5117,7 +4725,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca958e21-a183-437b-ae38-94647545520f")
-		(property "Reference" "R_INA1"
+		(property "Reference" "R_INA2"
 			(at 58.42 73.406 90)
 			(effects
 				(font
@@ -5161,14 +4769,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "902f66b8-e3e0-496a-ba03-2ae27c1a15c1")
+			(uuid "fb52d7c0-6d1b-4b54-b904-049b32bc826e")
 		)
 		(pin "2"
-			(uuid "a2a101ab-88df-4a52-8c8a-0a7bd7e21411")
+			(uuid "c2ee0b0b-3e72-47b9-8aa9-c46afa1de317")
 		)
 		(instances
-			(project "aisler-4-layer-hd-drc"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/a0f66aee-8073-4478-95c8-d776ff0efcc6"
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "R_INA3")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "R_INA2")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
 					(reference "R_INA1")
 					(unit 1)
 				)
@@ -5184,7 +4800,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ccd24bbe-f865-4793-a768-9f285bdcad0b")
-		(property "Reference" "C_EN1"
+		(property "Reference" "C_EN2"
 			(at 98.044 109.22 0)
 			(effects
 				(font
@@ -5230,14 +4846,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "ddcebc79-70ba-4ccd-b9b2-50647b2f88d9")
+			(uuid "5b7b99dc-ae68-41dc-b572-aca6d73ad914")
 		)
 		(pin "2"
-			(uuid "00f77549-2dec-42d9-86e1-13bf23ca4407")
+			(uuid "bdd353a9-7ab5-4366-bb77-9c4bf8a7fcef")
 		)
 		(instances
-			(project "aisler-4-layer-hd-drc"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/a0f66aee-8073-4478-95c8-d776ff0efcc6"
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "C_EN3")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "C_EN2")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
 					(reference "C_EN1")
 					(unit 1)
 				)
@@ -5254,7 +4878,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfb695f6-f1a1-4b34-bcf9-c9b9a80392dd")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR055"
 			(at 170.18 104.14 0)
 			(effects
 				(font
@@ -5299,12 +4923,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "c285b48e-c56c-4c3d-b727-65acd6db089b")
+			(uuid "9c76a1a8-b54c-459e-a56a-c59433bc455c")
 		)
 		(instances
-			(project "aisler-4-layer-hd-drc"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/a0f66aee-8073-4478-95c8-d776ff0efcc6"
-					(reference "#PWR011")
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "#PWR074")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "#PWR055")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -5319,7 +4951,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d25da8e1-46fc-4a32-af6b-a612e0db87ba")
-		(property "Reference" "R_INB1"
+		(property "Reference" "R_INB2"
 			(at 58.42 81.788 90)
 			(effects
 				(font
@@ -5363,14 +4995,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "c5c3a397-aea9-42cf-b5db-8645872d90b0")
+			(uuid "e0c4c7a5-d72b-4184-995c-40eb80302155")
 		)
 		(pin "2"
-			(uuid "805f13bd-1e44-40c7-b432-19b170f8ccd4")
+			(uuid "a077366d-76fb-4f25-b3cf-7910efcd9179")
 		)
 		(instances
-			(project "aisler-4-layer-hd-drc"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/a0f66aee-8073-4478-95c8-d776ff0efcc6"
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "R_INB3")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "R_INB2")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
 					(reference "R_INB1")
 					(unit 1)
 				)
@@ -5387,7 +5027,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d54877e8-7a6b-45c7-bece-b348f70cabcf")
-		(property "Reference" "D1"
+		(property "Reference" "D4"
 			(at 166.37 72.39 0)
 			(effects
 				(font
@@ -5450,14 +5090,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "8c1cd859-f84d-478e-b68d-ec3d8f341f58")
+			(uuid "63a9086d-e73e-4aaa-ac89-372f9976b49e")
 		)
 		(pin "2"
-			(uuid "7b218917-06e2-4e69-a5d7-8a83f4cbf498")
+			(uuid "6ad007c4-ff06-44ac-9c44-1dc1bd703d9d")
 		)
 		(instances
-			(project "aisler-4-layer-hd-drc"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/a0f66aee-8073-4478-95c8-d776ff0efcc6"
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "D7")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "D4")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
 					(reference "D1")
 					(unit 1)
 				)
@@ -5473,7 +5121,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dab09105-90f0-487e-bea5-e696e104b1c0")
-		(property "Reference" "IC1"
+		(property "Reference" "IC7"
 			(at 143.002 111.76 0)
 			(effects
 				(font
@@ -5569,57 +5217,65 @@
 			)
 		)
 		(pin "13"
-			(uuid "6ae84fff-5d22-4947-b180-b8ee5fbb3e99")
+			(uuid "86c11697-825c-4a4f-a7f5-1d0dfbd62bd1")
 		)
 		(pin "12"
-			(uuid "24b23d4a-d3da-41db-a1e5-e114bbc8d1bb")
+			(uuid "b79a0597-7f62-4fa6-b732-b204ffa28e25")
 		)
 		(pin "4"
-			(uuid "f17874c4-31df-4dd9-9939-add3b046196d")
+			(uuid "33d9768c-6880-4631-a259-5b469492e066")
 		)
 		(pin "8"
-			(uuid "9197b838-7dc6-456f-95bd-84f159b3534f")
+			(uuid "d3e77765-0a0a-426f-a4e2-6c9165208732")
 		)
 		(pin "5"
-			(uuid "ccb76e92-ffdd-4cbb-9c03-ce93b9449b82")
+			(uuid "a417aa61-577c-4ad7-bf56-84e1981c6dc9")
 		)
 		(pin "15"
-			(uuid "a88bc3f5-3cd8-4ee6-a706-d21d41bf985d")
+			(uuid "2c1c2778-5963-477f-9045-fc61a8018597")
 		)
 		(pin "2"
-			(uuid "48965a0c-102c-4531-90b7-bfdbd64037c8")
+			(uuid "b03ba36b-05cd-4c67-af5d-8868e2c1b816")
 		)
 		(pin "7"
-			(uuid "4a2d6297-1b94-4c2e-b9b5-e8dafd90c696")
+			(uuid "1935a2e4-6385-47e1-a586-b935fe7ddf45")
 		)
 		(pin "1"
-			(uuid "2726e8e3-070f-4cd5-be4b-a1c104a3aeae")
+			(uuid "983916e5-2046-4525-9ec6-5ab99cd77010")
 		)
 		(pin "10"
-			(uuid "93c69a46-67de-4c58-b363-59483b398fba")
+			(uuid "f169b669-c262-4568-a1d7-29b5a31fa7f2")
 		)
 		(pin "6"
-			(uuid "e68b9999-0e0a-4a6f-b353-063fd0777c9a")
+			(uuid "b6f505e6-e245-4930-b6f3-4a0093291646")
 		)
 		(pin "9"
-			(uuid "7273cd68-63e5-4ff8-ba74-cdcc64d285fc")
+			(uuid "6eec6a02-b93c-4573-bc9a-ce189b7409e4")
 		)
 		(pin "16"
-			(uuid "0a96539b-37c9-4beb-b8c2-c805da46213e")
+			(uuid "321973ba-b719-48f6-ae1c-e442ec54509e")
 		)
 		(pin "3"
-			(uuid "0b9ddde5-798c-4cb3-a2f5-4e6f99067c5b")
+			(uuid "bf3f962e-90d2-402d-bc53-e613df4b3273")
 		)
 		(pin "14"
-			(uuid "20baa0f3-a25f-463e-bff5-20614b26877d")
+			(uuid "1d90a9d2-de6c-4e88-a7b1-c655b5900c56")
 		)
 		(pin "11"
-			(uuid "6088afd2-f86f-45ff-b3a2-80f814588029")
+			(uuid "26fc03a3-f0c8-442c-8894-6fbb770f31c1")
 		)
 		(instances
-			(project "aisler-4-layer-hd-drc"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/a0f66aee-8073-4478-95c8-d776ff0efcc6"
-					(reference "IC1")
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "IC10")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "IC7")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "IC2")
 					(unit 1)
 				)
 			)
@@ -5634,7 +5290,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd6a4ece-583b-4628-a982-8d545210a772")
-		(property "Reference" "R_ON_A1"
+		(property "Reference" "R_ON_A2"
 			(at 190.5 84.328 90)
 			(effects
 				(font
@@ -5678,14 +5334,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "00c910f7-6710-49e9-961e-8ef93cf6fd14")
+			(uuid "3877aa7f-5c5a-4f0f-9e5e-c23f01f10d5e")
 		)
 		(pin "2"
-			(uuid "a76370c5-c72c-4aab-9b36-6808437be86a")
+			(uuid "244ec89f-6167-4100-ad32-c3770359b53b")
 		)
 		(instances
-			(project "aisler-4-layer-hd-drc"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/a0f66aee-8073-4478-95c8-d776ff0efcc6"
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "R_ON_A3")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "R_ON_A2")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
 					(reference "R_ON_A1")
 					(unit 1)
 				)
@@ -5702,7 +5366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df0cf1d0-5726-40a1-8c85-cdb5d7c81f99")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR054"
 			(at 163.83 134.62 0)
 			(effects
 				(font
@@ -5747,12 +5411,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "42712992-7077-4bf8-bdf1-bad38c393c93")
+			(uuid "11e6fce1-e622-4616-af1b-76481b804cf6")
 		)
 		(instances
-			(project "aisler-4-layer-hd-drc"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/a0f66aee-8073-4478-95c8-d776ff0efcc6"
-					(reference "#PWR010")
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "#PWR073")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "#PWR054")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -5767,7 +5439,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e5229a2f-8207-4981-b955-2611a033f6c1")
-		(property "Reference" "C_2IN1"
+		(property "Reference" "C_2IN2"
 			(at 91.694 89.916 0)
 			(effects
 				(font
@@ -5813,14 +5485,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "3b17c065-2b12-4dc2-bdb7-4bbd86449ac7")
+			(uuid "62fe5d9a-5df5-476d-8af4-b1ac7e3841ad")
 		)
 		(pin "2"
-			(uuid "b6c2d16a-a7ef-4f4f-9a69-26808c714caa")
+			(uuid "c27da569-0c44-460b-8f98-d71681befd7b")
 		)
 		(instances
-			(project "aisler-4-layer-hd-drc"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/a0f66aee-8073-4478-95c8-d776ff0efcc6"
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "C_2IN3")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "C_2IN2")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
 					(reference "C_2IN1")
 					(unit 1)
 				)
@@ -5836,7 +5516,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6479640-b900-49a0-98ff-7ff3ebec3fc4")
-		(property "Reference" "C_BOOT_A1"
+		(property "Reference" "C_BOOT_A2"
 			(at 184.15 93.9799 0)
 			(effects
 				(font
@@ -5883,14 +5563,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "997efa6a-ae9c-42bb-b612-6c11d067babb")
+			(uuid "22143b93-886e-4d3c-8484-642d856790c2")
 		)
 		(pin "2"
-			(uuid "07a94807-dead-4103-a473-1185316166fe")
+			(uuid "73448844-3430-43e5-9cfd-c69cffbcbb6d")
 		)
 		(instances
-			(project "aisler-4-layer-hd-drc"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/a0f66aee-8073-4478-95c8-d776ff0efcc6"
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "C_BOOT_A3")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "C_BOOT_A2")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
 					(reference "C_BOOT_A1")
 					(unit 1)
 				)
@@ -5907,7 +5595,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb9bac3f-7e4d-42c0-9aa0-be5ddc983327")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR053"
 			(at 152.4 80.01 0)
 			(effects
 				(font
@@ -5952,78 +5640,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "3bd1297d-e4e7-4e70-82a2-b4dffc868d18")
+			(uuid "269c35de-1439-4101-b541-dae4395f3dc4")
 		)
 		(instances
-			(project "aisler-4-layer-hd-drc"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/a0f66aee-8073-4478-95c8-d776ff0efcc6"
-					(reference "#PWR09")
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "#PWR072")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+36V")
-		(at 129.54 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1101e77-03ff-4741-a3bc-24ce6686c1d0")
-		(property "Reference" "#PWR08"
-			(at 129.54 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "#PWR053")
+					(unit 1)
 				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+36V"
-			(at 129.54 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+36V\""
-			(at 129.54 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "812038cb-886e-4502-8985-fa15dc85c150")
-		)
-		(instances
-			(project "aisler-4-layer-hd-drc"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/a0f66aee-8073-4478-95c8-d776ff0efcc6"
-					(reference "#PWR08")
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -6040,7 +5670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4068b11-3470-4506-bf17-52ee03516e83")
-		(property "Reference" "Q1"
+		(property "Reference" "Q3"
 			(at 214.63 87.6299 0)
 			(effects
 				(font
@@ -6089,84 +5719,26 @@
 			)
 		)
 		(pin "1"
-			(uuid "56ccbad1-fe03-4f55-9874-3b3debb2175e")
+			(uuid "e9d8cf01-32f4-44f8-a6f9-99e83d17bb8c")
 		)
 		(pin "2"
-			(uuid "10d240e5-7dbc-4163-999c-5e9845d19fa7")
+			(uuid "919c0226-f406-4d62-a365-d79b92ad7c72")
 		)
 		(pin "3"
-			(uuid "9c0ae849-faa6-439c-bfdd-510aff91debc")
+			(uuid "fa0ace86-fefd-4e32-8b71-01c48c427d47")
 		)
 		(instances
-			(project "aisler-4-layer-hd-drc"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/a0f66aee-8073-4478-95c8-d776ff0efcc6"
-					(reference "Q1")
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "Q5")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+15V")
-		(at 111.76 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fddceb6b-a313-45ed-b7e6-762154e511a0")
-		(property "Reference" "#PWR05"
-			(at 111.76 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "Q3")
+					(unit 1)
 				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+15V"
-			(at 111.76 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 111.76 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f651fce5-02dc-4b14-8eb2-e262db780576")
-		)
-		(instances
-			(project "aisler-4-layer-hd-drc"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/a0f66aee-8073-4478-95c8-d776ff0efcc6"
-					(reference "#PWR05")
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
