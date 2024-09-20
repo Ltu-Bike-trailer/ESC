@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD8411AWBRZ
+D -2 V to 70 V Wide Input Voltage Range, 2.7 MHz High Bandwidth, Current-Sense Amplifier with PWM Rejection and Gain 50 V/V
+K
+F https://www.analog.com/AD8411A/datasheet
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model MC78L05ACHT1G
+#/645132/1491302/2.50/4/4/Integrated Circuit
+DEF MC78L05ACHT1G IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "MC78L05ACHT1G" 1050 500 50 H V L CNN
+F2 "MC78L05ACHX_1" 1050 400 50 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/MC78L00A-D.PDF" 1050 300 50 H I L CNN
+F4 "Linear Voltage Regulators ANA 100MA 5V VREG" 1050 200 50 H I L CNN "Description"
+F5 "" 1050 100 50 H I L CNN "Height"
+F6 "" 1050 0 50 H I L CNN "Farnell Part Number"
+F7 "" 1050 -100 50 H I L CNN "Farnell Price/Stock"
+F8 "onsemi" 1050 -200 50 H I L CNN "Manufacturer_Name"
+F9 "MC78L05ACHT1G" 1050 -300 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X VOUT 1 0 0 200 R 50 50 0 0 P
+X GND 2 600 -600 200 U 50 50 0 0 P
+X VIN 3 1200 0 200 L 50 50 0 0 P
+X TAB 4 600 600 200 D 50 50 0 0 P
+P 5 0 1 6 200 400 1000 400 1000 -400 200 -400 200 400 N
+ENDDRAW
+ENDDEF
+#
+#End Library

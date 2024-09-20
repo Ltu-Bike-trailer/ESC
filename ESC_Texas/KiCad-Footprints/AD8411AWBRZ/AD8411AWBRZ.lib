@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model AD8411AWBRZ
+#/18431355/1491302/2.50/8/2/Integrated Circuit
+DEF AD8411AWBRZ IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "AD8411AWBRZ" 1050 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 100 50 H I L CNN
+F3 "https://www.analog.com/AD8411A/datasheet" 1050 0 50 H I L CNN
+F4 "-2 V to 70 V Wide Input Voltage Range, 2.7 MHz High Bandwidth, Current-Sense Amplifier with PWM Rejection and Gain 50 V/V" 1050 -100 50 H I L CNN "Description"
+F5 "1.75" 1050 -200 50 H I L CNN "Height"
+F6 "584-AD8411AWBRZ" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/AD8411AWBRZ?qs=Imq1NPwxi74eLUvkKTngDw%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Analog Devices" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "AD8411AWBRZ" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X -IN 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X VREF2 3 0 -200 200 R 50 50 0 0 P
+X NC 4 0 -300 200 R 50 50 0 0 N
+X +IN 8 1200 0 200 L 50 50 0 0 P
+X VREF1 7 1200 -100 200 L 50 50 0 0 P
+X VS 6 1200 -200 200 L 50 50 0 0 P
+X OUT 5 1200 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
