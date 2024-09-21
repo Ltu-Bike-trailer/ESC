@@ -12,4 +12,5 @@
   (lib (name "nRF52840-QFAA-F-R7")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/nRF52840-QFAA-F-R7")(options "")(descr ""))
   (lib (name "R_m")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/R_m.pretty")(options "")(descr ""))
   (lib (name "XRCGB32M000F2P29R0")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/XRCGB32M000F2P29R0")(options "")(descr ""))
+  (lib (name "LIB_2350514-3")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/LIB_2350514-3")(options "")(descr ""))
 )

@@ -9,4 +9,5 @@
   (lib (name "MC78L05ACHT1G")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/MC78L05ACHT1G/MC78L05ACHT1G.kicad_sym")(options "")(descr ""))
   (lib (name "AD8411AWBRZ")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/AD8411AWBRZ/AD8411AWBRZ.kicad_sym")(options "")(descr ""))
   (lib (name "CM7V-T1A-32.768KHZ-12.5PF-20PP")(type "Legacy")(uri "${KIPRJMOD}/KiCad-Footprints/CM7V-T1A-32.768KHZ-12.5PF-20PPM-TA-QC/CM7V-T1A-32.768KHZ-12.5PF-20PP.lib")(options "")(descr ""))
+  (lib (name "2350514-3")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/LIB_2350514-3/2350514-3.kicad_sym")(options "")(descr ""))
 )
