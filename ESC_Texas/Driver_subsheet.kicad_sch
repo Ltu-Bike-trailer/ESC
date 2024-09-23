@@ -5,13 +5,13 @@
 	(uuid "8f5cce42-d95e-4002-94bb-4a6637552d3f")
 	(paper "A4")
 	(lib_symbols
-		(symbol "BSP129_2"
+		(symbol "BSP129_1"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q1"
-				(at 6.35 1.2701 0)
+				(at 5.08 1.2701 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -19,8 +19,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BSP129"
-				(at 6.35 -1.2699 0)
+			(property "Value" "IPD100N06S4"
+				(at 5.08 -1.2699 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -76,7 +76,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BSP129_2_0_1"
+			(symbol "BSP129_1_0_1"
 				(polyline
 					(pts
 						(xy 0.254 0) (xy -2.54 0)
@@ -220,7 +220,7 @@
 					)
 				)
 			)
-			(symbol "BSP129_2_1_1"
+			(symbol "BSP129_1_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 5.08)
@@ -240,9 +240,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "S"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -258,9 +258,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 5.08 270)
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "D"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3385,6 +3385,91 @@
 		)
 	)
 	(symbol
+		(lib_name "BSP129_1")
+		(lib_id "Transistor_FET:BSP129")
+		(at 209.55 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4770d5af-198b-4fa7-8fab-13cc9fff6b37")
+		(property "Reference" "Q2"
+			(at 214.63 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IPD100N06S4"
+			(at 214.63 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "IPD100N06S4-03:TRANS_BTS3060TFATMA1"
+			(at 214.122 133.223 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP129-DS-v01_42-en.pdf?fileId=db3a30433c1a8752013c1fc296d2395f"
+			(at 214.122 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.35A Id, 240V Vds, N-Channel MOSFET, SOT-223"
+			(at 209.042 131.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aaf27f2f-8a41-4602-ac3d-bdaa504373b0")
+		)
+		(pin "2"
+			(uuid "e0afea71-a10e-4484-bdbd-20881a9f044f")
+		)
+		(pin "3"
+			(uuid "2e3a956f-13a9-42c2-adb2-3be0551d207b")
+		)
+		(instances
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "Q6")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "Q4")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:BAS316")
 		(at 199.39 111.76 0)
 		(unit 1)
@@ -4319,91 +4404,6 @@
 				)
 				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "BSP129_2")
-		(lib_id "Transistor_FET:BSP129")
-		(at 209.55 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "beb212d5-9a72-4e06-b23e-18f175b36325")
-		(property "Reference" "Q6"
-			(at 214.63 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IPD100N06S4"
-			(at 214.63 119.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "IPD100N06S4-03:TRANS_BTS3060TFATMA1"
-			(at 214.122 133.223 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP129-DS-v01_42-en.pdf?fileId=db3a30433c1a8752013c1fc296d2395f"
-			(at 214.122 135.128 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.35A Id, 240V Vds, N-Channel MOSFET, SOT-223"
-			(at 209.042 131.318 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4e854b8c-4fdc-4931-825d-707d6f62bd58")
-		)
-		(pin "2"
-			(uuid "c6406aa9-b187-493a-9af6-205cbd35fbcd")
-		)
-		(pin "3"
-			(uuid "d3c5904a-06d9-4c5f-b86d-9c344804d22c")
-		)
-		(instances
-			(project "ESC_Texas"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
-					(reference "Q6")
-					(unit 1)
-				)
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
-					(reference "Q4")
-					(unit 1)
-				)
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -5660,7 +5660,7 @@
 		)
 	)
 	(symbol
-		(lib_name "BSP129_2")
+		(lib_name "BSP129_1")
 		(lib_id "Transistor_FET:BSP129")
 		(at 209.55 88.9 0)
 		(unit 1)
