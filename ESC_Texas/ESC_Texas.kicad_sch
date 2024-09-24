@@ -174,6 +174,423 @@
 				)
 			)
 		)
+		(symbol "691322310005:691322310005"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "691322310005"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SHDRRA5W80P0X381_1X5_2024X920X720P"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/691322310005.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "WR-TBL Terminal block - serie 322"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "7.2"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "710-691322310005"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/691322310005?qs=E2PpAYvlWVsVV6z%2FErUYwA%3D%3D"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Wurth Elektronik"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "691322310005"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "691322310005_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "A750MV277M1HAAE018:A750MV277M1HAAE018"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "A750MV277M1HAAE018"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "CAPPRD500W65D1000H1600"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://content.kemet.com/datasheets/KEM_A4067_A750.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "A750, Aluminum, Polymer Aluminum, 270 uF, 20%, 50 VDC, -55/+105C, 105C, -55C, 105C, 2,000 Hrs, 12 % , 18 mOhms, 2,700 uA, 10mm, 14mm, Lead Spacing = 5mm, 19mm, 250"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "16"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "80-A750MV277M1HAAE18"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/A750MV277M1HAAE018?qs=vmHwEFxEFR9JrzAJ7UOZjw%3D%3D"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "KEMET"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "A750MV277M1HAAE018"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "A750MV277M1HAAE018_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 1.778) (xy 4.064 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 1.27) (xy 3.556 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54) (xy 6.858 -2.54) (xy 6.858 2.54) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 5.08 2.54)
+					(end 5.842 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "CM7V-T1A-32.768KHZ-12.5PF-20PP:CM7V-T1A-32.768KHZ-12.5PF-20PPM-TA-QC"
 			(pin_names
 				(offset 0.762)
@@ -3849,6 +4266,18 @@
 		)
 	)
 	(junction
+		(at 144.78 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06dabd37-6d57-475b-ac9b-41879dba7f8c")
+	)
+	(junction
+		(at 114.3 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a299b0b-245e-45de-8b46-d8c0948c8264")
+	)
+	(junction
 		(at 134.62 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3859,6 +4288,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "153827a6-1411-4434-a140-95a8b922ceda")
+	)
+	(junction
+		(at 144.78 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ac7aa65-a377-4cde-8f53-ab58ffcd1855")
 	)
 	(junction
 		(at 54.61 161.29)
@@ -3877,6 +4312,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c094ce2-d843-4ba9-ad7f-5a728d3ba3af")
+	)
+	(junction
+		(at 144.78 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fa1039f-be94-46fd-988c-a022eded9592")
+	)
+	(junction
+		(at 130.81 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39449b2c-2f58-41f6-8497-32d9b30eda1c")
 	)
 	(junction
 		(at 317.5 52.07)
@@ -3907,6 +4354,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "710a3f7b-2b7e-4357-b569-55ff45fea295")
+	)
+	(junction
+		(at 130.81 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fdcf070-67cd-4969-b848-f65bcd0cb517")
 	)
 	(junction
 		(at 321.31 60.96)
@@ -3955,6 +4408,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb7d4ce8-2b0d-402a-91df-f41cd0799d4b")
+	)
+	(junction
+		(at 100.33 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf80616f-053e-45bc-9fb8-2a5eefb626ae")
+	)
+	(junction
+		(at 100.33 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d172304e-af3e-40ca-968b-3f402d66f4f8")
+	)
+	(junction
+		(at 114.3 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4183c3c-dbb4-4c77-a853-e09c569dda4e")
 	)
 	(junction
 		(at 224.79 143.51)
@@ -4072,6 +4543,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 40.64) (xy 144.78 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ca9df88-f852-44e6-9e3a-e280f439747d")
+	)
+	(wire
+		(pts
 			(xy 312.42 52.07) (xy 317.5 52.07)
 		)
 		(stroke
@@ -4089,6 +4570,16 @@
 			(type default)
 		)
 		(uuid "123e7d47-bb6d-4584-80db-b9c4b1743a42")
+	)
+	(wire
+		(pts
+			(xy 144.78 29.21) (xy 144.78 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12a362d7-8a81-48ed-aece-e5cc874bcff4")
 	)
 	(wire
 		(pts
@@ -4119,6 +4610,16 @@
 			(type default)
 		)
 		(uuid "136b056c-4eb3-47fe-9dec-19b70faf4d42")
+	)
+	(wire
+		(pts
+			(xy 85.09 50.8) (xy 100.33 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1416ea42-feed-473b-9014-3f05d8b9a04f")
 	)
 	(wire
 		(pts
@@ -4242,6 +4743,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 50.8) (xy 114.3 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38d1d117-37cc-4cbf-a7aa-f6dab5f5bced")
+	)
+	(wire
+		(pts
 			(xy 83.82 177.8) (xy 83.82 181.61)
 		)
 		(stroke
@@ -4292,6 +4803,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 50.8) (xy 144.78 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "467f099a-c62f-4188-90eb-406445208cb7")
+	)
+	(wire
+		(pts
 			(xy 116.84 127) (xy 116.84 104.14)
 		)
 		(stroke
@@ -4309,6 +4830,16 @@
 			(type default)
 		)
 		(uuid "492a1e77-59db-40a4-84e6-38edb5926955")
+	)
+	(wire
+		(pts
+			(xy 114.3 50.8) (xy 100.33 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c37ec52-9302-4d05-a443-ebc57c114aa3")
 	)
 	(wire
 		(pts
@@ -4382,6 +4913,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 38.1) (xy 144.78 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54444cdf-d643-47f1-928a-9b66e0a74d94")
+	)
+	(wire
+		(pts
 			(xy 83.82 181.61) (xy 99.06 181.61)
 		)
 		(stroke
@@ -4449,6 +4990,16 @@
 			(type default)
 		)
 		(uuid "621f2063-d04a-41e0-a002-9230b2a865df")
+	)
+	(wire
+		(pts
+			(xy 114.3 38.1) (xy 100.33 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6473b4b5-8566-4e21-b396-baff2d3ace75")
 	)
 	(wire
 		(pts
@@ -4742,6 +5293,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 38.1) (xy 130.81 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4df2bc9-7073-4dc8-82fd-d8bedd3ff6c1")
+	)
+	(wire
+		(pts
 			(xy 134.62 104.14) (xy 144.78 104.14)
 		)
 		(stroke
@@ -4772,6 +5333,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 45.72) (xy 144.78 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acecc7ac-8cbb-4869-8c52-0f43f4242ae9")
+	)
+	(wire
+		(pts
 			(xy 54.61 142.24) (xy 82.55 142.24)
 		)
 		(stroke
@@ -4779,6 +5350,16 @@
 			(type default)
 		)
 		(uuid "b103f3ad-ecf7-4226-be8e-b9d55912bbfe")
+	)
+	(wire
+		(pts
+			(xy 100.33 38.1) (xy 85.09 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b483a557-79bc-46ce-b85a-3d2ccf59c395")
 	)
 	(wire
 		(pts
@@ -4862,6 +5443,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 50.8) (xy 130.81 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be880ec5-f6fd-44da-ad23-ac932877d1c7")
+	)
+	(wire
+		(pts
 			(xy 113.03 223.52) (xy 119.38 223.52)
 		)
 		(stroke
@@ -4879,6 +5470,16 @@
 			(type default)
 		)
 		(uuid "c2ebc4af-5a8d-4253-83a4-e38ac51c9dfb")
+	)
+	(wire
+		(pts
+			(xy 144.78 50.8) (xy 144.78 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c424415b-ab91-440b-8206-4bd347f8c854")
 	)
 	(wire
 		(pts
@@ -5072,6 +5673,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 38.1) (xy 144.78 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebf3edf4-b92b-4ee9-b784-4ca86f2a398b")
+	)
+	(wire
+		(pts
 			(xy 114.3 104.14) (xy 114.3 106.68)
 		)
 		(stroke
@@ -5145,6 +5756,18 @@
 		(uuid 692af953-fb34-4971-baff-66c8e333f809)
 	)
 	(rectangle
+		(start 69.85 17.78)
+		(end 168.91 68.58)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8f086878-ca9e-45a8-b9f4-aa14a06d3203)
+	)
+	(rectangle
 		(start 24.13 87.63)
 		(end 237.49 265.43)
 		(stroke
@@ -5188,12 +5811,22 @@
 		)
 		(uuid "51d2acc8-2678-41ca-b58d-b4f7425dcd00")
 	)
-	(text "nRF52840 Circuit"
+	(text "Battery input\n"
 		(exclude_from_sim no)
-		(at 94.488 79.502 0)
+		(at 50.038 25.908 0)
 		(effects
 			(font
-				(size 10 10)
+				(size 3 3)
+			)
+		)
+		(uuid "52a65d73-fd0a-4924-8ed5-0ee8329fa182")
+	)
+	(text "nRF52840 Circuit"
+		(exclude_from_sim no)
+		(at 64.516 83.566 0)
+		(effects
+			(font
+				(size 5 5)
 			)
 		)
 		(uuid "b225f0f3-b133-4871-bd40-0fdecf6ee546")
@@ -6773,6 +7406,128 @@
 		)
 	)
 	(symbol
+		(lib_id "A750MV277M1HAAE018:A750MV277M1HAAE018")
+		(at 85.09 38.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c32aa84-3fe9-4432-b05a-86a983c24b65")
+		(property "Reference" "C32"
+			(at 88.9 43.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "270uF"
+			(at 88.9 45.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CAPPRD500W65D1000H1600"
+			(at -11.1 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_A4067_A750.pdf"
+			(at -111.1 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "A750, Aluminum, Polymer Aluminum, 270 uF, 20%, 50 VDC, -55/+105C, 105C, -55C, 105C, 2,000 Hrs, 12 % , 18 mOhms, 2,700 uA, 10mm, 14mm, Lead Spacing = 5mm, 19mm, 250"
+			(at 85.09 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "16"
+			(at -311.1 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-A750MV277M1HAAE18"
+			(at -411.1 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/A750MV277M1HAAE018?qs=vmHwEFxEFR9JrzAJ7UOZjw%3D%3D"
+			(at -511.1 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at -611.1 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A750MV277M1HAAE018"
+			(at -711.1 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ece4d92-3321-4fb5-af7d-065d3ce07dba")
+		)
+		(pin "2"
+			(uuid "17f1e971-c01a-41bc-9a6d-4d8ac0abafa3")
+		)
+		(instances
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 193.04 193.04 0)
 		(unit 1)
@@ -6973,6 +7728,128 @@
 			(project "ESC_Texas"
 				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "A750MV277M1HAAE018:A750MV277M1HAAE018")
+		(at 114.3 38.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19f20c99-55cf-4232-832c-cce5b404bc13")
+		(property "Reference" "C36"
+			(at 118.11 43.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "270uF"
+			(at 118.11 45.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CAPPRD500W65D1000H1600"
+			(at 18.11 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_A4067_A750.pdf"
+			(at -81.89 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "A750, Aluminum, Polymer Aluminum, 270 uF, 20%, 50 VDC, -55/+105C, 105C, -55C, 105C, 2,000 Hrs, 12 % , 18 mOhms, 2,700 uA, 10mm, 14mm, Lead Spacing = 5mm, 19mm, 250"
+			(at 114.3 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "16"
+			(at -281.89 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-A750MV277M1HAAE18"
+			(at -381.89 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/A750MV277M1HAAE018?qs=vmHwEFxEFR9JrzAJ7UOZjw%3D%3D"
+			(at -481.89 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at -581.89 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A750MV277M1HAAE018"
+			(at -681.89 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "495b30e1-2ddc-4b6a-9036-40bf8bcf5e4b")
+		)
+		(pin "2"
+			(uuid "3dab1852-d2b7-4203-91e5-cc81bd6963c7")
+		)
+		(instances
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -8369,6 +9246,128 @@
 		)
 	)
 	(symbol
+		(lib_id "A750MV277M1HAAE018:A750MV277M1HAAE018")
+		(at 130.81 38.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "681643ef-02e4-49ff-aa02-d021e1843668")
+		(property "Reference" "C37"
+			(at 134.62 43.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "270uF"
+			(at 134.62 45.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CAPPRD500W65D1000H1600"
+			(at 34.62 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_A4067_A750.pdf"
+			(at -65.38 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "A750, Aluminum, Polymer Aluminum, 270 uF, 20%, 50 VDC, -55/+105C, 105C, -55C, 105C, 2,000 Hrs, 12 % , 18 mOhms, 2,700 uA, 10mm, 14mm, Lead Spacing = 5mm, 19mm, 250"
+			(at 130.81 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "16"
+			(at -265.38 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-A750MV277M1HAAE18"
+			(at -365.38 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/A750MV277M1HAAE018?qs=vmHwEFxEFR9JrzAJ7UOZjw%3D%3D"
+			(at -465.38 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at -565.38 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A750MV277M1HAAE018"
+			(at -665.38 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e8f0e2d-6088-4f40-93d2-b15173b97a6c")
+		)
+		(pin "2"
+			(uuid "b62ab40f-29ad-499d-8978-216ea2309d13")
+		)
+		(instances
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 53.34 106.68 0)
 		(unit 1)
@@ -9391,6 +10390,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 130.81 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ade9540d-141b-4c4d-a4e3-031a9a0f048a")
+		(property "Reference" "#PWR087"
+			(at 130.81 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.858 60.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e475e048-b3fa-4f62-9ea3-e6af6d6bdcb3")
+		)
+		(instances
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 123.19 107.95 0)
 		(unit 1)
@@ -10003,6 +11067,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+36V")
+		(at 144.78 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7e023c0-c1e4-4651-b38d-2e6ffcaa9243")
+		(property "Reference" "#PWR091"
+			(at 144.78 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+36V"
+			(at 144.78 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+36V\""
+			(at 144.78 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a417c068-ea84-4322-867b-334cd86aa4b0")
+		)
+		(instances
+			(project ""
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
+					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 240.03 59.69 0)
 		(unit 1)
@@ -10129,6 +11259,128 @@
 			(project "aisler-4-layer-hd-drc"
 				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "A750MV277M1HAAE018:A750MV277M1HAAE018")
+		(at 100.33 38.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfde0fba-da52-4684-a25d-7505431fa869")
+		(property "Reference" "C35"
+			(at 104.14 43.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "270uF"
+			(at 104.14 45.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CAPPRD500W65D1000H1600"
+			(at 4.14 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_A4067_A750.pdf"
+			(at -95.86 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "A750, Aluminum, Polymer Aluminum, 270 uF, 20%, 50 VDC, -55/+105C, 105C, -55C, 105C, 2,000 Hrs, 12 % , 18 mOhms, 2,700 uA, 10mm, 14mm, Lead Spacing = 5mm, 19mm, 250"
+			(at 100.33 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "16"
+			(at -295.86 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-A750MV277M1HAAE18"
+			(at -395.86 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/A750MV277M1HAAE018?qs=vmHwEFxEFR9JrzAJ7UOZjw%3D%3D"
+			(at -495.86 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at -595.86 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A750MV277M1HAAE018"
+			(at -695.86 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f651c8ee-1407-411c-8585-7ca0d76f6f3a")
+		)
+		(pin "2"
+			(uuid "b065d28e-e6bf-4996-b32c-9ff9c21b3d85")
+		)
+		(instances
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -11127,6 +12379,137 @@
 			(project "aisler-4-layer-hd-drc"
 				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "691322310005:691322310005")
+		(at 144.78 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd83a17b-c441-40a5-a031-8b7303f4c9b4")
+		(property "Reference" "J1"
+			(at 161.29 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery"
+			(at 161.29 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SHDRRA5W80P0X381_1X5_2024X920X720P"
+			(at 161.29 133.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/691322310005.pdf"
+			(at 161.29 233.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "WR-TBL Terminal block - serie 322"
+			(at 144.78 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "7.2"
+			(at 161.29 433.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-691322310005"
+			(at 161.29 533.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/691322310005?qs=E2PpAYvlWVsVV6z%2FErUYwA%3D%3D"
+			(at 161.29 633.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 161.29 733.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "691322310005"
+			(at 161.29 833.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6555c419-343d-437e-982c-1551258c0952")
+		)
+		(pin "2"
+			(uuid "6cbfb6b3-985a-4b13-9bbf-52a3c8ef624f")
+		)
+		(pin "3"
+			(uuid "6395ddf0-1f1e-468b-8b8d-d0742b17f6df")
+		)
+		(pin "1"
+			(uuid "60fe43e1-77bd-4611-b07a-a503e9234165")
+		)
+		(pin "5"
+			(uuid "719954df-080f-4ec3-a13d-6a5a0f396684")
+		)
+		(instances
+			(project ""
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
+					(reference "J1")
 					(unit 1)
 				)
 			)

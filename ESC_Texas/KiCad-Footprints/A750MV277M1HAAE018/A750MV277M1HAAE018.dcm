@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP A750MV277M1HAAE018
+D A750, Aluminum, Polymer Aluminum, 270 uF, 20%, 50 VDC, -55/+105C, 105C, -55C, 105C, 2,000 Hrs, 12 % , 18 mOhms, 2,700 uA, 10mm, 14mm, Lead Spacing = 5mm, 19mm, 250
+K
+F https://content.kemet.com/datasheets/KEM_A4067_A750.pdf
+$ENDCMP
+#
+#End Doc Library

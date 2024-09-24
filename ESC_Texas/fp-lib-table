@@ -14,4 +14,6 @@
   (lib (name "XRCGB32M000F2P29R0")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/XRCGB32M000F2P29R0")(options "")(descr ""))
   (lib (name "LIB_2350514-3")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/LIB_2350514-3")(options "")(descr ""))
   (lib (name "LM3480IM3-3.3_NOPB")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/LM3480IM3-3.3_NOPB")(options "")(descr ""))
+  (lib (name "A750MV277M1HAAE018")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/A750MV277M1HAAE018")(options "")(descr ""))
+  (lib (name "691322310005")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/691322310005")(options "")(descr ""))
 )
