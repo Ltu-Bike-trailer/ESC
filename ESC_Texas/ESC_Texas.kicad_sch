@@ -174,211 +174,6 @@
 				)
 			)
 		)
-		(symbol "691322310005:691322310005"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 16.51 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "691322310005"
-				(at 16.51 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SHDRRA5W80P0X381_1X5_2024X920X720P"
-				(at 16.51 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/691322310005.pdf"
-				(at 16.51 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "WR-TBL Terminal block - serie 322"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "7.2"
-				(at 16.51 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "710-691322310005"
-				(at 16.51 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/691322310005?qs=E2PpAYvlWVsVV6z%2FErUYwA%3D%3D"
-				(at 16.51 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Wurth Elektronik"
-				(at 16.51 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "691322310005"
-				(at 16.51 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "691322310005_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 15.24 -12.7)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 0)
-					(length 5.08)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "A750MV277M1HAAE018:A750MV277M1HAAE018"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -2934,6 +2729,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "XRCGB32M000F2P29R0:XRCGB32M000F2P29R0"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4672,12 +4549,6 @@
 		)
 	)
 	(junction
-		(at 144.78 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "06dabd37-6d57-475b-ac9b-41879dba7f8c")
-	)
-	(junction
 		(at 81.28 236.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4702,12 +4573,6 @@
 		(uuid "153827a6-1411-4434-a140-95a8b922ceda")
 	)
 	(junction
-		(at 144.78 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1ac7aa65-a377-4cde-8f53-ab58ffcd1855")
-	)
-	(junction
 		(at 81.28 243.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4730,12 +4595,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c094ce2-d843-4ba9-ad7f-5a728d3ba3af")
-	)
-	(junction
-		(at 144.78 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2fa1039f-be94-46fd-988c-a022eded9592")
 	)
 	(junction
 		(at 130.81 50.8)
@@ -4792,6 +4651,12 @@
 		(uuid "710a3f7b-2b7e-4357-b569-55ff45fea295")
 	)
 	(junction
+		(at 137.16 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "729d055d-4fc2-43ff-8b43-8102faa7084f")
+	)
+	(junction
 		(at 130.81 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4820,6 +4685,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a42a7572-008d-4b4e-bccd-111341f49ea3")
+	)
+	(junction
+		(at 147.32 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8946e5b-6bbe-4a49-b71a-8085d01222e0")
+	)
+	(junction
+		(at 137.16 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aca2c9b9-4873-4998-910b-01ec036aabef")
+	)
+	(junction
+		(at 147.32 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afff20c6-dd6b-4210-9201-38bd241b5502")
 	)
 	(junction
 		(at 83.82 181.61)
@@ -4882,6 +4765,18 @@
 		(uuid "d7cb1595-5746-4a70-b373-62c376405ba4")
 	)
 	(junction
+		(at 147.32 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df134f48-90d0-4a42-85da-2f81a7301c32")
+	)
+	(junction
+		(at 147.32 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1b6761e-39be-4f2c-aea9-5e27e434236c")
+	)
+	(junction
 		(at 34.29 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4928,6 +4823,16 @@
 			(type default)
 		)
 		(uuid "0144ad01-8a0e-4e48-b4a1-06a5da682239")
+	)
+	(wire
+		(pts
+			(xy 137.16 50.8) (xy 147.32 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "017daa37-6315-48bc-a271-68e55087f871")
 	)
 	(wire
 		(pts
@@ -5001,16 +4906,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 40.64) (xy 144.78 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ca9df88-f852-44e6-9e3a-e280f439747d")
-	)
-	(wire
-		(pts
 			(xy 312.42 52.07) (xy 317.5 52.07)
 		)
 		(stroke
@@ -5031,7 +4926,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 29.21) (xy 144.78 38.1)
+			(xy 137.16 29.21) (xy 137.16 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5088,6 +4983,16 @@
 			(type default)
 		)
 		(uuid "16b35313-9f32-481b-a6ff-496c302afd1d")
+	)
+	(wire
+		(pts
+			(xy 137.16 50.8) (xy 130.81 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "189ca512-d75c-45ea-a237-409bdf1693ef")
 	)
 	(wire
 		(pts
@@ -5178,6 +5083,16 @@
 			(type default)
 		)
 		(uuid "2d2034ff-ca75-4c40-b902-8644259898c7")
+	)
+	(wire
+		(pts
+			(xy 147.32 50.8) (xy 147.32 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "323f8884-f745-455f-8f7c-fec23ae1211b")
 	)
 	(wire
 		(pts
@@ -5291,6 +5206,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 38.1) (xy 147.32 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4018e195-d55b-4892-9172-e5443772e127")
+	)
+	(wire
+		(pts
 			(xy 82.55 142.24) (xy 82.55 152.4)
 		)
 		(stroke
@@ -5308,16 +5233,6 @@
 			(type default)
 		)
 		(uuid "41f91fbd-7f87-4bd1-b1db-5495b05c8456")
-	)
-	(wire
-		(pts
-			(xy 130.81 50.8) (xy 144.78 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "467f099a-c62f-4188-90eb-406445208cb7")
 	)
 	(wire
 		(pts
@@ -5421,7 +5336,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 38.1) (xy 144.78 38.1)
+			(xy 130.81 38.1) (xy 137.16 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5548,6 +5463,16 @@
 			(type default)
 		)
 		(uuid "6a127a62-5d1a-4056-a956-0c212f740e89")
+	)
+	(wire
+		(pts
+			(xy 147.32 35.56) (xy 147.32 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d032a7b-4a24-4172-8967-b0823f7ad794")
 	)
 	(wire
 		(pts
@@ -5861,16 +5786,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 45.72) (xy 144.78 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acecc7ac-8cbb-4869-8c52-0f43f4242ae9")
-	)
-	(wire
-		(pts
 			(xy 54.61 142.24) (xy 82.55 142.24)
 		)
 		(stroke
@@ -5971,7 +5886,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 50.8) (xy 130.81 57.15)
+			(xy 137.16 50.8) (xy 137.16 57.15)
 		)
 		(stroke
 			(width 0)
@@ -6001,13 +5916,13 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 50.8) (xy 144.78 48.26)
+			(xy 147.32 53.34) (xy 147.32 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c424415b-ab91-440b-8206-4bd347f8c854")
+		(uuid "c4a64643-402d-44fb-a3b5-c47d230747ba")
 	)
 	(wire
 		(pts
@@ -6201,16 +6116,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 38.1) (xy 144.78 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebf3edf4-b92b-4ee9-b784-4ca86f2a398b")
-	)
-	(wire
-		(pts
 			(xy 114.3 104.14) (xy 114.3 106.68)
 		)
 		(stroke
@@ -6259,6 +6164,16 @@
 		)
 		(uuid "fb4b2b9b-c82e-40a1-88c9-96f6712faae7")
 	)
+	(wire
+		(pts
+			(xy 147.32 33.02) (xy 147.32 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbd6bbdd-b07e-4db5-86a2-8d0e93065273")
+	)
 	(rectangle
 		(start 186.69 29.21)
 		(end 255.27 77.47)
@@ -6284,8 +6199,8 @@
 		(uuid 692af953-fb34-4971-baff-66c8e333f809)
 	)
 	(rectangle
-		(start 69.85 17.78)
-		(end 168.91 68.58)
+		(start 73.66 17.78)
+		(end 176.53 68.58)
 		(stroke
 			(width 0)
 			(type dash)
@@ -7934,6 +7849,134 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 273.05 270.51 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07148d80-bb21-4b3a-a296-e163b81f31f1")
+		(property "Reference" "H4"
+			(at 275.59 269.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 275.59 271.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 273.05 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 273.05 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 252.73 271.78 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "096b0cd3-3810-4e1d-9eea-c04b0f5eede0")
+		(property "Reference" "H3"
+			(at 255.27 270.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 255.27 273.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 252.73 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 252.73 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "A750MV277M1HAAE018:A750MV277M1HAAE018")
 		(at 85.09 38.1 270)
 		(unit 1)
@@ -9237,6 +9280,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 252.73 261.62 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46467806-1907-4be1-98e1-6fd5f7d59e5f")
+		(property "Reference" "H1"
+			(at 255.27 260.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 255.27 262.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 252.73 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 252.73 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CM7V-T1A-32.768KHZ-12.5PF-20PP:CM7V-T1A-32.768KHZ-12.5PF-20PPM-TA-QC")
 		(at 54.61 157.48 90)
 		(unit 1)
@@ -10030,6 +10137,131 @@
 			(project "ESC_Texas"
 				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
 					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2350514-3:2350514-3")
+		(at 147.32 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d81ec31-7e5a-4ecc-8158-b9d696447951")
+		(property "Reference" "J4"
+			(at 163.83 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery+"
+			(at 163.83 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LIB_2350514-3:SHDRRA3W90P0X350_1X3_1110X920X691P"
+			(at 163.83 127.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=3-1773982-8&DocType=Data%20Sheet&DocLang=English&PartCntxt=2350514-3&DocFormat=pdf"
+			(at 163.83 227.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Body Features: Primary Product Color Green | Product Orientation Right Angle | Configuration Features: Stacking Configuration Side Stackable | Number of Rows 1 | Number of Positions 3 | Contact Features: Contact Mating Area Plating Material Tin | Contact Current Rating (Max) 10 AMP | Contact Base Material Brass | Electrical Characteristics: Operating Voltage 300 VAC | Housing Features: Housing Material PA 66 | Centerline (Pitch) .137 INCH | Centerline (Pitch) 3.5 MM | Mechanical Attachment: Connector Mounti"
+			(at 147.32 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "6.91"
+			(at 163.83 427.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Farnell Part Number" ""
+			(at 163.83 527.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Farnell Price/Stock" ""
+			(at 163.83 627.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity"
+			(at 163.83 727.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2350514-3"
+			(at 163.83 827.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "428757d8-6887-4707-908a-78e5c8cf8caf")
+		)
+		(pin "2"
+			(uuid "53c87582-3800-4e50-83d9-8bef276c8845")
+		)
+		(pin "1"
+			(uuid "4986da2a-1541-4d25-b318-562c425a2675")
+		)
+		(instances
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -11070,8 +11302,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 273.05 261.62 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9398845-fa61-4ef5-aefd-de08edf5811e")
+		(property "Reference" "H2"
+			(at 275.59 260.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 275.59 262.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 273.05 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 273.05 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 130.81 57.15 0)
+		(at 137.16 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11079,7 +11375,7 @@
 		(dnp no)
 		(uuid "ade9540d-141b-4c4d-a4e3-031a9a0f048a")
 		(property "Reference" "#PWR087"
-			(at 130.81 63.5 0)
+			(at 137.16 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11088,7 +11384,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.858 60.198 0)
+			(at 140.208 60.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11096,7 +11392,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 57.15 0)
+			(at 137.16 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11105,7 +11401,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 57.15 0)
+			(at 137.16 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11114,7 +11410,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 57.15 0)
+			(at 137.16 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11532,6 +11828,131 @@
 		)
 	)
 	(symbol
+		(lib_id "2350514-3:2350514-3")
+		(at 147.32 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c01a3300-28f4-43cc-9ece-c774d7dd4a1c")
+		(property "Reference" "J1"
+			(at 163.83 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery-"
+			(at 163.83 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LIB_2350514-3:SHDRRA3W90P0X350_1X3_1110X920X691P"
+			(at 163.83 145.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=3-1773982-8&DocType=Data%20Sheet&DocLang=English&PartCntxt=2350514-3&DocFormat=pdf"
+			(at 163.83 245.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Body Features: Primary Product Color Green | Product Orientation Right Angle | Configuration Features: Stacking Configuration Side Stackable | Number of Rows 1 | Number of Positions 3 | Contact Features: Contact Mating Area Plating Material Tin | Contact Current Rating (Max) 10 AMP | Contact Base Material Brass | Electrical Characteristics: Operating Voltage 300 VAC | Housing Features: Housing Material PA 66 | Centerline (Pitch) .137 INCH | Centerline (Pitch) 3.5 MM | Mechanical Attachment: Connector Mounti"
+			(at 147.32 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "6.91"
+			(at 163.83 445.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Farnell Part Number" ""
+			(at 163.83 545.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Farnell Price/Stock" ""
+			(at 163.83 645.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity"
+			(at 163.83 745.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2350514-3"
+			(at 163.83 845.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "964e02c2-5496-4b6e-9e78-9c10d9faff31")
+		)
+		(pin "2"
+			(uuid "a1cb8a34-1f09-4eba-b4e9-88038db5f81d")
+		)
+		(pin "1"
+			(uuid "4e987f17-256e-424b-a132-04d176a96825")
+		)
+		(instances
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x06_Pin")
 		(at 379.73 207.01 0)
 		(unit 1)
@@ -11748,7 +12169,7 @@
 	)
 	(symbol
 		(lib_id "power:+36V")
-		(at 144.78 29.21 0)
+		(at 137.16 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11757,7 +12178,7 @@
 		(fields_autoplaced yes)
 		(uuid "c7e023c0-c1e4-4651-b38d-2e6ffcaa9243")
 		(property "Reference" "#PWR091"
-			(at 144.78 33.02 0)
+			(at 137.16 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11766,7 +12187,7 @@
 			)
 		)
 		(property "Value" "+36V"
-			(at 144.78 24.13 0)
+			(at 137.16 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11774,7 +12195,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 29.21 0)
+			(at 137.16 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11783,7 +12204,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 29.21 0)
+			(at 137.16 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11792,7 +12213,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+36V\""
-			(at 144.78 29.21 0)
+			(at 137.16 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13059,137 +13480,6 @@
 			(project "aisler-4-layer-hd-drc"
 				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "691322310005:691322310005")
-		(at 144.78 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd83a17b-c441-40a5-a031-8b7303f4c9b4")
-		(property "Reference" "J1"
-			(at 161.29 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Battery"
-			(at 161.29 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "691322310005:SHDRRA5W80P0X381_1X5_2024X920X720P"
-			(at 161.29 133.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/691322310005.pdf"
-			(at 161.29 233.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "WR-TBL Terminal block - serie 322"
-			(at 144.78 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "7.2"
-			(at 161.29 433.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "710-691322310005"
-			(at 161.29 533.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/691322310005?qs=E2PpAYvlWVsVV6z%2FErUYwA%3D%3D"
-			(at 161.29 633.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 161.29 733.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "691322310005"
-			(at 161.29 833.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "6555c419-343d-437e-982c-1551258c0952")
-		)
-		(pin "2"
-			(uuid "6cbfb6b3-985a-4b13-9bbf-52a3c8ef624f")
-		)
-		(pin "3"
-			(uuid "6395ddf0-1f1e-468b-8b8d-d0742b17f6df")
-		)
-		(pin "1"
-			(uuid "60fe43e1-77bd-4611-b07a-a503e9234165")
-		)
-		(pin "5"
-			(uuid "719954df-080f-4ec3-a13d-6a5a0f396684")
-		)
-		(instances
-			(project ""
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
-					(reference "J1")
 					(unit 1)
 				)
 			)
