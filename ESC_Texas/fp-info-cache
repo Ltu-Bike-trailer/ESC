@@ -1,4 +1,4 @@
-23724723465243706
+23716087946711257
 691322310005
 SHDRRA5W80P0X381_1X5_2024X920X720P
 691322310005
@@ -64476,20 +64476,6 @@ Integrated Circuit
 0
 16
 16
-LM339PT
-SOP65P640X120-14N
-ST TSSOP14
-Integrated Circuit
-0
-14
-14
-LM555CMMX_NOPB
-SOP65P490X110-8N
-8-VSSOP
-Integrated Circuit
-0
-8
-8
 LM3480IM3-3.3_NOPB
 SOT95P237X112-3N
 DBZ (R-PDSO-G3)
@@ -88794,27 +88780,6 @@ rotary encoder illuminated switch vertical
 0
 9
 8
-SN74AUC2G08DCURG4
-SOP50P310X90-8N
-DCU (R-PDSO-G8)
-Integrated Circuit
-0
-8
-8
-SN74LVC2G32DCURG4
-SOP50P310X90-8N
-DCU (R-PDSO-G8)
-Integrated Circuit
-0
-8
-8
-SN74LVC14APWRG3
-SOP65P640X120-14N
-PW
-Integrated Circuit
-0
-14
-14
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
