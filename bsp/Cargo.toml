@@ -1,0 +1,7 @@
+[package]
+name = "bsp"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+nrf52840-hal = { git = "https://github.com/nrf-rs/nrf-hal/", features = ["rt"],default-features = false }
