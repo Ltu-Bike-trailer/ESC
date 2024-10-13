@@ -71,9 +71,12 @@ impl PinConfig<false, false, false, false> {
         let gpiote = nrf52840_hal::gpiote::Gpiote::new(gpiote);
         let conf = (ppi, gpiote);
         let (_ppi, gpiote) = conf
-            .enable_event_c0::<_, true, true>(&p1h)
-            .enable_event_c1::<_, true, true>(&p2h)
-            .enable_event_c2::<_, true, true>(&p3h);
+            .enable_event_c0::<_, true, false>(&p1h)
+            .enable_event_c1::<_, false, true>(&p1h)
+            .enable_event_c2::<_, true, false>(&p2h)
+            .enable_event_c3::<_, false, true>(&p2h)
+            .enable_event_c4::<_, true, false>(&p3h)
+            .enable_event_c5::<_, false, true>(&p3h);
 
         let p1 = PhasePins {
             high_side: p0
@@ -189,6 +192,42 @@ trait EnableEvent {
     ///
     /// If low to high is set this triggers on rising edge other wise it triggers on falling edge.
     fn enable_event_c4<
+        T: nrf52840_hal::gpiote::GpioteInputPin,
+        const LOW_TO_HIGH: bool,
+        const HIGH_TO_LOW: bool,
+    >(
+        self,
+        pin: &T,
+    ) -> Self;
+
+    /// Enables events on channel c5.
+    ///
+    /// If low to high is set this triggers on rising edge other wise it triggers on falling edge.
+    fn enable_event_c5<
+        T: nrf52840_hal::gpiote::GpioteInputPin,
+        const LOW_TO_HIGH: bool,
+        const HIGH_TO_LOW: bool,
+    >(
+        self,
+        pin: &T,
+    ) -> Self;
+
+    /// Enables events on channel c6.
+    ///
+    /// If low to high is set this triggers on rising edge other wise it triggers on falling edge.
+    fn enable_event_c6<
+        T: nrf52840_hal::gpiote::GpioteInputPin,
+        const LOW_TO_HIGH: bool,
+        const HIGH_TO_LOW: bool,
+    >(
+        self,
+        pin: &T,
+    ) -> Self;
+
+    /// Enables events on channel c7.
+    ///
+    /// If low to high is set this triggers on rising edge other wise it triggers on falling edge.
+    fn enable_event_c7<
         T: nrf52840_hal::gpiote::GpioteInputPin,
         const LOW_TO_HIGH: bool,
         const HIGH_TO_LOW: bool,
@@ -502,6 +541,126 @@ impl EnableEvent for (nrf52840_hal::ppi::Parts, nrf52840_hal::gpiote::Gpiote) {
 
         ppi.set_event_endpoint(self.1.channel4().event());
         ppi.set_task_endpoint(self.1.channel4().task_out());
+
+        ppi.enable();
+        self
+    }
+
+    fn enable_event_c5<
+        T: nrf52840_hal::gpiote::GpioteInputPin,
+        const LOW_TO_HIGH: bool,
+        const HIGH_TO_LOW: bool,
+    >(
+        mut self,
+        pin: &T,
+    ) -> Self {
+        if LOW_TO_HIGH && HIGH_TO_LOW {
+            self.1
+                .channel5()
+                .input_pin(pin)
+                .lo_to_hi()
+                .hi_to_lo()
+                .enable_interrupt();
+        } else if LOW_TO_HIGH {
+            self.1
+                .channel5()
+                .input_pin(pin)
+                .lo_to_hi()
+                .enable_interrupt();
+        } else {
+            self.1
+                .channel5()
+                .input_pin(pin)
+                .hi_to_lo()
+                .enable_interrupt();
+        }
+        self.1.port().input_pin(pin).high();
+        self.1.port().input_pin(pin).low();
+
+        let ppi = &mut self.0.ppi5;
+
+        ppi.set_event_endpoint(self.1.channel5().event());
+        ppi.set_task_endpoint(self.1.channel5().task_out());
+
+        ppi.enable();
+        self
+    }
+
+    fn enable_event_c6<
+        T: nrf52840_hal::gpiote::GpioteInputPin,
+        const LOW_TO_HIGH: bool,
+        const HIGH_TO_LOW: bool,
+    >(
+        mut self,
+        pin: &T,
+    ) -> Self {
+        if LOW_TO_HIGH && HIGH_TO_LOW {
+            self.1
+                .channel6()
+                .input_pin(pin)
+                .lo_to_hi()
+                .hi_to_lo()
+                .enable_interrupt();
+        } else if LOW_TO_HIGH {
+            self.1
+                .channel6()
+                .input_pin(pin)
+                .lo_to_hi()
+                .enable_interrupt();
+        } else {
+            self.1
+                .channel6()
+                .input_pin(pin)
+                .hi_to_lo()
+                .enable_interrupt();
+        }
+        self.1.port().input_pin(pin).high();
+        self.1.port().input_pin(pin).low();
+
+        let ppi = &mut self.0.ppi6;
+
+        ppi.set_event_endpoint(self.1.channel6().event());
+        ppi.set_task_endpoint(self.1.channel6().task_out());
+
+        ppi.enable();
+        self
+    }
+
+    fn enable_event_c7<
+        T: nrf52840_hal::gpiote::GpioteInputPin,
+        const LOW_TO_HIGH: bool,
+        const HIGH_TO_LOW: bool,
+    >(
+        mut self,
+        pin: &T,
+    ) -> Self {
+        if LOW_TO_HIGH && HIGH_TO_LOW {
+            self.1
+                .channel7()
+                .input_pin(pin)
+                .lo_to_hi()
+                .hi_to_lo()
+                .enable_interrupt();
+        } else if LOW_TO_HIGH {
+            self.1
+                .channel7()
+                .input_pin(pin)
+                .lo_to_hi()
+                .enable_interrupt();
+        } else {
+            self.1
+                .channel7()
+                .input_pin(pin)
+                .hi_to_lo()
+                .enable_interrupt();
+        }
+        self.1.port().input_pin(pin).high();
+        self.1.port().input_pin(pin).low();
+
+        let ppi = &mut self.0.ppi7;
+
+        ppi.set_event_endpoint(self.1.channel7().event());
+        ppi.set_task_endpoint(self.1.channel7().task_out());
 
         ppi.enable();
         self

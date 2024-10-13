@@ -5,12 +5,18 @@ use nrf52840_hal::gpiote::Gpiote;
 /// The events that can trigger gpiote events.
 #[derive(Clone)]
 pub enum GpioEvents {
-    /// The first phases hal effect sensor was triggered.
-    P1Hal,
-    /// The second phases hal effect sensor was triggered.
-    P2Hal,
-    /// The thrid phases hal effect sensor was triggered.
-    P3Hal,
+    /// The first phases hal effect sensor was triggered with rising edge.
+    P1HalRising,
+    /// The first phases hal effect sensor was triggered with falling edge.
+    P1HalFalling,
+    /// The second phases hal effect sensor was triggered with rising edge.
+    P2HalRising,
+    /// The second phases hal effect sensor was triggered with falling edge.
+    P2HalFalling,
+    /// The third phases hal effect sensor was triggered with rising edge.
+    P3HalRising,
+    /// The third phases hal effect sensor was triggered with falling edge.
+    P3HalFalling,
     /// The can module has something to say.
     CAN,
 }
@@ -66,7 +72,7 @@ impl<'a> Iterator for Iter<'a> {
                 if gpiote.channel0().is_event_triggered() {
                     // info!("Event 0 triggered");
                     gpiote.channel0().clear();
-                    Some(GpioEvents::P1Hal)
+                    Some(GpioEvents::P1HalRising)
                 } else {
                     self.next()
                 }
@@ -75,25 +81,43 @@ impl<'a> Iterator for Iter<'a> {
                 if gpiote.channel1().is_event_triggered() {
                     // info!("Event 0 triggered");
                     gpiote.channel1().clear();
-                    Some(GpioEvents::P2Hal)
+                    Some(GpioEvents::P1HalFalling)
                 } else {
                     self.next()
                 }
             }
             3 => {
-                if gpiote.channel3().is_event_triggered() {
+                if gpiote.channel2().is_event_triggered() {
                     // info!("Event 0 triggered");
-                    gpiote.channel3().clear();
-                    Some(GpioEvents::P3Hal)
+                    gpiote.channel2().clear();
+                    Some(GpioEvents::P2HalRising)
                 } else {
                     self.next()
                 }
             }
             4 => {
+                if gpiote.channel3().is_event_triggered() {
+                    // info!("Event 0 triggered");
+                    gpiote.channel3().clear();
+                    Some(GpioEvents::P2HalFalling)
+                } else {
+                    self.next()
+                }
+            }
+            5 => {
                 if gpiote.channel4().is_event_triggered() {
                     // info!("Event 0 triggered");
                     gpiote.channel4().clear();
-                    Some(GpioEvents::CAN)
+                    Some(GpioEvents::P3HalRising)
+                } else {
+                    self.next()
+                }
+            }
+            6 => {
+                if gpiote.channel5().is_event_triggered() {
+                    // info!("Event 0 triggered");
+                    gpiote.channel5().clear();
+                    Some(GpioEvents::P3HalFalling)
                 } else {
                     self.next()
                 }
