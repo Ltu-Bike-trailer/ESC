@@ -8,7 +8,9 @@ pub const R_PHASE_SENSE_TO_GROUND: f32 = 10_000.;
 pub const R_PHASE_SENSE_TO_VIN: f32 = 4_700.;
 
 /// The shunt resistor that the current sense measures voltage across.
-pub const R_SHUNT: f32 = 20.;
+///
+/// The Sense resistor is 10 mOhm on the esc.
+pub const R_SHUNT: f32 = 0.01;
 
 /// The gain that the sensor applies to the differential measurement.
 pub const SENSE_GAIN: f32 = 50.;

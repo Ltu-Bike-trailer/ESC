@@ -32,9 +32,9 @@ dependencies = [
 
 [[package]]
 name = "bytemuck"
-version = "1.18.0"
+version = "1.19.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "94bbb0ad554ad961ddc5da507a12a29b14e4ae5bda06b19f575a3e6079d2e2ae"
+checksum = "8334215b81e418a0a7bdb8ef0849474f40bb10c8b71f1c4ed315cff49f32494d"
 
 [[package]]
 name = "byteorder"
@@ -194,7 +194,7 @@ checksum = "8d5439c4ad607c3c23abf66de8c8bf57ba8adcd1f129e699851a6e43935d339d"
 [[package]]
 name = "nrf-hal-common"
 version = "0.18.0"
-source = "git+https://github.com/nrf-rs/nrf-hal/#63ca6b508ffee126d58f132888e2623ddc0ccdf0"
+source = "git+ssh://git@github.com/Ltu-Bike-trailer/nrf-hal.git#42b524b305990ae7d0b85882836d647054ba1dc8"
 dependencies = [
  "cast",
  "cfg-if",
@@ -226,7 +226,7 @@ dependencies = [
 [[package]]
 name = "nrf52840-hal"
 version = "0.18.0"
-source = "git+https://github.com/nrf-rs/nrf-hal/#63ca6b508ffee126d58f132888e2623ddc0ccdf0"
+source = "git+ssh://git@github.com/Ltu-Bike-trailer/nrf-hal.git#42b524b305990ae7d0b85882836d647054ba1dc8"
 dependencies = [
  "nrf-hal-common",
  "nrf52840-pac",
@@ -251,9 +251,9 @@ checksum = "cc9c68a3f6da06753e9335d63e27f6b9754dd1920d941135b7ea8224f141adb2"
 
 [[package]]
 name = "proc-macro2"
-version = "1.0.86"
+version = "1.0.87"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5e719e8df665df0d1c8fbfd238015744736151d4445ec0836b8e628aae103b77"
+checksum = "b3e4daa0dcf6feba26f985457cdf104d4b4256fc5a09547140f3631bb076b19a"
 dependencies = [
  "unicode-ident",
 ]

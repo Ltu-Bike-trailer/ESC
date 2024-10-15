@@ -4,4 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-nrf52840-hal = { git = "https://github.com/nrf-rs/nrf-hal/", features = ["rt"],default-features = false }
+nrf52840-hal = { git = "ssh://git@github.com/Ltu-Bike-trailer/nrf-hal.git", features = ["rt"],default-features = false }
+
+[net]
+git-fetch-with-cli = true

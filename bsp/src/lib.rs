@@ -340,11 +340,11 @@ impl<const P1: bool, const P2: bool, const P3: bool, const ADC: bool> PinConfig<
 
 impl CurrentManager {
     /// Returns the current measurements in phase order.
-    pub fn sample(&mut self) -> Result<[f32; 3], ()> {
+    pub async fn sample(&mut self) -> Result<[f32; 3], ()> {
         Ok([
-            f32::from(self.adc.read_channel(&mut self.p1cs)?) * raw_adc_to_current_factor(),
-            f32::from(self.adc.read_channel(&mut self.p2cs)?) * raw_adc_to_current_factor(),
-            f32::from(self.adc.read_channel(&mut self.p3cs)?) * raw_adc_to_current_factor(),
+            f32::from(self.adc.read_channel(&mut self.p1cs).await[0]) * raw_adc_to_current_factor(),
+            f32::from(self.adc.read_channel(&mut self.p2cs).await[0]) * raw_adc_to_current_factor(),
+            f32::from(self.adc.read_channel(&mut self.p3cs).await[0]) * raw_adc_to_current_factor(),
         ])
     }
 }
