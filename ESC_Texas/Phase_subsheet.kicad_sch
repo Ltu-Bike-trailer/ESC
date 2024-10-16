@@ -2119,6 +2119,28 @@
 		)
 		(uuid "fac05f50-11ae-43a1-8478-b96fb246a4ad")
 	)
+	(rectangle
+		(start 133.35 59.69)
+		(end 265.43 156.21)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c37ba71f-f2a3-4aeb-9a83-56a82c9ffac4)
+	)
+	(text "Phase current sensing"
+		(exclude_from_sim no)
+		(at 176.276 53.848 0)
+		(effects
+			(font
+				(size 4 4)
+			)
+		)
+		(uuid "70c7e9fb-41ac-461d-afee-23eb3766d095")
+	)
 	(hierarchical_label "PWM-B"
 		(shape input)
 		(at 60.96 74.93 180)
