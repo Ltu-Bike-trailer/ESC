@@ -2782,16 +2782,6 @@
 		)
 		(uuid "eb78c55b-65fe-46dc-9187-f5102e01d2c7")
 	)
-	(text "VDD för drivaren verkar ska vara mellan 13.5V och 25V medan \nbatteriet har 36V. Så vi behöver någonting där emellan. \nBuck converters som också kan ge ut mycket ström är inte \nså billiga vad vi sett hittills. Så frågan är väl hur mycket \nström som kommer behövas och lämpligaste metoden för att steppa \nner spänningen från batteriet. "
-		(exclude_from_sim no)
-		(at 86.106 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f2a99a8a-d323-4be2-9ec9-1990d1b5b82d")
-	)
 	(text "Red text on component name means high current path"
 		(exclude_from_sim no)
 		(at 207.264 136.652 0)
