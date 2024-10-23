@@ -5,303 +5,6 @@
 	(uuid "0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0")
 	(paper "A2")
 	(lib_symbols
-		(symbol "0475901001:0475901001"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "P"
-				(at 0 10.1625 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "0475901001"
-				(at 0 -12.7142 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "0475901001:MOLEX_0475901001"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "DigiKey_Part_Number" "WM14336TR-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/0475901001/Molex/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\nUSB - micro AB - Receptacle Connector 5 Position Surface Mount, Right Angle; Through Hole\n"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/0475901001/Molex/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MF" "Molex"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "0475901001"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Molex"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "0475901001_0_0"
-				(rectangle
-					(start 0 -7.62)
-					(end 10.16 7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy 2.54 5.08)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at -5.08 5.08 0)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 2.54 0)
-					(length 5.08)
-					(name "D-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 0 0)
-					(length 5.08)
-					(name "D+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 5.08)
-					(name "ID"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "2350514-3:2350514-3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1908,6 +1611,361 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:USB_B_Micro"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -5.08 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "USB_B_Micro"
+				(at -5.08 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "USB Micro Type B connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector USB micro"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "USB*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USB_B_Micro_0_1"
+				(rectangle
+					(start -5.08 -7.62)
+					(end 5.08 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -3.81 2.159)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -0.635 3.429)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.127 -7.62)
+					(end 0.127 -6.858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 2.159) (xy 0.635 2.159)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 2.159) (xy -2.54 2.159) (xy -1.27 3.429) (xy -0.635 3.429)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.159) (xy -1.905 2.159) (xy -1.27 0.889) (xy 0 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 2.794) (xy 0.635 1.524) (xy 1.905 2.159) (xy 0.635 2.794)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 5.588) (xy -1.778 5.588) (xy -2.032 4.826) (xy -4.064 4.826) (xy -4.318 5.588)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.699 5.842) (xy -4.699 5.588) (xy -4.445 4.826) (xy -4.445 4.572) (xy -1.651 4.572) (xy -1.651 4.826)
+						(xy -1.397 5.588) (xy -1.397 5.842) (xy -4.699 5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.254 1.27)
+					(end -0.508 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 5.08 -5.207)
+					(end 4.318 -4.953)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 -2.667)
+					(end 4.318 -2.413)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 -0.127)
+					(end 4.318 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 4.953)
+					(end 4.318 5.207)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USB_B_Micro_1_1"
+				(pin power_out line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "ID"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5898,6 +5956,12 @@
 		(uuid "81a80263-219c-4d86-89a8-c2610edd27fe")
 	)
 	(junction
+		(at 168.91 259.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86c7cd07-e754-4a72-bc6e-132bc89e5304")
+	)
+	(junction
 		(at 165.1 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7475,6 +7539,26 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 257.81) (xy 166.37 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a070f9cb-496f-41ce-bc7f-abdb4ac3f14d")
+	)
+	(wire
+		(pts
+			(xy 168.91 259.08) (xy 168.91 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0d2550e-6c10-4bbe-acee-dca5f91b66c2")
+	)
+	(wire
+		(pts
 			(xy 49.53 44.45) (xy 49.53 43.18)
 		)
 		(stroke
@@ -7535,6 +7619,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 260.35) (xy 168.91 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a967b985-64e1-4b2f-9a0b-02ee19a045a7")
+	)
+	(wire
+		(pts
 			(xy 134.62 118.11) (xy 144.78 118.11)
 		)
 		(stroke
@@ -7572,16 +7666,6 @@
 			(type default)
 		)
 		(uuid "acb40c18-0000-479c-835b-9b295691b9a2")
-	)
-	(wire
-		(pts
-			(xy 157.48 262.89) (xy 157.48 260.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aef53aa0-86b8-4fa2-aef1-3ec5f5826099")
 	)
 	(wire
 		(pts
@@ -7665,6 +7749,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 242.57) (xy 181.61 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b729df4c-0673-4041-be17-f2bd18810092")
+	)
+	(wire
+		(pts
 			(xy 139.7 138.43) (xy 139.7 140.97)
 		)
 		(stroke
@@ -7672,16 +7766,6 @@
 			(type default)
 		)
 		(uuid "b79474b4-9a3b-4b92-848a-1620f38a2a81")
-	)
-	(wire
-		(pts
-			(xy 157.48 260.35) (xy 160.02 260.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b886a03f-4163-4134-8cbb-810a368af14e")
 	)
 	(wire
 		(pts
@@ -7935,16 +8019,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 250.19) (xy 160.02 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2e47735-9421-43af-83e6-a7eb858659bc")
-	)
-	(wire
-		(pts
 			(xy 102.87 342.9) (xy 105.41 342.9)
 		)
 		(stroke
@@ -8085,13 +8159,13 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 246.38) (xy 157.48 250.19)
+			(xy 176.53 242.57) (xy 181.61 242.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ed9416be-7182-4c0f-832c-259bff723a4d")
+		(uuid "eb7f9e38-0adc-4eeb-9b4a-7f14c84b8cd3")
 	)
 	(wire
 		(pts
@@ -8172,6 +8246,16 @@
 			(type default)
 		)
 		(uuid "f9a2cd3f-2986-4210-a033-ea6b2002f586")
+	)
+	(wire
+		(pts
+			(xy 166.37 259.08) (xy 168.91 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9e50d34-ff2f-4a9e-92f2-74082735575c")
 	)
 	(wire
 		(pts
@@ -8287,6 +8371,16 @@
 		)
 		(uuid beb07f73-3214-4551-8f05-569f810b5637)
 	)
+	(text "CAN transceiver"
+		(exclude_from_sim no)
+		(at 171.45 340.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "003c93f6-b2aa-4a10-9a1c-39911a12ff1e")
+	)
 	(text "Input/Output to the motor"
 		(exclude_from_sim no)
 		(at 295.91 122.936 0)
@@ -8307,6 +8401,16 @@
 		)
 		(uuid "313f1a9f-0668-49aa-ada9-779758b70f23")
 	)
+	(text "CAN Controller with SPI Interface"
+		(exclude_from_sim no)
+		(at 119.888 309.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "32278766-2055-43c9-8dce-adeef345bdeb")
+	)
 	(text "General purpose I/O\n\nAnalog input\nStandard drive, low frequency I/O only"
 		(exclude_from_sim no)
 		(at 336.296 -28.194 0)
@@ -8316,6 +8420,16 @@
 			)
 		)
 		(uuid "3d5c0fa8-3ac0-42ee-87bc-20baa1c12684")
+	)
+	(text "SPI"
+		(exclude_from_sim no)
+		(at 93.472 319.786 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "51ba412f-c50b-4300-a7ac-c9a71367e242")
 	)
 	(text "3.3 V regulator \nnRF\n"
 		(exclude_from_sim no)
@@ -10693,71 +10807,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDD")
-		(at 157.48 246.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "183188dd-80f8-4162-84b4-741139f9ebbe")
-		(property "Reference" "#PWR0104"
-			(at 157.48 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 157.734 241.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 157.48 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7d335046-a947-4836-ba51-3ebc1f8aaf9c")
-		)
-		(instances
-			(project "ESC_Texas"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
-					(reference "#PWR0104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "A750MV277M1HAAE018:A750MV277M1HAAE018")
 		(at 54.61 52.07 270)
 		(unit 1)
@@ -11419,7 +11468,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120R"
+		(property "Value" "120"
 			(at 185.166 317.4746 90)
 			(effects
 				(font
@@ -12011,7 +12060,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fd2fca0-3385-4c4f-82e3-56b2be9735c6")
-		(property "Reference" "H4"
+		(property "Reference" "H3"
 			(at 246.38 270.5099 0)
 			(effects
 				(font
@@ -12062,7 +12111,7 @@
 		(instances
 			(project "ESC_Texas"
 				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
-					(reference "H4")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -12863,166 +12912,6 @@
 		)
 	)
 	(symbol
-		(lib_id "0475901001:0475901001")
-		(at 165.1 255.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "486d54f3-6d7d-4d32-8452-6a9bcac0d14c")
-		(property "Reference" "P1"
-			(at 176.53 253.9999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0475901001"
-			(at 176.53 256.5399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "0475901001:MOLEX_0475901001"
-			(at 165.1 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" "WM14336TR-ND"
-			(at 165.1 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/0475901001/Molex/view-part/?ref=snap"
-			(at 165.1 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\nUSB - micro AB - Receptacle Connector 5 Position Surface Mount, Right Angle; Through Hole\n"
-			(at 165.1 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 165.1 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/0475901001/Molex/view-part/?ref=eda"
-			(at 165.1 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Molex"
-			(at 165.1 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "0475901001"
-			(at 165.1 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Molex"
-			(at 165.1 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3705eec4-1f11-4d4e-9d4c-4d14ea74a41d")
-		)
-		(pin "5"
-			(uuid "3be25c29-525f-4efa-a5f9-13754a7f38b8")
-		)
-		(pin "3"
-			(uuid "2a378847-4135-4e26-832b-701245ea7f7b")
-		)
-		(pin "4"
-			(uuid "fed0e5fa-1e54-4807-a925-355d22f62886")
-		)
-		(pin "2"
-			(uuid "7ce7e2d0-2cd4-4022-b184-66a687c3500a")
-		)
-		(instances
-			(project ""
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
-					(reference "P1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 217.17 157.48 270)
 		(unit 1)
@@ -13766,7 +13655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62a87f76-fe24-441c-91b3-8608ca9e9bfb")
-		(property "Reference" "H1"
+		(property "Reference" "H2"
 			(at 280.67 257.8099 0)
 			(effects
 				(font
@@ -13817,7 +13706,7 @@
 		(instances
 			(project "ESC_Texas"
 				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
-					(reference "H1")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -13833,7 +13722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64f4afea-de99-484c-8f62-a4f9e667ddc8")
-		(property "Reference" "H3"
+		(property "Reference" "H1"
 			(at 246.38 257.8099 0)
 			(effects
 				(font
@@ -13884,7 +13773,7 @@
 		(instances
 			(project ""
 				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
-					(reference "H3")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -14272,72 +14161,6 @@
 			(project "ESC_Texas"
 				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
 					(reference "#PWR092")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 157.48 262.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7320940d-1969-465f-baa3-53f426bd85cb")
-		(property "Reference" "#PWR0103"
-			(at 157.48 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 157.48 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c0121cd-5849-46cc-a0c1-4142acf011a1")
-		)
-		(instances
-			(project "ESC_Texas"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
-					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -15376,6 +15199,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 181.61 238.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99862028-f270-47b4-a208-b8cdd5733a97")
+		(property "Reference" "#PWR0104"
+			(at 181.61 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 181.864 233.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 181.61 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29c3562a-b333-41f8-aa75-04c14452b6d5")
+		)
+		(instances
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 234.95 55.88 0)
 		(unit 1)
@@ -15451,7 +15339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c9b1d31-10ab-4f87-998e-97f9dab07482")
-		(property "Reference" "H2"
+		(property "Reference" "H4"
 			(at 280.67 270.5099 0)
 			(effects
 				(font
@@ -15502,7 +15390,7 @@
 		(instances
 			(project "ESC_Texas"
 				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
-					(reference "H2")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -18923,6 +18811,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 168.91 260.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb6f465f-a057-4778-bfb7-01ee8f6e6b50")
+		(property "Reference" "#PWR0111"
+			(at 168.91 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 168.91 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b8331a2-c56f-4298-bcdf-e5b25f0ea889")
+		)
+		(instances
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 43.18 175.26 90)
 		(unit 1)
@@ -18986,6 +18940,86 @@
 			(project "aisler-4-layer-hd-drc"
 				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_B_Micro")
+		(at 168.91 247.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe1acaa9-7e56-4952-83cc-5d3db3cb2c16")
+		(property "Reference" "J14"
+			(at 168.91 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_B_Micro"
+			(at 168.91 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_Micro-B_GCT_USB3076-30-A"
+			(at 172.72 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB Micro Type B connector"
+			(at 168.91 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "eb1c572f-16e2-49bf-87d1-a9da1ec268bd")
+		)
+		(pin "3"
+			(uuid "020d1597-59b1-49ff-b780-0319fe367f90")
+		)
+		(pin "5"
+			(uuid "8d72350e-a349-49aa-8ee7-ed7dfd50b894")
+		)
+		(pin "1"
+			(uuid "0863f6c7-5f8b-4ade-8ada-8215e3083c30")
+		)
+		(pin "2"
+			(uuid "d11cb763-c3c4-42e1-883d-803e4b6e1aa9")
+		)
+		(pin "4"
+			(uuid "14659137-215a-456b-8f01-aec68f0c6fba")
+		)
+		(instances
+			(project ""
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
+					(reference "J14")
 					(unit 1)
 				)
 			)
