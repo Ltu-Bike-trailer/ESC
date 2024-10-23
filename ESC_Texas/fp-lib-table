@@ -18,4 +18,6 @@
   (lib (name "691322310005")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/691322310005")(options "")(descr ""))
   (lib (name "0475901001")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/0475901001")(options "")(descr ""))
   (lib (name "APTD2012LSURCK")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/APTD2012LSURCK")(options "")(descr ""))
+  (lib (name "USB3090-30-A")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/USB3090-30-A")(options "")(descr ""))
+  (lib (name "USB3080-XX-01-A_REVE")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/USB3080-XX-01-A_REVE")(options "")(descr ""))
 )
