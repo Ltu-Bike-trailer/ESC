@@ -16,4 +16,6 @@
   (lib (name "6120XX21621_61200621621")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/6120XX21621/6120XX21621_61200621621.kicad_sym")(options "")(descr ""))
   (lib (name "71918-206LF")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/71918_206LF/71918-206LF.kicad_sym")(options "")(descr ""))
   (lib (name "6120XX21621_61201021621")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/61201021621/6120XX21621_61201021621.kicad_sym")(options "")(descr ""))
+  (lib (name "APTD2012LSURCK")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/APTD2012LSURCK/APTD2012LSURCK.kicad_sym")(options "")(descr ""))
+  (lib (name "0475901001")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/0475901001/0475901001.kicad_sym")(options "")(descr ""))
 )

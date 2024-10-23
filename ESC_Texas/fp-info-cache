@@ -1,4 +1,4 @@
-23717830468185936
+23726475095706607
 691322310005
 SHDRRA5W80P0X381_1X5_2024X920X720P
 691322310005
@@ -6,6 +6,34 @@ Connector
 0
 5
 5
+6120XX21621
+61200621621
+<b>WR-BHD</B> <BR>2.54 mm Male Box Header, 6 Pins
+
+0
+6
+6
+71918_206LF
+AMPHENOL_71918-206LF
+
+
+0
+6
+6
+0475901001
+MOLEX_0475901001
+
+
+0
+10
+10
+61201021621
+61201021621
+<b>WR-BHD</B> <BR>2.54 mm Male Box Header, 10 Pins
+
+0
+10
+10
 A750MV277M1HAAE018
 CAPPRD500W65D1000H1600
 10*14
@@ -20,6 +48,13 @@ Integrated Circuit
 0
 8
 8
+APTD2012LSURCK
+LEDM2012X120N
+2.0x1.25mm SMD CHIP LED LAMP_1
+LED
+0
+2
+2
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)

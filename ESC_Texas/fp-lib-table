@@ -16,4 +16,6 @@
   (lib (name "LM3480IM3-3.3_NOPB")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/LM3480IM3-3.3_NOPB")(options "")(descr ""))
   (lib (name "A750MV277M1HAAE018")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/A750MV277M1HAAE018")(options "")(descr ""))
   (lib (name "691322310005")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/691322310005")(options "")(descr ""))
+  (lib (name "0475901001")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/0475901001")(options "")(descr ""))
+  (lib (name "APTD2012LSURCK")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/APTD2012LSURCK")(options "")(descr ""))
 )
