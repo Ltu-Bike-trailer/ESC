@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0")
 	(paper "A2")
+	(title_block
+		(rev "2")
+	)
 	(lib_symbols
 		(symbol "2350514-3:2350514-3"
 			(exclude_from_sim no)
@@ -5830,12 +5833,6 @@
 		(uuid "153827a6-1411-4434-a140-95a8b922ceda")
 	)
 	(junction
-		(at 139.7 344.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "17678c2a-3d60-4bb6-9e4b-f4ec1ffb743e")
-	)
-	(junction
 		(at 97.79 340.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5864,6 +5861,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c094ce2-d843-4ba9-ad7f-5a728d3ba3af")
+	)
+	(junction
+		(at 137.16 317.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "385b1f70-9e35-41a5-b78a-376252e3a025")
 	)
 	(junction
 		(at 71.12 64.77)
@@ -6140,6 +6143,10 @@
 		(uuid "1a2caf59-ccce-4792-bdc5-55062c15a465")
 	)
 	(no_connect
+		(at 176.53 252.73)
+		(uuid "2fb8231d-39fb-4fc8-bd3a-93576bbd9326")
+	)
+	(no_connect
 		(at 135.89 350.52)
 		(uuid "41caf7f4-aa20-428d-857b-57ded38f106a")
 	)
@@ -6306,16 +6313,6 @@
 			(type default)
 		)
 		(uuid "0e2aa33f-edc4-4ca1-a4d0-14f4811a0d58")
-	)
-	(wire
-		(pts
-			(xy 139.7 344.17) (xy 149.86 344.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ec26ee6-f5a5-4b4b-9460-623a2ab81a54")
 	)
 	(wire
 		(pts
@@ -7029,16 +7026,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 353.06) (xy 135.89 353.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d417637-c2bb-46c2-9a09-cc73ecf75df1")
-	)
-	(wire
-		(pts
 			(xy 173.99 314.96) (xy 173.99 325.12)
 		)
 		(stroke
@@ -7126,6 +7113,16 @@
 			(type default)
 		)
 		(uuid "66edc1aa-0d81-4b5a-90bd-1345418e209e")
+	)
+	(wire
+		(pts
+			(xy 137.16 317.5) (xy 139.7 317.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67b1375c-e245-4001-94a4-dd9e6012b64d")
 	)
 	(wire
 		(pts
@@ -7369,7 +7366,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 317.5) (xy 139.7 317.5)
+			(xy 120.65 317.5) (xy 137.16 317.5)
 		)
 		(stroke
 			(width 0)
@@ -7466,6 +7463,16 @@
 			(type default)
 		)
 		(uuid "95f13323-c7b1-4a8d-b3ce-19ee9d54e56f")
+	)
+	(wire
+		(pts
+			(xy 139.7 350.52) (xy 139.7 353.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96f981b1-c35b-4e79-ad82-6694b85006d3")
 	)
 	(wire
 		(pts
@@ -7659,17 +7666,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 317.5) (xy 139.7 344.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acb40c18-0000-479c-835b-9b295691b9a2")
-	)
-	(wire
-		(pts
-			(xy 144.78 334.01) (xy 144.78 332.74)
+			(xy 147.32 337.82) (xy 147.32 332.74)
 		)
 		(stroke
 			(width 0)
@@ -7969,7 +7966,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 344.17) (xy 139.7 345.44)
+			(xy 139.7 317.5) (xy 139.7 342.9)
 		)
 		(stroke
 			(width 0)
@@ -8149,16 +8146,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 332.74) (xy 147.32 332.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea8ecf0a-420f-4230-9b23-5c3fd4c508fb")
-	)
-	(wire
-		(pts
 			(xy 176.53 242.57) (xy 181.61 242.57)
 		)
 		(stroke
@@ -8166,6 +8153,26 @@
 			(type default)
 		)
 		(uuid "eb7f9e38-0adc-4eeb-9b4a-7f14c84b8cd3")
+	)
+	(wire
+		(pts
+			(xy 139.7 353.06) (xy 135.89 353.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef2c2280-c3ea-4a2b-9f24-ed68379a3b9d")
+	)
+	(wire
+		(pts
+			(xy 137.16 313.69) (xy 137.16 317.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef9efe49-a88c-4094-9c45-9beee45eae34")
 	)
 	(wire
 		(pts
@@ -8403,7 +8410,7 @@
 	)
 	(text "CAN Controller with SPI Interface"
 		(exclude_from_sim no)
-		(at 119.888 309.88 0)
+		(at 113.03 309.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10995,7 +11002,7 @@
 	)
 	(symbol
 		(lib_id "mcp2515-rescue:GND-power")
-		(at 144.78 334.01 0)
+		(at 147.32 337.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11003,7 +11010,7 @@
 		(dnp no)
 		(uuid "1aeb04f6-3400-4231-9679-685c0926b048")
 		(property "Reference" "#PWR093"
-			(at 144.78 340.36 0)
+			(at 147.32 344.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11012,7 +11019,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.812 337.566 0)
+			(at 149.352 341.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11021,7 +11028,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 334.01 0)
+			(at 147.32 337.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11030,7 +11037,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 334.01 0)
+			(at 147.32 337.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11039,7 +11046,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 334.01 0)
+			(at 147.32 337.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13115,6 +13122,71 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
+		(at 137.16 313.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5545a36f-534e-44cb-9f1a-114e7e1bfc03")
+		(property "Reference" "#PWR092"
+			(at 137.16 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD_can"
+			(at 137.414 308.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 137.16 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84357832-1610-47b5-8e16-c81bf899711f")
+		)
+		(instances
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
 		(at 365.76 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14034,7 +14106,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 139.7 349.25 0)
+		(at 139.7 346.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14042,7 +14114,7 @@
 		(dnp no)
 		(uuid "6e84ee3c-f96d-4341-92fe-88aea8c5d9ef")
 		(property "Reference" "R16"
-			(at 141.478 348.0816 0)
+			(at 141.478 345.5416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14051,7 +14123,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 141.478 350.393 0)
+			(at 141.478 347.853 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14060,7 +14132,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 137.922 349.25 90)
+			(at 137.922 346.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14069,7 +14141,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 349.25 0)
+			(at 139.7 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14078,7 +14150,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 349.25 0)
+			(at 139.7 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14096,71 +14168,6 @@
 			(project "ESC_Texas"
 				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
 					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 149.86 344.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7117c9f6-3d66-4e16-99e1-4aa8432e8065")
-		(property "Reference" "#PWR092"
-			(at 149.86 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD_can"
-			(at 150.114 339.344 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 344.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 344.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 149.86 344.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "041d6921-eaf2-4f5c-ae55-1dbe9c39af55")
-		)
-		(instances
-			(project "ESC_Texas"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
-					(reference "#PWR092")
 					(unit 1)
 				)
 			)
