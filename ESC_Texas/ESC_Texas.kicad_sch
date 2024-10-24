@@ -5959,7 +5959,7 @@
 		(uuid "81a80263-219c-4d86-89a8-c2610edd27fe")
 	)
 	(junction
-		(at 168.91 259.08)
+		(at 162.56 261.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86c7cd07-e754-4a72-bc6e-132bc89e5304")
@@ -6143,7 +6143,7 @@
 		(uuid "1a2caf59-ccce-4792-bdc5-55062c15a465")
 	)
 	(no_connect
-		(at 176.53 252.73)
+		(at 170.18 255.27)
 		(uuid "2fb8231d-39fb-4fc8-bd3a-93576bbd9326")
 	)
 	(no_connect
@@ -7546,7 +7546,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 257.81) (xy 166.37 259.08)
+			(xy 160.02 260.35) (xy 160.02 261.62)
 		)
 		(stroke
 			(width 0)
@@ -7556,7 +7556,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 259.08) (xy 168.91 257.81)
+			(xy 162.56 261.62) (xy 162.56 260.35)
 		)
 		(stroke
 			(width 0)
@@ -7626,7 +7626,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 260.35) (xy 168.91 259.08)
+			(xy 162.56 262.89) (xy 162.56 261.62)
 		)
 		(stroke
 			(width 0)
@@ -7746,7 +7746,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 242.57) (xy 181.61 238.76)
+			(xy 175.26 245.11) (xy 175.26 241.3)
 		)
 		(stroke
 			(width 0)
@@ -8146,7 +8146,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 242.57) (xy 181.61 242.57)
+			(xy 170.18 245.11) (xy 175.26 245.11)
 		)
 		(stroke
 			(width 0)
@@ -8256,7 +8256,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 259.08) (xy 168.91 259.08)
+			(xy 160.02 261.62) (xy 162.56 261.62)
 		)
 		(stroke
 			(width 0)
@@ -15207,7 +15207,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 181.61 238.76 0)
+		(at 175.26 241.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15215,7 +15215,7 @@
 		(dnp no)
 		(uuid "99862028-f270-47b4-a208-b8cdd5733a97")
 		(property "Reference" "#PWR0104"
-			(at 181.61 242.57 0)
+			(at 175.26 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15224,7 +15224,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 181.864 233.934 0)
+			(at 175.514 236.474 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15232,7 +15232,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 238.76 0)
+			(at 175.26 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15241,7 +15241,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 238.76 0)
+			(at 175.26 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15250,7 +15250,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 181.61 238.76 0)
+			(at 175.26 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18819,7 +18819,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 168.91 260.35 0)
+		(at 162.56 262.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18828,7 +18828,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb6f465f-a057-4778-bfb7-01ee8f6e6b50")
 		(property "Reference" "#PWR0111"
-			(at 168.91 266.7 0)
+			(at 162.56 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18837,7 +18837,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 265.43 0)
+			(at 162.56 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18845,7 +18845,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 260.35 0)
+			(at 162.56 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18854,7 +18854,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 260.35 0)
+			(at 162.56 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18863,7 +18863,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 260.35 0)
+			(at 162.56 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18954,7 +18954,7 @@
 	)
 	(symbol
 		(lib_id "Connector:USB_B_Micro")
-		(at 168.91 247.65 0)
+		(at 162.56 250.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18963,7 +18963,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe1acaa9-7e56-4952-83cc-5d3db3cb2c16")
 		(property "Reference" "J14"
-			(at 168.91 234.95 0)
+			(at 162.56 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18971,7 +18971,7 @@
 			)
 		)
 		(property "Value" "USB_B_Micro"
-			(at 168.91 237.49 0)
+			(at 162.56 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18979,7 +18979,7 @@
 			)
 		)
 		(property "Footprint" "Connector_USB:USB_Micro-B_GCT_USB3076-30-A"
-			(at 172.72 248.92 0)
+			(at 166.37 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18988,7 +18988,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 248.92 0)
+			(at 166.37 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18997,7 +18997,7 @@
 			)
 		)
 		(property "Description" "USB Micro Type B connector"
-			(at 168.91 247.65 0)
+			(at 162.56 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
