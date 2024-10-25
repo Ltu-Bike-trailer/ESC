@@ -20,4 +20,6 @@
   (lib (name "APTD2012LSURCK")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/APTD2012LSURCK")(options "")(descr ""))
   (lib (name "USB3090-30-A")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/USB3090-30-A")(options "")(descr ""))
   (lib (name "USB3080-XX-01-A_REVE")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/USB3080-XX-01-A_REVE")(options "")(descr ""))
+  (lib (name "87180-066LF")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/87180-066LF")(options "")(descr ""))
+  (lib (name "Flygande-Mattan")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/Flygande-Mattan")(options "")(descr ""))
 )

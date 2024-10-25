@@ -20,4 +20,5 @@
   (lib (name "0475901001")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/0475901001/0475901001.kicad_sym")(options "")(descr ""))
   (lib (name "USB3090-30-A")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/USB3090-30-A/USB3090-30-A.kicad_sym")(options "")(descr ""))
   (lib (name "USB3080-XX-01-A_REVE")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/USB3080-XX-01-A_REVE/USB3080-XX-01-A_REVE.kicad_sym")(options "")(descr ""))
+  (lib (name "87180-066LF")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/87180-066LF/87180-066LF.kicad_sym")(options "")(descr ""))
 )
