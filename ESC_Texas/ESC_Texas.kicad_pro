@@ -668,6 +668,10 @@
     [
       "2b378908-a00b-4e0f-9184-1d2f8bdf9466",
       "Driver_subsheet_1"
+    ],
+    [
+      "c170b63c-9c02-4568-8d82-619347bcea7b",
+      "Battery-Current"
     ]
   ],
   "text_variables": {}
