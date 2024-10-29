@@ -22,4 +22,5 @@
   (lib (name "USB3080-XX-01-A_REVE")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/USB3080-XX-01-A_REVE")(options "")(descr ""))
   (lib (name "87180-066LF")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/87180-066LF")(options "")(descr ""))
   (lib (name "Flygande-Mattan")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/Flygande-Mattan")(options "")(descr ""))
+  (lib (name "BD125-10-A-0305-0580-L-B")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/BD125-10-A-0305-0580-L-B")(options "")(descr ""))
 )
