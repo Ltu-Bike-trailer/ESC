@@ -24,4 +24,6 @@
   (lib (name "Flygande-Mattan")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/Flygande-Mattan")(options "")(descr ""))
   (lib (name "BD125-10-A-0305-0580-L-B")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/BD125-10-A-0305-0580-L-B")(options "")(descr ""))
   (lib (name "Can Bus Stop")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/Can Bus Stop")(options "")(descr ""))
+  (lib (name "CanBusStop-2")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/CanBusStop-2")(options "")(descr ""))
+  (lib (name "CanBusStop-3")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/CanBusStop-3")(options "")(descr ""))
 )
