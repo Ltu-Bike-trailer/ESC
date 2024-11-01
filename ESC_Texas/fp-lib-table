@@ -26,4 +26,5 @@
   (lib (name "Can Bus Stop")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/Can Bus Stop")(options "")(descr ""))
   (lib (name "CanBusStop-2")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/CanBusStop-2")(options "")(descr ""))
   (lib (name "CanBusStop-3")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/CanBusStop-3")(options "")(descr ""))
+  (lib (name "MP011776")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/MP011776/MP011776.pretty")(options "")(descr ""))
 )
