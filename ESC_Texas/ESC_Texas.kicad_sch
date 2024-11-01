@@ -177,6 +177,193 @@
 				)
 			)
 		)
+		(symbol "2350514-3_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J11"
+				(at 16.51 -2.5399 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "input-10V"
+				(at 16.51 -5.0799 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "TBP02R1-381-04BE:TBP02R1-381-02BE"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=3-1773982-8&DocType=Data%20Sheet&DocLang=English&PartCntxt=2350514-3&DocFormat=pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Body Features: Primary Product Color Green | Product Orientation Right Angle | Configuration Features: Stacking Configuration Side Stackable | Number of Rows 1 | Number of Positions 3 | Contact Features: Contact Mating Area Plating Material Tin | Contact Current Rating (Max) 10 AMP | Contact Base Material Brass | Electrical Characteristics: Operating Voltage 300 VAC | Housing Features: Housing Material PA 66 | Centerline (Pitch) .137 INCH | Centerline (Pitch) 3.5 MM | Mechanical Attachment: Connector Mounti"
+				(at -0.508 20.066 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "6.91"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Farnell Part Number" ""
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Farnell Price/Stock" ""
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "TE Connectivity"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "2350514-3"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "2350514-3_1_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "A750MV277M1HAAE018:A750MV277M1HAAE018"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -1409,193 +1596,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Connector:Screw_Terminal_01x02"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Screw_Terminal_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "screw terminal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Screw_Terminal_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5980,12 +5980,6 @@
 		(uuid "5cca5859-34d6-4714-9b25-af3b5851e9fc")
 	)
 	(junction
-		(at 264.16 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "65957c2f-f46c-4fb9-a845-3668ad11cac1")
-	)
-	(junction
 		(at 337.82 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6032,6 +6026,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e414422-6098-4ab1-a9bf-8e871d83d426")
+	)
+	(junction
+		(at 266.7 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ff4b2a2-e4e9-4fa7-8541-d4415ae2f23a")
 	)
 	(junction
 		(at 339.09 63.5)
@@ -6130,12 +6130,6 @@
 		(uuid "d7cb1595-5746-4a70-b373-62c376405ba4")
 	)
 	(junction
-		(at 293.37 327.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d9bb8dac-e07e-4223-a36f-754a678a68e9")
-	)
-	(junction
 		(at 95.25 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6210,10 +6204,6 @@
 		(uuid "7bcd7a14-a2cc-4925-a318-ea8de85f465d")
 	)
 	(no_connect
-		(at 271.78 58.42)
-		(uuid "8f4e97b4-7bf9-4e60-9924-38d639e1d154")
-	)
-	(no_connect
 		(at 238.76 350.52)
 		(uuid "8f5fc67e-7cda-4f65-a26e-afd04b815626")
 	)
@@ -6274,6 +6264,16 @@
 			(type default)
 		)
 		(uuid "06d60da0-b1d7-43c8-9bbd-7fab203bbd25")
+	)
+	(wire
+		(pts
+			(xy 266.7 66.04) (xy 270.51 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07105531-f20e-4b50-b3a7-f0fdc3fe8705")
 	)
 	(wire
 		(pts
@@ -6487,7 +6487,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 62.23) (xy 234.95 55.88)
+			(xy 232.41 69.85) (xy 232.41 63.5)
 		)
 		(stroke
 			(width 0)
@@ -6717,7 +6717,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 55.88) (xy 251.46 55.88)
+			(xy 247.65 63.5) (xy 248.92 63.5)
 		)
 		(stroke
 			(width 0)
@@ -7097,16 +7097,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 52.07) (xy 264.16 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "598e73b1-e302-416f-b9d1-4c584b48b02a")
-	)
-	(wire
-		(pts
 			(xy 339.09 63.5) (xy 344.17 63.5)
 		)
 		(stroke
@@ -7144,6 +7134,16 @@
 			(type default)
 		)
 		(uuid "5be734fe-40c5-4fc0-9065-1926fc06ca06")
+	)
+	(wire
+		(pts
+			(xy 266.7 63.5) (xy 266.7 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bffd594-a2c1-44a9-8cee-6bb3fdbf7c2f")
 	)
 	(wire
 		(pts
@@ -7387,6 +7387,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 62.23) (xy 266.7 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77f323bd-c048-4d67-a130-a85db27d8e29")
+	)
+	(wire
+		(pts
 			(xy 339.09 54.61) (xy 349.25 54.61)
 		)
 		(stroke
@@ -7547,7 +7557,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 55.88) (xy 242.57 55.88)
+			(xy 232.41 63.5) (xy 240.03 63.5)
 		)
 		(stroke
 			(width 0)
@@ -7787,33 +7797,13 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 55.88) (xy 271.78 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5e0d279-11cd-42fa-896e-41a1c1cf165c")
-	)
-	(wire
-		(pts
-			(xy 259.08 55.88) (xy 264.16 55.88)
+			(xy 256.54 63.5) (xy 266.7 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a6436438-d59b-476f-818c-f46dcd9aede4")
-	)
-	(wire
-		(pts
-			(xy 264.16 60.96) (xy 271.78 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7ccab93-81ae-4a2d-bb87-49dd7871e4af")
 	)
 	(wire
 		(pts
@@ -7844,6 +7834,16 @@
 			(type default)
 		)
 		(uuid "ab03d7cb-aa4d-480e-977a-e0114094d487")
+	)
+	(wire
+		(pts
+			(xy 266.7 74.93) (xy 266.7 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab54e4d2-6256-44a9-938c-76be18f4b30e")
 	)
 	(wire
 		(pts
@@ -8187,16 +8187,6 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 327.66) (xy 293.37 332.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca9abe0e-b512-4816-99b3-38f156be8b29")
-	)
-	(wire
-		(pts
 			(xy 242.57 322.58) (xy 242.57 347.98)
 		)
 		(stroke
@@ -8234,6 +8224,16 @@
 			(type default)
 		)
 		(uuid "ce925b9e-944c-4d94-a95e-4f7232fb758e")
+	)
+	(wire
+		(pts
+			(xy 266.7 73.66) (xy 270.51 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d14ec091-6bff-4b31-af5b-4c5a9af777e1")
 	)
 	(wire
 		(pts
@@ -8703,9 +8703,9 @@
 		)
 		(uuid "35e65fc3-60bd-49f6-b06a-4d405c307897")
 	)
-	(text "10 V Input"
+	(text "10 V and CAN\nInput"
 		(exclude_from_sim no)
-		(at 259.08 28.956 0)
+		(at 259.842 25.146 0)
 		(effects
 			(font
 				(size 5 5)
@@ -8823,9 +8823,9 @@
 		)
 		(uuid "c0af19eb-a0eb-4eb5-9353-872e9dfed5a2")
 	)
-	(text "36 V Current measurement"
+	(text "36 V Current \nmeasurement"
 		(exclude_from_sim no)
-		(at 176.53 28.956 0)
+		(at 178.308 24.13 0)
 		(effects
 			(font
 				(size 5 5)
@@ -8855,7 +8855,7 @@
 	)
 	(text "? mW"
 		(exclude_from_sim no)
-		(at 255.524 52.578 0)
+		(at 252.984 60.198 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9050,6 +9050,28 @@
 			)
 		)
 	)
+	(global_label "CANL"
+		(shape input)
+		(at 293.37 335.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a411267-4912-49b0-a5f0-30e0f8e5484c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 301.0724 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "P0.20"
 		(shape input)
 		(at 142.24 222.25 270)
@@ -9129,6 +9151,28 @@
 		(uuid "230bb820-4098-411d-84b7-0ac6f43d7456")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 371.2415 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CANL"
+		(shape input)
+		(at 270.51 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "26d928d0-0419-4ffa-ac8b-14ffbf481323")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 262.8076 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10040,6 +10084,28 @@
 			)
 		)
 	)
+	(global_label "CANH"
+		(shape input)
+		(at 293.37 327.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c952cb35-6104-4a6f-98cf-77dd41a6cc67")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 301.3748 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "P0.29"
 		(shape input)
 		(at 330.2 229.87 0)
@@ -10322,6 +10388,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CANH"
+		(shape input)
+		(at 270.51 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f67c0ac8-cbdd-448e-87c3-204011fb5bf2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 262.5052 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -10630,7 +10718,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 246.38 55.88 0)
+		(at 243.84 63.5 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10640,7 +10728,7 @@
 		(fields_autoplaced yes)
 		(uuid "08018a0f-f1e0-43fc-8b64-3100a51d3bbe")
 		(property "Reference" "D14"
-			(at 244.7925 62.23 0)
+			(at 242.2525 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10648,7 +10736,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 244.7925 59.69 0)
+			(at 242.2525 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10656,7 +10744,7 @@
 			)
 		)
 		(property "Footprint" "APTD2012LSURCK:LEDM2012X120N"
-			(at 246.38 55.88 0)
+			(at 243.84 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10665,7 +10753,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 55.88 0)
+			(at 243.84 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10674,7 +10762,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 246.38 55.88 0)
+			(at 243.84 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10692,6 +10780,72 @@
 			(project "ESC_Texas"
 				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
 					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 266.7 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "081e0285-3142-4761-a869-f6a764baace7")
+		(property "Reference" "#PWR0133"
+			(at 266.7 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 266.7 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 266.7 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23f2d3f6-1729-4f2d-bbb9-500d81c5a300")
+		)
+		(instances
+			(project ""
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -12273,71 +12427,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 264.16 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "295817f3-174d-4588-99af-edd1e343821b")
-		(property "Reference" "#PWR0112"
-			(at 264.16 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 264.16 65.024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 264.16 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 264.16 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "70ad50ef-6845-4f30-bccb-b98683d3c315")
-		)
-		(instances
-			(project "ESC_Texas"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
-					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 335.28 74.93 90)
 		(unit 1)
@@ -12598,72 +12687,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+36V")
-		(at 264.16 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b90b651-3130-42eb-96fe-829d757a3d8b")
-		(property "Reference" "#PWR0103"
-			(at 264.16 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+10V"
-			(at 264.16 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 264.16 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+36V\""
-			(at 264.16 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "94986a99-1fd8-4640-9f69-a71bd05a78ee")
-		)
-		(instances
-			(project "ESC_Texas"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
-					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 81.28 243.84 0)
 		(unit 1)
@@ -12723,131 +12746,6 @@
 			(project ""
 				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
 					(reference "J14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "2350514-3:2350514-3")
-		(at 271.78 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3cc9016c-2605-4486-af3c-7e7a709d153e")
-		(property "Reference" "J11"
-			(at 288.29 57.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Battery+"
-			(at 288.29 59.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LIB_2350514-3:SHDRRA3W90P0X350_1X3_1110X920X691P"
-			(at 288.29 150.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=3-1773982-8&DocType=Data%20Sheet&DocLang=English&PartCntxt=2350514-3&DocFormat=pdf"
-			(at 288.29 250.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Body Features: Primary Product Color Green | Product Orientation Right Angle | Configuration Features: Stacking Configuration Side Stackable | Number of Rows 1 | Number of Positions 3 | Contact Features: Contact Mating Area Plating Material Tin | Contact Current Rating (Max) 10 AMP | Contact Base Material Brass | Electrical Characteristics: Operating Voltage 300 VAC | Housing Features: Housing Material PA 66 | Centerline (Pitch) .137 INCH | Centerline (Pitch) 3.5 MM | Mechanical Attachment: Connector Mounti"
-			(at 271.78 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "6.91"
-			(at 288.29 450.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Farnell Part Number" ""
-			(at 288.29 550.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Farnell Price/Stock" ""
-			(at 288.29 650.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TE Connectivity"
-			(at 288.29 750.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "2350514-3"
-			(at 288.29 850.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "e67e630e-2961-4adc-a962-814e8842d052")
-		)
-		(pin "2"
-			(uuid "70624ffa-9442-47bd-a50b-c8dc8904a8fe")
-		)
-		(pin "1"
-			(uuid "bdad734e-1d13-49d0-9c89-363df983f790")
-		)
-		(instances
-			(project "ESC_Texas"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
-					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -13054,71 +12952,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 55.88 243.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "408d93c8-3649-414b-886f-bde93cc97b24")
-		(property "Reference" "J15"
-			(at 56.515 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 56.515 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 55.88 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 55.88 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "181dc325-7716-4884-a74d-25a661064831")
-		)
-		(instances
-			(project "ESC_Texas"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
-					(reference "J15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 471.17 68.58 0)
 		(unit 1)
@@ -13249,72 +13082,6 @@
 			(project "ESC_Texas"
 				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 60.96 243.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "42f133b3-9811-477b-ab32-3eb7341e6b68")
-		(property "Reference" "#PWR088"
-			(at 60.96 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 60.96 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "56cbb72e-ba37-4708-9cba-e20418b88031")
-		)
-		(instances
-			(project ""
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
-					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -14241,75 +14008,6 @@
 			(project "ESC_Texas"
 				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
 					(reference "P0.11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 298.45 332.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "546ebc4b-d41c-4235-93da-2e911418201b")
-		(property "Reference" "J12"
-			(at 295.91 338.8106 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 295.91 341.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical"
-			(at 298.45 332.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 298.45 332.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 298.45 332.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a42f2bcc-d5b2-443b-9a3f-9703156a5a2d")
-		)
-		(pin "2"
-			(uuid "5d6598db-006c-45bd-9c53-928431a5fe73")
-		)
-		(instances
-			(project "ESC_Texas"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
-					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -15507,7 +15205,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 255.27 55.88 90)
+		(at 252.73 63.5 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15516,7 +15214,7 @@
 		(dnp no)
 		(uuid "6989bcd0-f982-4c51-ad1e-a83ba4c4046f")
 		(property "Reference" "R22"
-			(at 255.27 58.674 90)
+			(at 252.73 66.294 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15524,7 +15222,7 @@
 			)
 		)
 		(property "Value" "?"
-			(at 255.016 61.722 90)
+			(at 252.476 69.342 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15532,7 +15230,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 255.27 54.102 90)
+			(at 252.73 61.722 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15541,7 +15239,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 255.27 55.88 0)
+			(at 252.73 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15550,7 +15248,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 255.27 55.88 0)
+			(at 252.73 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15834,6 +15532,135 @@
 			(project "ESC_Texas"
 				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
 					(reference "#PWR0126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "2350514-3_1")
+		(lib_id "2350514-3:2350514-3")
+		(at 270.51 73.66 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8005f0d4-8853-4341-a0b1-8164ed59d38f")
+		(property "Reference" "J11"
+			(at 287.02 71.1201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "input-10V"
+			(at 287.02 68.5801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TBP02R1-381-04BE:TBP02R1-381-02BE"
+			(at 287.02 -21.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=3-1773982-8&DocType=Data%20Sheet&DocLang=English&PartCntxt=2350514-3&DocFormat=pdf"
+			(at 287.02 -121.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Body Features: Primary Product Color Green | Product Orientation Right Angle | Configuration Features: Stacking Configuration Side Stackable | Number of Rows 1 | Number of Positions 3 | Contact Features: Contact Mating Area Plating Material Tin | Contact Current Rating (Max) 10 AMP | Contact Base Material Brass | Electrical Characteristics: Operating Voltage 300 VAC | Housing Features: Housing Material PA 66 | Centerline (Pitch) .137 INCH | Centerline (Pitch) 3.5 MM | Mechanical Attachment: Connector Mounti"
+			(at 270.002 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "6.91"
+			(at 287.02 -321.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Farnell Part Number" ""
+			(at 287.02 -421.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Farnell Price/Stock" ""
+			(at 287.02 -521.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity"
+			(at 287.02 -621.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2350514-3"
+			(at 287.02 -721.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d644a04d-12e2-4b9c-be73-5c58452d05de")
+		)
+		(pin "2"
+			(uuid "f9dde79e-5fbc-4659-9039-86636a51eaba")
+		)
+		(pin "1"
+			(uuid "31e96158-f211-461f-9908-a31a71ed34c8")
+		)
+		(pin "4"
+			(uuid "de53feac-21bb-49f9-9ffe-c7d33a46c981")
+		)
+		(instances
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -16156,7 +15983,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 234.95 62.23 0)
+		(at 232.41 69.85 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16165,7 +15992,7 @@
 		(dnp no)
 		(uuid "8ad7760c-c158-40cd-a776-93262328afe2")
 		(property "Reference" "#PWR0113"
-			(at 234.95 68.58 0)
+			(at 232.41 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16174,7 +16001,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 234.95 66.294 0)
+			(at 232.41 73.914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16182,7 +16009,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 62.23 0)
+			(at 232.41 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16191,7 +16018,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 62.23 0)
+			(at 232.41 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16200,7 +16027,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 62.23 0)
+			(at 232.41 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17908,6 +17735,72 @@
 			(project "ESC_Texas"
 				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
 					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+36V")
+		(at 266.7 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b34064e2-7f6e-42e2-a71b-f2600fda0c2d")
+		(property "Reference" "#PWR088"
+			(at 266.7 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+10V"
+			(at 266.7 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+36V\""
+			(at 266.7 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f93cffd-8181-4282-b46e-cbcad8f0cf6f")
+		)
+		(instances
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
