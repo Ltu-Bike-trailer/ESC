@@ -36,7 +36,7 @@ I = 2e-3
 R=(VSS-Vled)/I
 R_power = R*I^2*1000
 
-Rreal = 787
+Rreal = 4300
 Ireal=(VSS-Vled)/Rreal*1000
 
 
