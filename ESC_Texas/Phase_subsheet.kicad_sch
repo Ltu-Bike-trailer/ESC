@@ -892,193 +892,6 @@
 				)
 			)
 		)
-		(symbol "MC78L05ACHT1G:MC78L05ACHT1G"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC"
-				(at 26.67 15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "MC78L05ACHT1G"
-				(at 26.67 12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "MC78L05ACHX_1"
-				(at 26.67 -87.3 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC78L00A-D.PDF"
-				(at 26.67 -187.3 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Linear Voltage Regulators ANA 100MA 5V VREG"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" ""
-				(at 26.67 -387.3 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Farnell Part Number" ""
-				(at 26.67 -487.3 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Farnell Price/Stock" ""
-				(at 26.67 -587.3 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "onsemi"
-				(at 26.67 -687.3 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "MC78L05ACHT1G"
-				(at 26.67 -787.3 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "MC78L05ACHT1G_1_1"
-				(rectangle
-					(start 5.08 10.16)
-					(end 25.4 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 -15.24 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 0 180)
-					(length 5.08)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 15.24 270)
-					(length 5.08)
-					(name "TAB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "R_m_schematic_Library:Rm"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1604,12 +1417,6 @@
 		(uuid "5698b3ea-df97-4ef3-ad21-bc89c9760495")
 	)
 	(junction
-		(at 233.68 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "803dcfc6-c930-4ed6-8fab-2b39dc58c530")
-	)
-	(junction
 		(at 191.77 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1638,6 +1445,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef0fd4bb-033b-4297-b95f-79687a33a9b3")
+	)
+	(no_connect
+		(at 63.5 69.85)
+		(uuid "82cb6f48-6c54-4141-8c4f-355be2ea914e")
+	)
+	(no_connect
+		(at 63.5 90.17)
+		(uuid "bcc41c0c-22ef-462c-aedb-7e41f37f4406")
 	)
 	(wire
 		(pts
@@ -1701,16 +1516,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 91.44) (xy 218.44 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25f6ddd5-dcd6-47c7-aff6-1f89f838b3f8")
-	)
-	(wire
-		(pts
 			(xy 163.83 96.52) (xy 152.4 96.52)
 		)
 		(stroke
@@ -1771,23 +1576,13 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 110.49) (xy 203.2 110.49)
+			(xy 191.77 110.49) (xy 195.58 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3fa85018-66cb-4b12-96e1-2fa94131006d")
-	)
-	(wire
-		(pts
-			(xy 250.19 102.87) (xy 250.19 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40119c8d-7e84-4ddf-b598-c7bee7eac123")
 	)
 	(wire
 		(pts
@@ -1818,6 +1613,16 @@
 			(type default)
 		)
 		(uuid "4b9ee7cf-815c-4cc9-b9f0-545b2034254a")
+	)
+	(wire
+		(pts
+			(xy 207.01 96.52) (xy 200.66 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54a5a1fc-4858-48c1-af78-61b764e3bdeb")
 	)
 	(wire
 		(pts
@@ -1868,16 +1673,6 @@
 			(type default)
 		)
 		(uuid "88bf95fc-78b7-43aa-9bfc-0b1df37037ed")
-	)
-	(wire
-		(pts
-			(xy 224.79 92.71) (xy 224.79 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "952d4351-9bbd-48a4-8cd4-b7d57e02bcfc")
 	)
 	(wire
 		(pts
@@ -1961,16 +1756,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 110.49) (xy 233.68 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6f84375-8c58-467e-a73b-53957efd494b")
-	)
-	(wire
-		(pts
 			(xy 63.5 67.31) (xy 93.98 67.31)
 		)
 		(stroke
@@ -1988,16 +1773,6 @@
 			(type default)
 		)
 		(uuid "cdac3227-7a50-4a0d-8b3c-66eb205ae884")
-	)
-	(wire
-		(pts
-			(xy 224.79 91.44) (xy 218.44 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d35bfa45-d46c-41cc-a608-1fcd34387449")
 	)
 	(wire
 		(pts
@@ -2061,7 +1836,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 96.52) (xy 200.66 100.33)
+			(xy 207.01 96.52) (xy 207.01 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2188,6 +1963,80 @@
 			(justify right)
 		)
 		(uuid "9c81940e-65b8-49c2-91f3-2187a3b170d3")
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 195.58 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0335b9f3-abb7-414b-b40c-7a63f4f3aad6")
+		(property "Reference" "#PWR0152"
+			(at 195.58 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 195.58 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4cd65cc-c0a5-4f61-a099-001747b12335")
+		)
+		(instances
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5"
+					(reference "#PWR0152")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd"
+					(reference "#PWR0151")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984"
+					(reference "#PWR0150")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -2346,80 +2195,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 233.68 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "26319b99-e3d2-4ce8-8b3e-df333d36c7ad")
-		(property "Reference" "#PWR065"
-			(at 233.68 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 233.68 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 233.68 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef1dfa8e-1833-4d47-86a8-62c9e2d1dad0")
-		)
-		(instances
-			(project "ESC_Texas"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5"
-					(reference "#PWR065")
-					(unit 1)
-				)
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd"
-					(reference "#PWR046")
-					(unit 1)
-				)
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 139.7 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2487,84 +2262,6 @@
 				)
 				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984"
 					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 233.68 114.3 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30306daf-ab09-4869-a65a-98788f8dfdd4")
-		(property "Reference" "C29"
-			(at 237.49 113.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "330n"
-			(at 237.49 115.5699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 232.7148 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 233.68 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 233.68 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1da2570c-5972-4251-bd0f-9075afffad79")
-		)
-		(pin "1"
-			(uuid "ee94075e-fde6-4a18-9373-6c52610f0c1b")
-		)
-		(instances
-			(project "ESC_Texas"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5"
-					(reference "C29")
-					(unit 1)
-				)
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd"
-					(reference "C24")
-					(unit 1)
-				)
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984"
-					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -3563,142 +3260,8 @@
 		)
 	)
 	(symbol
-		(lib_id "MC78L05ACHT1G:MC78L05ACHT1G")
-		(at 203.2 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b3cbf151-d0ab-4228-bf6d-9d149dad8489")
-		(property "Reference" "IC9"
-			(at 237.49 104.1714 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MC78L05ACHT1G"
-			(at 237.49 106.7114 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MC78L05ACHT1G:MC78L05ACHX_1"
-			(at 229.87 197.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC78L00A-D.PDF"
-			(at 229.87 297.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Linear Voltage Regulators ANA 100MA 5V VREG"
-			(at 203.2 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 229.87 497.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Farnell Part Number" ""
-			(at 229.87 597.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Farnell Price/Stock" ""
-			(at 229.87 697.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "onsemi"
-			(at 229.87 797.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MC78L05ACHT1G"
-			(at 229.87 897.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "17892644-2d0b-4872-bd1b-5ff8bb869ff8")
-		)
-		(pin "2"
-			(uuid "e7db5a7c-9582-4f6f-a8db-b112cdfc11c4")
-		)
-		(pin "4"
-			(uuid "f735e51b-f25e-4d67-a211-36b4f3ed1ff2")
-		)
-		(pin "3"
-			(uuid "d47e5d8e-b915-411e-a943-ada3a2fc1ad0")
-		)
-		(instances
-			(project "ESC_Texas"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5"
-					(reference "IC9")
-					(unit 1)
-				)
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd"
-					(reference "IC6")
-					(unit 1)
-				)
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984"
-					(reference "IC4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 200.66 100.33 0)
+		(at 207.01 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3707,7 +3270,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4211368-1fb8-42f4-a052-6cabe528be75")
 		(property "Reference" "#PWR063"
-			(at 200.66 106.68 0)
+			(at 207.01 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3716,7 +3279,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.66 105.41 0)
+			(at 207.01 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3724,7 +3287,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 100.33 0)
+			(at 207.01 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3733,7 +3296,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 100.33 0)
+			(at 207.01 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3742,7 +3305,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 100.33 0)
+			(at 207.01 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3765,80 +3328,6 @@
 				)
 				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984"
 					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 218.44 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c753c7f2-888f-44a2-ba4d-27625afe4e3a")
-		(property "Reference" "#PWR064"
-			(at 218.44 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 218.44 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "99d0822f-b3b3-4eb2-aa26-9d846fc8e350")
-		)
-		(instances
-			(project "ESC_Texas"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5"
-					(reference "#PWR064")
-					(unit 1)
-				)
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd"
-					(reference "#PWR045")
-					(unit 1)
-				)
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984"
-					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -3923,80 +3412,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 224.79 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eba73b42-5fdc-4523-aa32-5c8c05d6295a")
-		(property "Reference" "#PWR086"
-			(at 224.79 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 224.79 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "02f4b8ea-3e8d-48ad-80c4-8ed482c51a73")
-		)
-		(instances
-			(project ""
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5"
-					(reference "#PWR086")
-					(unit 1)
-				)
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd"
-					(reference "#PWR085")
-					(unit 1)
-				)
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984"
-					(reference "#PWR080")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 182.88 92.71 0)
 		(unit 1)
@@ -4069,80 +3484,6 @@
 				)
 				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+15V")
-		(at 250.19 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f81f1099-7d64-473a-8ff3-5efbee2de93e")
-		(property "Reference" "#PWR066"
-			(at 250.19 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+15V"
-			(at 250.19 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 250.19 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 250.19 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 250.19 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d0cba2d2-6c43-4612-9528-e725489413fd")
-		)
-		(instances
-			(project "ESC_Texas"
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5"
-					(reference "#PWR066")
-					(unit 1)
-				)
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd"
-					(reference "#PWR047")
-					(unit 1)
-				)
-				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984"
-					(reference "#PWR038")
 					(unit 1)
 				)
 			)
