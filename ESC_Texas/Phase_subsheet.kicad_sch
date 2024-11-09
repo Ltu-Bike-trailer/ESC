@@ -1411,6 +1411,12 @@
 		(uuid "3dfae124-56f8-4c50-a0ed-e7c39c7da519")
 	)
 	(junction
+		(at 166.37 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42e2a84f-bbfa-4d0d-9f56-c72a91cdbcc6")
+	)
+	(junction
 		(at 152.4 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1496,7 +1502,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 134.62) (xy 182.88 134.62)
+			(xy 160.02 134.62) (xy 166.37 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1673,6 +1679,16 @@
 			(type default)
 		)
 		(uuid "88bf95fc-78b7-43aa-9bfc-0b1df37037ed")
+	)
+	(wire
+		(pts
+			(xy 166.37 134.62) (xy 182.88 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c43cf22-2d8a-4638-8e82-4ca26bf09989")
 	)
 	(wire
 		(pts
@@ -1942,7 +1958,7 @@
 	)
 	(hierarchical_label "Current-Sense"
 		(shape output)
-		(at 175.26 134.62 180)
+		(at 160.02 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2724,6 +2740,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 166.37 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "848a39a3-0d8b-43a4-9b7c-e1c8e45c4472")
+		(property "Reference" "C24"
+			(at 170.18 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "F"
+			(at 170.18 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 167.3352 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 166.37 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f6f8154a-887f-4c95-af75-62dde40d53ce")
+		)
+		(pin "1"
+			(uuid "df663f7c-1f0b-4862-bc68-568f387372b4")
+		)
+		(instances
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5"
+					(reference "C50")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd"
+					(reference "C29")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 152.4 92.71 0)
 		(unit 1)
@@ -3036,6 +3130,80 @@
 				)
 				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 166.37 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e2a777a-d53c-4300-948b-489926ad980c")
+		(property "Reference" "#PWR045"
+			(at 166.37 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6a5af8f-796a-4e2e-8705-dc59bc0bfed3")
+		)
+		(instances
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5"
+					(reference "#PWR047")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd"
+					(reference "#PWR046")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)

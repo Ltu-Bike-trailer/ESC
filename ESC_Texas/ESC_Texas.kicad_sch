@@ -5978,6 +5978,12 @@
 		(uuid "219a41b5-e9b2-480b-ab16-3209a009892b")
 	)
 	(junction
+		(at 201.93 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "242d9d57-bf4d-4832-9ec9-0aa6a8520fa2")
+	)
+	(junction
 		(at 72.39 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7103,6 +7109,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 68.58) (xy 201.93 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5216d441-e9a6-447e-a9eb-40173a7a26fa")
+	)
+	(wire
+		(pts
 			(xy 86.36 257.81) (xy 86.36 260.35)
 		)
 		(stroke
@@ -7200,16 +7216,6 @@
 			(type default)
 		)
 		(uuid "57a531e7-ec94-4184-b990-e4e34d3d1eaf")
-	)
-	(wire
-		(pts
-			(xy 193.04 68.58) (xy 200.66 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58b08890-0b11-4a6a-9225-c501a7901c14")
 	)
 	(wire
 		(pts
@@ -7750,6 +7756,16 @@
 			(type default)
 		)
 		(uuid "8cb5c007-57c6-440e-858e-609eaa307aae")
+	)
+	(wire
+		(pts
+			(xy 201.93 68.58) (xy 204.47 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f653e7e-4912-4099-b099-dc2bc463f320")
 	)
 	(wire
 		(pts
@@ -8390,6 +8406,16 @@
 			(type default)
 		)
 		(uuid "cc953432-fe15-4bc5-a39a-47650d61fb85")
+	)
+	(wire
+		(pts
+			(xy 201.93 68.58) (xy 200.66 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cca011d4-30e3-48c5-9b1e-c6c9a6b8b5f5")
 	)
 	(wire
 		(pts
@@ -10246,7 +10272,7 @@
 	)
 	(global_label "P0.04"
 		(shape input)
-		(at 200.66 68.58 0)
+		(at 204.47 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10256,7 +10282,7 @@
 		)
 		(uuid "bc5c4784-d449-4617-a606-2fe6c45754fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.1485 68.58 0)
+			(at 212.9585 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12414,7 +12440,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1cd337c0-1df7-4a69-9bc8-5471051c1502")
-		(property "Reference" "P1.9"
+		(property "Reference" "P1.09"
 			(at 57.658 220.726 90)
 			(effects
 				(font
@@ -12463,7 +12489,7 @@
 		(instances
 			(project "ESC_Texas"
 				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
-					(reference "P1.9")
+					(reference "P1.09")
 					(unit 1)
 				)
 			)
@@ -13328,6 +13354,76 @@
 			(project ""
 				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
 					(reference "X2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 196.85 68.58 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31f8e6e8-1d6a-407a-96fb-6b6bcb128544")
+		(property "Reference" "R31"
+			(at 195.072 64.008 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 196.088 66.294 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 196.85 70.358 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b541ef60-917d-4188-b26f-1304feeaf332")
+		)
+		(pin "2"
+			(uuid "72464069-293b-400d-9bd7-2e2d2885afc1")
+		)
+		(instances
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -16516,6 +16612,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 201.93 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6adce573-a27d-46d8-9738-b6fd2f3ad513")
+		(property "Reference" "C19"
+			(at 207.264 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "F"
+			(at 207.264 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 202.8952 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "453ff691-b64a-4b0c-9b5f-365b548ae3fd")
+		)
+		(pin "2"
+			(uuid "0210b2cb-c9e8-4639-a2f7-3ce31b2420ce")
+		)
+		(instances
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 242.57 351.79 0)
 		(unit 1)
@@ -18967,6 +19130,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 201.93 78.74 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b07550ff-751e-46eb-9ded-7c99d4319f8a")
+		(property "Reference" "#PWR038"
+			(at 201.93 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.93 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 201.93 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8dbb18f-8f8b-47d1-8fdc-1e37688ec86e")
+		)
+		(instances
+			(project "ESC_Texas"
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 455.93 68.58 0)
 		(unit 1)
@@ -21230,7 +21459,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0f3eb07-18cc-4511-95fa-48a594477fe1")
-		(property "Reference" "P0.7"
+		(property "Reference" "P0.07"
 			(at 57.658 225.806 90)
 			(effects
 				(font
@@ -21279,7 +21508,7 @@
 		(instances
 			(project "ESC_Texas"
 				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0"
-					(reference "P0.7")
+					(reference "P0.07")
 					(unit 1)
 				)
 			)
