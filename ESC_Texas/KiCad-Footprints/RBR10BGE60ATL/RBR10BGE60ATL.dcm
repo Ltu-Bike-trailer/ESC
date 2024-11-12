@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RBR10BGE60ATL
+D 60V, 10A, TO-252, Cathode Common, Low V<sub>F</sub> Schottky Barrier Diode
+K
+F https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rbr10bge60atl-e.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -30,4 +30,5 @@
   (lib (name "TBP02R1-381-04BE")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/TBP02R1-381-04BE")(options "")(descr ""))
   (lib (name "kontakt")(type "KiCad")(uri "C:/Users/axelj/OneDrive - ltu.se/Skrivbordet/kontakt.pretty")(options "")(descr ""))
   (lib (name "TJ0631530000G")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/TJ0631530000G/TJ0631530000G.pretty")(options "")(descr ""))
+  (lib (name "RBR10BGE60ATL")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/RBR10BGE60ATL")(options "")(descr ""))
 )
