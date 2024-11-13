@@ -26,4 +26,5 @@
   (lib (name "TJ0631530000G_2")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/TJ0631530000G/TJ0631530000G_2.kicad_sym")(options "")(descr ""))
   (lib (name "TJ0631530000G")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/TJ0631530000G/TJ0631530000G.kicad_sym")(options "")(descr ""))
   (lib (name "RBR10BGE60ATL")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/RBR10BGE60ATL/RBR10BGE60ATL.kicad_sym")(options "")(descr ""))
+  (lib (name "2024-11-13_14-35-25")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Footprints/222AMVBAR/KiCADv6/2024-11-13_14-35-25.kicad_sym")(options "")(descr ""))
 )

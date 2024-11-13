@@ -696,6 +696,175 @@
 				)
 			)
 		)
+		(symbol "RBR10BGE60ATL:RBR10BGE60ATL"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "RBR10BGE60ATL"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "RD3P175SNFRATL"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rbr10bge60atl-e.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "60V, 10A, TO-252, Cathode Common, Low V<sub>F</sub> Schottky Barrier Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" ""
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "ROHM Semiconductor"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "RBR10BGE60ATL"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "RBR10BGE60ATL_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "A_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "A_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "UCC21331CQDRQ1:UCC21331CQDRQ1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1599,6 +1768,18 @@
 		(uuid "3306f27e-9f85-4f7b-8ae2-048a5c3acae2")
 	)
 	(junction
+		(at 229.87 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e1f92cd-e700-49f6-ad9d-c09abe861b27")
+	)
+	(junction
+		(at 228.6 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ecfd615-f3a7-4620-a15d-1584309128d0")
+	)
+	(junction
 		(at 151.13 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1627,6 +1808,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "779c8201-644f-4a30-8e91-765826181035")
+	)
+	(junction
+		(at 229.87 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9961c077-23a7-4fd1-8791-de508b0cb1bf")
 	)
 	(junction
 		(at 76.2 106.68)
@@ -1699,6 +1886,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ede343cb-665d-4da0-8c54-3189b38dad18")
+	)
+	(junction
+		(at 193.04 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f74cb5b4-8965-4180-bb67-924f25e562aa")
 	)
 	(no_connect
 		(at 109.22 101.6)
@@ -1784,13 +1977,23 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 76.2) (xy 209.55 80.01)
+			(xy 257.81 76.2) (xy 257.81 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1da3be0c-2752-49f3-818c-450f5073dd42")
+	)
+	(wire
+		(pts
+			(xy 193.04 109.22) (xy 193.04 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2af2eb20-666b-4b7b-b491-6c8bb3f207a3")
 	)
 	(wire
 		(pts
@@ -1894,7 +2097,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 76.2) (xy 209.55 76.2)
+			(xy 193.04 76.2) (xy 228.6 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2084,6 +2287,26 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 102.87) (xy 229.87 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8752850c-f1f6-4be0-8b59-a43680e59132")
+	)
+	(wire
+		(pts
+			(xy 228.6 76.2) (xy 228.6 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88355ee6-9e5e-468a-891f-7453d202ffac")
+	)
+	(wire
+		(pts
 			(xy 184.15 118.11) (xy 184.15 111.76)
 		)
 		(stroke
@@ -2214,6 +2437,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 102.87) (xy 231.14 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a193eaa4-758f-4abe-a672-4a8c9314d654")
+	)
+	(wire
+		(pts
 			(xy 48.26 78.74) (xy 48.26 81.28)
 		)
 		(stroke
@@ -2304,7 +2537,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 99.06) (xy 193.04 113.03)
+			(xy 193.04 99.06) (xy 193.04 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2424,6 +2657,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 102.87) (xy 229.87 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc182687-8911-41b8-9ec3-44c9f737cc9e")
+	)
+	(wire
+		(pts
 			(xy 133.35 78.74) (xy 135.89 78.74)
 		)
 		(stroke
@@ -2514,6 +2757,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 76.2) (xy 257.81 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0295adb-b4e7-439e-bf20-88ee81887979")
+	)
+	(wire
+		(pts
 			(xy 179.07 88.9) (xy 184.15 88.9)
 		)
 		(stroke
@@ -2544,7 +2797,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 99.06) (xy 214.63 99.06)
+			(xy 193.04 109.22) (xy 229.87 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2571,6 +2824,16 @@
 			(type default)
 		)
 		(uuid "ee47f902-d455-4b8a-97e9-63f9122e6ce3")
+	)
+	(wire
+		(pts
+			(xy 229.87 109.22) (xy 242.57 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0e1c176-e42f-4115-8b8e-780c2b81ab5c")
 	)
 	(wire
 		(pts
@@ -2960,7 +3223,7 @@
 	)
 	(hierarchical_label "SW"
 		(shape output)
-		(at 214.63 99.06 0)
+		(at 242.57 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2996,7 +3259,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 209.55 83.82 0)
+		(at 257.81 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3005,7 +3268,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e049003-c701-4430-926e-37caa0b548cc")
 		(property "Reference" "C_3IN3"
-			(at 213.36 82.5499 0)
+			(at 261.62 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3014,7 +3277,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 213.36 85.0899 0)
+			(at 261.62 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3023,7 +3286,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 210.5152 87.63 0)
+			(at 258.7752 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3032,7 +3295,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 83.82 0)
+			(at 257.81 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3041,7 +3304,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 209.55 83.82 0)
+			(at 257.81 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4009,7 +4272,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 209.55 87.63 0)
+		(at 257.81 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4017,7 +4280,7 @@
 		(dnp no)
 		(uuid "a04a9b0f-ce66-4eaf-b270-fb2d7f3266ed")
 		(property "Reference" "#PWR076"
-			(at 209.55 93.98 0)
+			(at 257.81 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4026,7 +4289,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 212.598 90.678 0)
+			(at 260.858 94.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4034,7 +4297,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 87.63 0)
+			(at 257.81 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4043,7 +4306,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 87.63 0)
+			(at 257.81 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4052,7 +4315,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 87.63 0)
+			(at 257.81 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4319,6 +4582,139 @@
 				)
 				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RBR10BGE60ATL:RBR10BGE60ATL")
+		(at 228.6 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b250fed6-7795-4834-aae1-5fe8cc6b54b1")
+		(property "Reference" "D17"
+			(at 234.95 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RBR10BGE60ATL"
+			(at 234.95 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RBR10BGE60ATL:RD3P175SNFRATL"
+			(at 323.52 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rbr10bge60atl-e.pdf"
+			(at 423.52 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "60V, 10A, TO-252, Cathode Common, Low V<sub>F</sub> Schottky Barrier Diode"
+			(at 228.6 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 623.52 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 723.52 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 823.52 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ROHM Semiconductor"
+			(at 923.52 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RBR10BGE60ATL"
+			(at 1023.52 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b1ceb7cc-4bfd-41b2-8684-3e9c8b85d6d0")
+		)
+		(pin "1"
+			(uuid "0aec9884-ec12-44bd-8fa9-7d84d3382b2b")
+		)
+		(pin "2"
+			(uuid "c85d2d18-ad94-4f11-99b0-7963264f6316")
+		)
+		(instances
+			(project ""
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/553690e4-0a20-4b8e-821c-55ba3788d3c5/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "D17")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/63c8dce8-451d-41ee-b438-d688cf3e64bd/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "D16")
+					(unit 1)
+				)
+				(path "/0e3a5351-d2cd-4ecc-a1be-cca9c5f62ea0/b8e552f6-93a8-4098-a907-a65be165d984/2b378908-a00b-4e0f-9184-1d2f8bdf9466"
+					(reference "D15")
 					(unit 1)
 				)
 			)

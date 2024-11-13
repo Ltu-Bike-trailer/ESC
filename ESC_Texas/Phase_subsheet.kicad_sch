@@ -1999,7 +1999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+5V-c"
 			(at 195.58 105.41 0)
 			(effects
 				(font
@@ -2749,7 +2749,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "848a39a3-0d8b-43a4-9b7c-e1c8e45c4472")
-		(property "Reference" "C24"
+		(property "Reference" "C50"
 			(at 170.18 137.1599 0)
 			(effects
 				(font
@@ -3145,7 +3145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e2a777a-d53c-4300-948b-489926ad980c")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR047"
 			(at 166.37 148.59 0)
 			(effects
 				(font
