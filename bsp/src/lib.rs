@@ -2,16 +2,15 @@
 #![deny(warnings, missing_docs)]
 #![no_std]
 
-use constants::{adc_gain, raw_adc_to_current_factor};
+use constants::adc_gain;
 use nrf52840_hal::{
     gpio::{
         self,
         p0::{self, P0_29, P0_30, P0_31},
-        p1, Floating, Input, Output, Pin, PullUp, PushPull,
+        p1, Disconnected, Input, Output, Pin, PullUp, PushPull,
     },
     ppi::{ConfigurablePpi, Ppi},
-    saadc::{SaadcConfig, Time},
-    Saadc,
+    saadc::{Channel, SaadcConfig, SaadcTask, Time},
 };
 pub mod constants;
 pub mod events;
@@ -31,12 +30,12 @@ pub struct PhasePins {
 /// For more details see [`CurrentManager::sample`]
 pub struct CurrentManager {
     // Current sensing.
-    p1cs: P0_31<Input<Floating>>,
+    _p1cs: P0_31<Disconnected>,
     // Current sensing.
-    p2cs: P0_30<Input<Floating>>,
+    _p2cs: P0_30<Disconnected>,
     // Current sensing.
-    p3cs: P0_29<Input<Floating>>,
-    adc: Saadc,
+    _p3cs: P0_29<Disconnected>,
+    adc: SaadcTask<3>,
 }
 
 /// The defualt pin configuration of the board.
@@ -45,11 +44,11 @@ pub struct PinConfig<const P1: bool, const P2: bool, const P3: bool, const ADC: 
     p2: Option<PhasePins>,
     p3: Option<PhasePins>,
     // Current sensing.
-    p1cs: Option<P0_31<Input<Floating>>>,
+    p1cs: Option<P0_31<Disconnected>>,
     // Current sensing.
-    p2cs: Option<P0_30<Input<Floating>>>,
+    p2cs: Option<P0_30<Disconnected>>,
     // Current sensing.
-    p3cs: Option<P0_29<Input<Floating>>>,
+    p3cs: Option<P0_29<Disconnected>>,
     /// Manages gpiote events and makes them pretty.
     event_manager: events::Manager,
 }
@@ -121,9 +120,9 @@ impl PinConfig<false, false, false, false> {
             hal_effect: p3h,
         };
 
-        let p3cs = Some(p0.p0_29.into_floating_input());
-        let p2cs = Some(p0.p0_30.into_floating_input());
-        let p1cs = Some(p0.p0_31.into_floating_input());
+        let p3cs = Some(p0.p0_29);
+        let p2cs = Some(p0.p0_30);
+        let p1cs = Some(p0.p0_31);
 
         gpiote.port().enable_interrupt();
         let event_manager = events::Manager::new(gpiote);
@@ -296,23 +295,38 @@ impl<const P1: bool, const P2: bool, const ADC: bool> PinConfig<P1, P2, false, A
 
 impl<const P1: bool, const P2: bool, const P3: bool> PinConfig<P1, P2, P3, false> {
     /// Configures the second phase of the motor.
+    ///
+    /// This sets the adc to sample for ~1ms. This means that the control system should be ran at ~1khz
     pub fn configure_adc(
         mut self,
         adc: nrf52840_hal::pac::SAADC,
-    ) -> (PinConfig<P1, P2, P3, false>, CurrentManager) {
+    ) -> (PinConfig<P1, P2, P3, true>, CurrentManager) {
         let mut cfg = SaadcConfig::default();
-        cfg.time = Time::_3US;
+        cfg.time = Time::_40US;
         cfg.gain = adc_gain();
-        // TODO: Change this to a DMA version as to not block for 3us.
-        let adc = Saadc::new(adc, cfg);
+        cfg.oversample = nrf52840_hal::saadc::Oversample::OVER256X;
+        cfg.reference = nrf52840_hal::saadc::Reference::INTERNAL;
 
-        let current_manager = unsafe {
-            CurrentManager {
-                p1cs: self.p1cs.take().unwrap_unchecked(),
-                p2cs: self.p2cs.take().unwrap_unchecked(),
-                p3cs: self.p3cs.take().unwrap_unchecked(),
-                adc,
-            }
+        let p1cs = unsafe { self.p1cs.take().unwrap_unchecked() };
+        let p2cs = unsafe { self.p2cs.take().unwrap_unchecked() };
+        let p3cs = unsafe { self.p3cs.take().unwrap_unchecked() };
+        // TODO: Change this to a DMA version as to not block for 3us.
+        let adc = SaadcTask::new(
+            adc,
+            cfg,
+            &[
+                P0_31::<Disconnected>::channel(),
+                P0_30::<Disconnected>::channel(),
+                P0_29::<Disconnected>::channel(),
+            ],
+            [0; 3],
+        );
+
+        let current_manager = CurrentManager {
+            adc,
+            _p1cs: p1cs,
+            _p2cs: p2cs,
+            _p3cs: p3cs,
         };
 
         (
@@ -340,12 +354,29 @@ impl<const P1: bool, const P2: bool, const P3: bool, const ADC: bool> PinConfig<
 
 impl CurrentManager {
     /// Returns the current measurements in phase order.
-    pub async fn sample(&mut self) -> Result<[f32; 3], ()> {
-        Ok([
-            f32::from(self.adc.read_channel(&mut self.p1cs).await[0]) * raw_adc_to_current_factor(),
-            f32::from(self.adc.read_channel(&mut self.p2cs).await[0]) * raw_adc_to_current_factor(),
-            f32::from(self.adc.read_channel(&mut self.p3cs).await[0]) * raw_adc_to_current_factor(),
-        ])
+    #[inline(always)]
+    pub fn start_sample(&mut self) {
+        self.adc.start_sample();
+    }
+
+    /// Waits for the target value.
+    pub fn sample_blocking(&mut self) -> Option<[f32; 3]> {
+        self.adc.sample_blocking(Self::conv)
+    }
+
+    /// Gets the latest current measurements from the motor.
+    ///
+    /// Returns the measurements in mA.
+    #[inline(always)]
+    pub fn complete_sample(&mut self) -> [f32; 3] {
+        self.adc.complete_sample(Self::conv)
+    }
+
+    /// Converts the adc value in to mA.
+    #[inline(always)]
+    fn conv(val: u16) -> f32 {
+        2_500. / constants::shunt_factor()
+            - f32::from(val) * constants::raw_adc_to_current_factor() / constants::shunt_factor()
     }
 }
 
