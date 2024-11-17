@@ -27,7 +27,10 @@ pub struct PhasePins {
 
 /// A simple current measurment tool.
 ///
-/// For more details see [`CurrentManager::sample`]
+/// For more details see
+/// [`CurrentManager::start_sample`],
+/// [`CurrentManager::complete_sample`] or
+/// [`CurrentManager::sample_blocking`]
 pub struct CurrentManager {
     // Current sensing.
     _p1cs: P0_31<Disconnected>,

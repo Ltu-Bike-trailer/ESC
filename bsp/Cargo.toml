@@ -4,8 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-nrf52840-hal = { git = "https://github.com/Ltu-Bike-trailer/nrf-hal.git", features = [
-#nrf52840-hal = { path = "../../nrf-hal/nrf52840-hal", features = [
+#nrf52840-hal = { git = "https://github.com/Ltu-Bike-trailer/nrf-hal.git", features = [
+nrf52840-hal = { path = "../../nrf-hal/nrf52840-hal", features = [
     "rt",
 ], default-features = false }
 
