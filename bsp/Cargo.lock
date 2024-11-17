@@ -209,6 +209,7 @@ checksum = "8d5439c4ad607c3c23abf66de8c8bf57ba8adcd1f129e699851a6e43935d339d"
 [[package]]
 name = "nrf-hal-common"
 version = "0.18.0"
+source = "git+https://github.com/Ltu-Bike-trailer/nrf-hal.git#2325ac61d1552b96ea763dc5b6f3b95e54bfb45c"
 dependencies = [
  "cast",
  "cfg-if",
@@ -241,6 +242,7 @@ dependencies = [
 [[package]]
 name = "nrf52840-hal"
 version = "0.18.0"
+source = "git+https://github.com/Ltu-Bike-trailer/nrf-hal.git#2325ac61d1552b96ea763dc5b6f3b95e54bfb45c"
 dependencies = [
  "nrf-hal-common",
  "nrf52840-pac",
