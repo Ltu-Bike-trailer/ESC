@@ -2758,7 +2758,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "F"
+		(property "Value" "1u"
 			(at 170.18 139.6999 0)
 			(effects
 				(font

@@ -2595,7 +2595,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "330n"
+		(property "Value" "330n (220n)"
 			(at 185.42 91.4399 0)
 			(effects
 				(font
